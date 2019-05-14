@@ -1,0 +1,31 @@
+- system:
+    name: Extra System
+    orbit:
+        type: fixed
+        ra: 90
+        de: 0
+        distance: 10000
+- star:
+    name: Extra Sol
+    parent: Extra System
+    magnitude: 4.83
+    spectral-type: A9V
+    rotation: sun
+- planet:
+    name: Extra
+    parent: Extra System
+    radius: 600
+    albedo: 0.3
+    orbit:
+        type: elliptic
+        semi-major-axis: 0.2
+        period: 0.3
+    rotation:
+        type: uniform
+        period: 96
+        period-units: Hour
+    surfaces:
+      - heightmap: moon
+        shape: patched-sphere
+        appearance:
+          diffuse-color: [0.3, 0.3, 0.3, 1]

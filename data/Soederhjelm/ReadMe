@@ -1,0 +1,140 @@
+J/A+A/341/121       Visual binary orbits and masses       (Soederhjelm 1999)
+================================================================================
+Visual binary orbits and masses post Hipparcos
+       Soederhjelm S.
+      <Astron. Astrophys. 341, 121 (1999)>
+      =1999A&A...341..121S      (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Stars, double and multiple ; Binaries, orbits ; Stars, masses ;
+              Parallaxes, trigonometric
+Keywords: stars: fundamental parameters - stars: binaries: visual -
+          stars: binaries: general - astrometry - catalogs
+
+Description:
+    The paper gives orbits and masses for some 200 nearby visual
+    binaries, as derived from combining ground-based and Hipparcos
+    data. Table 6 gives identifications and notes, and points to
+    the detailed data in Table 1 (short-P systems with mass-ratio
+    from the Hipparcos observations), Table 3 (mass-uncertainty
+    below 10%) or Table 4 (mass-uncertainty above 10%).
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName   Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe         80        .   This file
+table1.dat    104       30   Astrometrically determined mass-ratios with
+                              improved orbital elements and parallaxes
+table3.dat    118       41   The most accurate mass-sums and orbital elements
+                              for the systems without astrometric mass-ratio
+table4.dat    118      139   Data as in table3.dat, but for the systems with
+                              estimated mass-uncertainty above 10%.
+table6.dat     56      222   Cross-identifications for the systems mentioned
+                              in this paper
+notes.dat      80      228   Individual notes
+--------------------------------------------------------------------------------
+
+See also:
+   I/239 : The Hipparcos and Tycho Catalogues (ESA 1997)
+
+Byte-by-byte Description of file: table1.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  I6    ---     HIP       HIP (Cat. <I/239>) identifier
+       7  A1    ---   n_HIP       [b] b when two solutions for the object
+   8- 11  F4.2  mag     Hp1       Primary Hp magnitude
+  13- 16  F4.2  mag     m2-m1     Magnitude difference (secondary-primary)
+  18- 21  F4.2  ---     M2/M1     Mass-ratio (secondary/primary)
+  23- 25  F3.2  ---   e_M2/M1     Mean error for M2/M1
+  27- 32  F6.2  mas     plx       Parallax in present solutions
+  34- 37  F4.2  mas   e_plx       Mean error for plx
+  39- 44  F6.2  mas     plx(HIP)  ? Parallax in HIP (Cat. <I/239>)
+  46- 49  F4.2  mas   e_plx(HIP)  ? Mean error for plx(HIP)
+  51- 53  I3    %       eps       Total mass-uncertainty
+  55- 56  I2    %       eps(p)    Mass-uncertainty due to parallax
+  58- 59  I2    %       eps(o)    Mass-uncertainty due to orbit
+  61- 64  F4.2  solMass Msum      Mass-sum
+  66- 67  A2    ---     Note      [mng ?] Note (1)
+  69- 74  F6.3  yr      Per       Orbit period
+  76- 82  F7.2  yr      T0        Epoch of periastron
+  84- 88  F5.3  arcsec  a         Orbit semi-major axis
+  90- 92  F3.2  ---     e         Orbit eccentricity
+  94- 96  I3    deg     i         Orbit inclination
+  98-100  I3    deg     omega     Orbit argument of periastron {omega}
+ 102-104  I3    deg     Omega     Orbit PA of node {Omega}
+--------------------------------------------------------------------------------
+Note (1): 
+      m = previously known or suspected spectroscopic subsystem
+      n = note in notes.dat file
+      g = giant spectrum
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table3.dat table4.dat
+--------------------------------------------------------------------------------
+   Bytes Format    Units    Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  I6       ---      HIP       HIP (Cat. <I/239>) identifier
+   7-  8  A2       ---    m_HIP       Multiplicity index on HIP (71683/1)
+       9  A1       ---    n_HIP       [b] b when two solutions for the object
+  10- 14  F5.2     mag      Hp1       Primary Hp magnitude
+      16  A1       ---    l_m2-m1     Limit flag on m2-m1
+  17- 20  F4.2     mag      m2-m1     Magnitude difference (secondary-primary)
+      21  A1       ---    u_m2-m1     Uncertainty flag on m2-m1
+  23- 26  F4.2     mag      V-I       ? Combined (primary+secondary) V-I color
+  28- 32  F5.1     mas      plx       Parallax in present solutions
+  34- 36  F3.1     mas    e_plx       Mean error for plx
+  38- 42  F5.1     mas      plx(HIP)  ? Parallax in HIP (Cat. <I/239>)
+  44- 47  F4.1     mas    e_plx(HIP)  ? Mean error for plx(HIP)
+      48  A1       ---    u_plx(HIP)  Uncertainty flag on plx(HIP)
+  50- 53  F4.1     mag      MHp1      Absolute magnitude of primary
+  55- 56  I2       %        eps       Total mass-uncertainty
+  58- 59  I2       %        eps(p)    Mass-uncertainty due to parallax
+  61- 62  I2       %        eps(o)    Mass-uncertainty due to orbit
+  64- 68  F5.2     solMass  Msum      Mass-sum
+  70- 73  F4.2     ---      q         ? Photometric mass-ratio
+      74  A1       ---    u_q         [)] Uncertainty flag on q
+  76- 77  A2       ---      Note      [nmg ?] Note (1)
+  79- 86  F8.3     yr       Per       Orbit period
+      87  A1       ---    u_Per       Uncertainty flag on Per
+  88- 94  F7.2     yr       T0        Epoch of periastron
+  96-101  F6.3     arcsec   a         Orbit semi-major axis
+     102  A1       ---    u_a         Uncertainty flag on a
+ 104-106  F3.2     ---      e         Orbit eccentricity
+ 108-110  I3       deg      i         Orbit inclination
+ 112-114  I3       deg      omega     Orbit argument of periastron {omega}
+ 116-118  I3       deg      Omega     ? Orbit PA of node {Omega}
+--------------------------------------------------------------------------
+Note (1): 
+      m = spectroscopic subsystem
+      g = non-MS component
+      n = note in notes.dat file
+--------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table6.dat
+--------------------------------------------------------------------------------
+   Bytes Format    Units    Label   Explanations
+--------------------------------------------------------------------------------
+   1- 14  A14      ---      Name    Bayer/Flamsteed designation
+  16- 21  I6       ---      HIP     HIP (Cat. <I/239>) identifier
+  23- 32  A10      ---      CCDM    CCDM (Cat. <I/211>) identifier (hhmmm+-ddmm)
+      33  A1       ---    u_CCDM    [)] Uncertainty flag on CCDM
+  35- 39  I5       ---      ADS     ? ADS identifier
+  41- 52  A12      ---      Disc    Discoverer designation
+      54  I1       ---      Tab     [0/4] pointer to Table 1,3,4 (1)
+      56  A1       ---      Note    [*] *: Note detailed in "notes.dat" file
+--------------------------------------------------------------------------------
+Note (1): 0 indicates that the object is not in tables 1, 3 or 4.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: notes.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label     Explanations
+--------------------------------------------------------------------------------
+   1-  6  I6    ---     HIP       HIP (Cat. <I/239>) identifier
+   8- 80  A73   ---     Note      Text of the note
+--------------------------------------------------------------------------------
+
+Acknowledgements: Staffan Soderhjelm <staffan@astro.lu.se>
+================================================================================
+(End)                                          Patricia Bauer [CDS]  03-Dec-1998

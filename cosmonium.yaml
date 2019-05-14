@@ -1,0 +1,6 @@
+- include: constellations.yaml
+- include: solar-system/solar-system.yaml
+- include: stars.yaml
+- include: asterisms.yaml
+- include: galaxies.yaml
+- include: procedural/procedural.yaml

@@ -1,0 +1,99 @@
+- star-surface:
+    name: default
+    noise:
+        aliases:
+            perlin: gpunoise:perlin
+        noise:
+            sub:
+              - pow:
+                  - fbm:
+                      noise: perlin
+                      octaves: 4
+                      amplitude: 1.0
+                      frequency: 40
+                      gain: 0.7
+                      geometric: true
+                      min: 0.0
+                  - 0.1
+              - mul:
+                  - mul:
+                      - threshold:
+                          - abs:
+                              type: scale
+                              noise: perlin
+                              scale: 10
+                          - 0.3
+                      - threshold:
+                          - abs:
+                              type: scale
+                              noise:
+                                  type: offset
+                                  noise: perlin
+                                  offset: 1
+                              scale: 10
+                          - 0.3
+                  - 4
+
+- heightmap:
+    name: asteroid
+    noise:
+        aliases:
+            perlin: gpunoise:perlin
+        noise:
+            type: fbm
+            noise: perlin
+            octaves: 5
+            frequency: 0.7
+            scale: 0.4
+
+- heightmap:
+    name: moon
+    noise:
+        aliases:
+            perlin: gpunoise:perlin
+        noise:
+            type: fbm
+            noise: perlin
+            octaves: 5
+            frequency: 0.2
+            scale: 0.2
+
+- rotation:
+    name: chaotic
+    category: uniform
+    type: uniform
+    frame: equatorial
+
+- rotation:
+    name: unknown
+    category: uniform
+    type: uniform
+    frame: equatorial
+
+- rotation:
+    name: unknown-synchronous
+    category: uniform
+    type: uniform
+    synchronous: true
+    frame: equatorial
+
+- surface-category:
+    name: visible
+
+- surface-category:
+    name: radar
+
+- surface-category:
+    name: enhanced
+
+- surface-category:
+    name: monochromatic
+
+- surface-category:
+    name: uniform
+
+- surface-category:
+    name: artistic
+
+- surface-category:
+    name: topographic

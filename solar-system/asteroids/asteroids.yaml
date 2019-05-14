@@ -1,0 +1,71 @@
+- asteroid:
+    name: 2 Pallas
+    diameter: 550
+    albedo: 0.159
+    surfaces:
+      - category: uniform
+        source: hanus
+        shape:
+            mesh:
+                model: models/pallas-hanus.ply
+                create-uv: true
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: pallas
+    rotation: pallas
+
+- asteroid:
+    name: 3 Juno
+    diameter: 320
+    albedo: 0.238
+    surfaces:
+      - category: uniform
+        source: viikinkoski
+        shape:
+            mesh:
+                model: models/juno-viikinkoski.ply
+                create-uv: true
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: juno
+    rotation:
+        type: uniform
+        period: 7.21
+        period-units: Hour
+        ra: 103
+        de: 27
+        frame: J2000Ecliptic
+
+- asteroid:
+    name: 4 Vesta
+    diameter: 572.6
+    albedo: 0.423
+    surfaces:
+      - source: dawn-hamo
+        shape:
+            mesh:
+                model: models/vesta-dawn-hamo.ply
+                create-uv: true
+        appearance:
+            texture: textures/vesta-visible-dlr.png
+      - category: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: vesta
+    rotation: vesta
+
+- data-sources:
+    dawn-hamo:
+        name: Dawn FC2 Vesta Encounter HAMO Digital Terrain Model (DTM) SPG
+        license: Public Domain
+        url: https://sbn.psi.edu/archive/dawn/fc/DWNVSPG_2/
+    hanus:
+        name: Hanuš et al.
+        copyright: Hanuš et al., Volumes and bulk densities of forty asteroids from ADAM shape modeling. Astronomy & Astrophysics 601, id.A114, 2017.
+        license: Public Domain
+        url: https://arxiv.org/abs/1702.01996
+    viikinkoski:
+        name: Viikinkoski et al.
+        copyright: Viikinkoski et al., VLT/SPHERE- and ALMA-based shape reconstruction of asteroid (3) Juno. Astronomy & Astrophysics, Volume 581, id.L3, 2015.
+        license: Public Domain
+        url: http://www.aanda.org/articles/aa/abs/2015/09/aa26626-15/aa26626-15.html

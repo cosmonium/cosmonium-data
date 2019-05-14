@@ -1,0 +1,23 @@
+system:
+    name: Pluto System
+    orbit: pluto-system
+    children:
+        - planet:
+            name: Pluto
+            radius: 1188.3
+            albedo: 0.3
+            surfaces:
+              - category: monochromatic
+                source: nasa-jpl-usgs
+                resolution: vt:16
+                appearance:
+                    texture: textures/pluto-bw-nasa/pluto-bw-nasa.ctx
+              - category: artistic
+                source: fargetanik
+                resolution: vt:16
+                appearance:
+                    texture: textures/pluto-artistic-fargetanik/pluto-albedo.ctx
+                    normalmap: textures/pluto-artistic-fargetanik/pluto-normal.ctx
+            orbit: kepler:pluto
+            rotation: pluto
+        - include: moons.yaml

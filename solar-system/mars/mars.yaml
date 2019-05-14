@@ -1,0 +1,54 @@
+system:
+    name: Mars System
+    orbit: mars
+    children:
+        - planet:
+            name: Mars
+            radius: 3396.2
+            ellipticity: 0.00589
+            albedo: 0.150
+            point-color: [1, 0.75, 0.7]
+            surfaces:
+                - category: visible
+                  source: vanvliet
+                  appearance:
+                      texture: textures/mars-surface-vanvliet/mars-surface-vanvliet.ctx
+                      normalmap: textures/mars-normal-vanvliet/mars-normal-vanvliet.ctx
+            rotation: mars
+        - moon:
+            name: Phobos
+            radius: 27
+            albedo: 0.071
+            surfaces:
+                - category: visible
+                  source: thomas
+                  shape:
+                      mesh:
+                          model: phobos-thomas.ply
+                          create-uv: true
+                  appearance:
+                      texture: textures/phobos-bw-stooke.png
+                  lighting-model: lunar-lambert
+                - category: topographic
+                  source: thomas
+                  appearance:
+                      texture: phobos-topographic-thomas.jpg
+                  lighting-model: flat
+            orbit: phobos
+            rotation: phobos
+        - moon:
+            name: Deimos
+            radius: 15
+            albedo: 0.068
+            surfaces:
+                - category: visible
+                  source: thomas
+                  shape:
+                      mesh:
+                          model: deimos-thomas.ply
+                          create-uv: true
+                  appearance:
+                      texture: textures/deimos-bw-stooke.png
+                  lighting-model: lunar-lambert
+            orbit: deimos
+            rotation: deimos

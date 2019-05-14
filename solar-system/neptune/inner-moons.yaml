@@ -1,0 +1,74 @@
+- moon:
+    name: Naiad
+    axes: [96, 60, 52]
+    albedo: 0.072
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: naiad
+    rotation: naiad
+
+- moon:
+    name: Thalassa
+    axes: [108, 100, 52]
+    albedo: 0.091
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: thalassa
+    rotation: thalassa
+
+- moon:
+    name: Despina
+    axes: [180, 148, 128]
+    albedo: 0.090
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: despina
+    rotation: despina
+
+- moon:
+    name: Galatea
+    axes: [204, 184, 144]
+    albedo: 0.079
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: galatea
+    rotation: galatea
+
+- moon:
+    name: Larissa
+    diameter: 216
+    albedo: 0.091
+    surfaces:
+      - source: stooke
+        shape:
+            mesh:
+                model: larissa-stooke.ply
+                create-uv: true
+        appearance:
+            texture: textures/larissa-visible-fireon.png
+        lighting-model: lunar-lambert
+      - category: artistic
+        source: snowfall
+        appearance:
+            texture: textures/larissa-artistic-snowfall.jpg
+      - category: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: larissa
+    rotation: larissa

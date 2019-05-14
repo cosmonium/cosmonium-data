@@ -1,0 +1,49 @@
+- galaxy:
+    name: Milky Way
+    type: SBc
+    radius: 5e+04
+    orbit:
+        fixed:
+            ra: 17.760278
+            ra-units: hour
+            de: -28.936111
+            distance: 2.772e+04
+            distance-units: Ly
+    rotation:
+        fixed:
+            axis: [0.4372, -0.7548, -0.4891]
+            angle: 99.6995
+    magnitude: -20.6
+- galaxy:
+    name: SMC
+    type: Irr
+    radius: 8611
+    orbit:
+        fixed:
+            ra: 0.8772
+            ra-units: hour
+            de: -72.8003
+            distance: 1.957e+05
+            distance-units: Ly
+    rotation:
+        fixed:
+            axis: [-0.7930, -0.5858, -0.1671]
+            angle: 155.4040
+    magnitude: -16.35
+- galaxy:
+    name: LMC
+    type: Irr
+    radius: 1.59e+04
+    orbit:
+        fixed:
+            ra: 5.3928
+            ra-units: hour
+            de: -69.7561
+            distance: 1.631e+05
+            distance-units: Ly
+    rotation:
+        fixed:
+            axis: [0.1659, 0.0206, -0.9859]
+            angle: 152.0820
+    magnitude: -17.93
+    

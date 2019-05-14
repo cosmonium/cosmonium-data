@@ -1,0 +1,8 @@
+"Extra STC"
+{
+	RA 180
+	Dec 0
+	Distance 1000
+	SpectralType "G2V"
+	AppMag 20
+}

@@ -1,0 +1,19 @@
+system:
+    name: Jupiter System
+    orbit: jupiter
+    children:
+        - planet:
+            name: Jupiter
+            primary: true
+            radius: 71492
+            ellipticity: 0.06487
+            albedo: 0.52
+            surfaces:
+              - category: visible
+                resolution: vt
+                source: askaniy
+                appearance:
+                  texture: textures/jupiter-visible-askaniy/jupiter-visible-askaniy.ctx
+            rotation: jupiter
+        - include: inner-moons.yaml
+        - include: moons.yaml

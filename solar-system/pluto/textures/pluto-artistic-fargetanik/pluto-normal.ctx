@@ -1,0 +1,7 @@
+VirtualTexture
+{
+        ImageDirectory	"pluto-normal"
+        BaseSplit	0
+        TileSize	1024
+        TileType	"png"
+}

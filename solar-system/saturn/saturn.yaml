@@ -1,0 +1,22 @@
+system:
+    name: Saturn System
+    orbit: saturn
+    children:
+        - planet:
+            name: Saturn
+            radius: 60268
+            ellipticity: 0.09796
+            albedo: 0.47
+            appearance:
+                texture: textures/saturn-2011-askaniy.png
+            rings:
+                inner-radius: 74500
+                outer-radius: 140220
+                appearance:
+                    texture: textures/saturn-rings-gh.png
+                    transparency: true
+                    #transparency-level: 0.5
+                source: hutchison
+            rotation: saturn
+        - include: moons.yaml
+        - include: inner-moons.yaml

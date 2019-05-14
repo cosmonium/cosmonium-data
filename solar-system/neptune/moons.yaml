@@ -1,0 +1,49 @@
+- moon:
+    name: Proteus
+    diameter: 436
+    albedo: 0.096
+    surfaces:
+      - category: uniform
+        source: stooke
+        shape:
+            mesh:
+                model: proteus-stooke.ply
+                create-uv: true
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: proteus
+    rotation: proteus
+
+- moon:
+    name: Triton
+    axes: [2709, 2706, 2705]
+    albedo: 0.719
+    surfaces:
+      - category: visible
+        source: albers
+        appearance:
+            texture:
+                file: textures/triton-visible-albers.png
+                offset: 180
+      - category: enhanced
+        source: schrenk
+        appearance:
+            texture:
+                file: textures/triton-enhanced-schrenk/triton-enhanced-schrenk.ctx
+                offset: 180
+    orbit: triton
+    rotation: triton
+
+- moon:
+    name: Nereid
+    radius: 170
+    albedo: 0.155
+    surfaces:
+      - category: uniform
+        heightmap: moon
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: nereid
+    rotation: chaotic

@@ -1,0 +1,124 @@
+- moon:
+    name: Pan
+    diameter: 34
+    albedo: 0.5
+    surfaces:
+      - source: thomas-saturn
+        shape:
+            mesh:
+                model: pan-thomas.ply
+                create-uv: true
+        appearance:
+            texture: textures/pan-visible-firion.png
+        lighting-model: lunar-lambert
+      - category: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: pan
+    rotation: pan
+
+- moon:
+    name: Daphnis
+    diameter: 9
+    albedo: 0.5
+    surfaces:
+      - category: uniform
+        source: thomas-saturn
+        shape:
+            mesh:
+                model: daphnis-thomas.ply
+                create-uv: true
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: daphnis
+    rotation: unknown-synchronous
+
+- moon:
+    name: Atlas
+    diameter: 41
+    albedo: 0.4
+    surfaces:
+      - source: thomas-saturn
+        shape:
+            mesh:
+                model: atlas-thomas.ply
+                create-uv: true
+        appearance:
+            texture: textures/atlas-visible-firion.png
+        lighting-model: lunar-lambert
+      - category: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: atlas
+    rotation: atlas
+
+- moon:
+    name: Prometheus
+    diameter: 136
+    albedo: 0.6
+    surfaces:
+      - category: uniform
+        source: thomas-saturn
+        shape:
+            mesh:
+                model: prometheus-thomas.ply
+                create-uv: true
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: prometheus
+    rotation: prometheus
+
+- moon:
+    name: Pandora
+    diameter: 104
+    albedo: 0.5
+    surfaces:
+      - category: uniform
+        source: thomas-saturn
+        shape:
+            mesh:
+                model: pandora-thomas.ply
+                create-uv: true
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: pandora
+    rotation: pandora
+
+- moon:
+    name: Janus
+    diameter: 203
+    albedo: 0.71
+    surfaces:
+      - category: uniform
+        source: thomas-saturn
+        shape:
+            mesh:
+                model: janus-thomas.ply
+                create-uv: true
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: janus
+    rotation: janus
+
+- moon:
+    name: Epimetheus
+    diameter: 130
+    albedo: 0.73
+    surfaces:
+      - source: thomas-saturn
+        shape:
+            mesh:
+                model: epimetheus-thomas.ply
+                create-uv: true
+        appearance:
+            texture: textures/epimetheus-visible-firion.jpg
+        lighting-model: lunar-lambert
+      - category: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: epimetheus
+    rotation: epimetheus

@@ -1,0 +1,33 @@
+system:
+    name: Eris System
+    orbit: eris
+    children:
+      - dwarfplanet:
+          name: Eris
+          radius: 1200
+          albedo: 0.96
+          surfaces:
+            - category: artistic
+              resolution: 2
+              source: solarsystemscope
+              appearance:
+                  texture: textures/eris-artistic-solarsystemscope.jpg
+            - category: uniform
+              appearance:
+                  diffuse-color: [0.38, 0.3, 0.25, 1]
+          rotation:
+              type: uniform
+              period: 25.9
+              period-units: Hour
+      - moon:
+          name: Dysnomia
+          radius: 350
+          albedo: 0.04
+          surfaces:
+              - category: uniform
+                heightmap: moon
+                appearance:
+                    diffuse-color: [0.38, 0.3, 0.25, 1]
+                lighting-model: lunar-lambert
+          orbit: dysnomia
+          rotation: unknown-synchronous

@@ -1,0 +1,14 @@
+"Extra SSC" "Extra STC"
+{
+	Texture "earth.*"
+
+	Mass      1
+	Radius     6000
+
+	EllipticalOrbit {
+		Period          1
+		SemiMajorAxis   2
+		Inclination     45
+		AscendingNode   22
+	}
+}

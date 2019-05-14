@@ -1,0 +1,107 @@
+- comet:
+    name: [1P/Halley, Halley]
+    diameter: 15 
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        source: stooke
+        shape:
+            mesh:
+                model: models/halley-stooke.ply
+                create-uv: true
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: halley
+    rotation: chaotic
+
+- comet:
+    name: [9P/Tempel 1, Tempel 1]
+    diameter: 7.6
+    albedo: 0.04
+    surfaces:
+      - source: farnham-tempel
+        shape:
+            mesh:
+                model: models/tempel1-farnham.ply
+                create-uv: true
+        appearance:
+            texture: textures/tempel1-visible-farnham.jpg
+      - name: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: 9p
+    rotation: chaotic
+
+- comet:
+    name: [67P/Churyumov-Gerasimenko, 67P]
+    diameter: 4
+    albedo: 0.06
+    surfaces:
+      - category: uniform
+        source: spc
+        shape:
+            mesh:
+                 model: models/67p-spc.ply
+                 create-uv: true
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: 67p
+    rotation: chaotic
+
+- comet:
+    name: [81P/Wild 2,Wild 2]
+    diameter: 5.5
+    albedo: 0.059
+    surfaces:
+      - source: farnham-wild
+        shape:
+            mesh:
+                model: models/wild2-farnham.ply
+                create-uv: true
+        appearance:
+            texture: textures/wild2-visible-stooke.jpg
+      - category: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: 81p
+    rotation: chaotic
+
+- comet:
+    name: [103P/Hartley 2, Hartley 2]
+    diameter: 1.6
+    albedo: 0.028
+    surfaces:
+      - source: farnham-hartley
+        shape:
+            mesh:
+                model: models/hartley2-farnham.ply
+                create-uv: true
+        appearance:
+            texture: textures/hartley2-visible-farnham.jpg
+      - category: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: 103p
+    rotation: chaotic
+
+- data-sources:
+    farnham-tempel:
+        name: Farnham, T.L. and Thomas, P.C.
+        copyright: Farnham, T.L. and Thomas, P.C, PLATE SHAPE MODEL OF COMET 9P/TEMPEL 1 V2.0, DIF-C-HRIV/ITS/MRI-5-TEMPEL1-SHAPE-MODEL-V2.0, NASA Planetary Data System, 2013.
+        license: Public Domain
+        url: http://pdssbn.astro.umd.edu/holdings/dif-c-hriv_its_mri-5-tempel1-shape-v2.0/dataset.html
+    farnham-wild:
+        name: Farnham, T.L., T. Duxbury and J.-Y. Li.
+        copyright: Farnham, T.L., T. Duxbury and J.-Y. Li, SHAPE MODELS OF COMET WILD 2, SDU-C-NAVCAM-5-WILD2-SHAPE-MODEL-V2.1, NASA Planetary Data System, 2005.
+        license: Public Domain
+        url: http://pdssbn.astro.umd.edu/holdings/dif-c-hriv_its_mri-5-tempel1-shape-v2.0/dataset.html
+    farnham-hartley:
+        name: Farnham, T.L. and Thomas, P.C.
+        copyright: Farnham, T.L. and Thomas, P.C., PLATE SHAPE MODEL OF COMET 103P/HARTLEY 2 V1.0, DIF-C-HRIV/MRI-5-HARTLEY2-SHAPE-V1.0, NASA Planetary Data System, 2013.
+        license: Public Domain
+        url: http://pdssbn.astro.umd.edu/holdings/dif-c-hriv_mri-5-hartley2-shape-v1.0/dataset.html
+    spc:
+        name: R. Gaskell, L. Jorda, C. Capanna, S. Hviid and P. Gutierrez
+        copyright: R. Gaskell, L. Jorda, C. Capanna, S. Hviid and P. Gutierrez, SPC SHAP5 CARTESIAN PLATE MODEL FOR COMET 67P/C-G 1M PLATES, RO-C-MULTI-5-67P-SHAPE-V2.0:CG_SPC_SHAP5_001M_CART, NASA Planetary Data System and ESA Planetary Science Archive, 2017.
+        license: Public Domain
+        url: https://pdssbn.astro.umd.edu/holdings/ro-c-multi-5-67p-shape-v2.0/data/triplate/spc_lam_psi/

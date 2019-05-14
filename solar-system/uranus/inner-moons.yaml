@@ -1,0 +1,171 @@
+- moon:
+    name: Cordelia
+    axes: [50, 36, 36]
+    albedo: 0.07
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: cordelia
+    rotation: unknown-synchronous
+
+- moon:
+    name: Ophelia
+    axes: [54, 38, 38]
+    albedo: 0.07
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: ophelia
+    rotation: ophelia
+
+- moon:
+    name: Bianca
+    axes: [64, 46, 46]
+    albedo: 0.065
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: bianca
+    rotation: bianca
+
+- moon:
+    name: Cressida
+    axes: [92, 74, 74]
+    albedo: 0.069
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: cressida
+    rotation: cressida
+
+- moon:
+    name: Desdemona
+    axes: [90, 54, 54]
+    albedo: 0.084
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: desdemona
+    rotation: desdemona
+
+- moon:
+    name: Juliet
+    axes: [150, 74, 74]
+    albedo: 0.075
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: juliet
+    rotation: juliet
+
+- moon:
+    name: Portia
+    axes: [156, 126, 126]
+    albedo: 0.069
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: portia
+    rotation: portia
+
+- moon:
+    name: Rosalind
+    diameter: 72
+    albedo: 0.072
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: rosalind
+    rotation: rosalind
+
+- moon:
+    name: Cupid
+    diameter: 18
+    albedo: 0.070
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: cupid
+    rotation: unknown-synchronous
+
+- moon:
+    name: Belinda
+    axes: [128, 64, 64]
+    albedo: 0.067
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: belinda
+    rotation: belinda
+
+- moon:
+    name: Perdita
+    diameter: 30
+    albedo: 0.070
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: perdita
+    rotation: unknown-synchronous
+
+- moon:
+    name: Puck
+    diameter: 162
+    albedo: 0.104
+    surfaces:
+      - category: uniform
+        source: higgins
+        shape:
+            mesh:
+                model: puck.3ds
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: puck
+    rotation: puck
+
+- moon:
+    name: Mab
+    diameter: 25
+    albedo: 0.103
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: mab
+    rotation: unknown-synchronous

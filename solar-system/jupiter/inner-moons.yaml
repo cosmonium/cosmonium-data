@@ -1,0 +1,76 @@
+- moon:
+    name: Metis
+    diameter: 60
+    albedo: 0.061
+    surfaces:
+      - category: uniform
+        source: higgins
+        shape:
+            mesh:
+                model: metis-higgins.3ds
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: metis
+    rotation: metis
+
+- moon:
+    name: Adrastea
+    diameter: 20
+    albedo: 0.1
+    surfaces:
+      - category: uniform
+        source: higgins
+        shape:
+            mesh:
+                model: adrastea-higgins.3ds
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: adrastea
+    rotation: adrastea
+
+- moon:
+    name: Amalthea
+    diameter: 250
+    albedo: 0.090
+    surfaces:
+      - category: monochromatic
+        source: stooke
+        shape:
+            mesh:
+                model: amalthea-stooke.ply
+                create-uv: true
+        appearance:
+            texture: textures/amalthea-bw-stooke.jpg
+        lighting-model: lunar-lambert
+      - category: artistic
+        source: olegpluton
+        appearance:
+            texture: textures/amalthea-artistic-olegpluton.png
+      - category: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: amalthea
+    rotation: amalthea
+
+- moon:
+    name: Thebe
+    diameter: 116
+    albedo: 0.047
+    surfaces:
+      - category: uniform
+        source: stooke
+        shape:
+            mesh:
+                model: thebe-stooke.ply
+                create-uv: true
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+      - category: artistic
+        source: ikuru
+        appearance:
+            texture: textures/thebe-artistic-ikuru.jpg
+    orbit: thebe
+    rotation: thebe

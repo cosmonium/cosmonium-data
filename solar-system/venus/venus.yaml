@@ -1,0 +1,26 @@
+planet:
+    name: Venus
+    radius: 6051.8
+    albedo: 0.65
+    surfaces:
+      - category: radar
+        resolution: vt:128
+        source: vanvliet
+        appearance:
+            texture: textures/venus-radar-vanvliet/venus-radar-vanvliet.ctx
+            normalmap: textures/venus-normal-vanvliet/venus-normal-vanvliet.ctx
+    clouds:
+        category: visible
+        source: fargetanik
+        resolution: 2
+        appearance:
+            texture: textures/venus-clouds-visible-fargetanik.jpg
+        surfaces:
+          - category: enhanced
+            resolution: 4
+            source: solarsystemscope
+            appearance:
+                texture: textures/venus-clouds-enhanced-solarsystemscope.jpg
+        height: 50
+    orbit: venus
+    rotation: venus

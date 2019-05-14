@@ -1,0 +1,7 @@
+VirtualTexture
+{
+        ImageDirectory "."
+        BaseSplit 0
+        TileSize 1024
+        TileType "png"
+}

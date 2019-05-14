@@ -1,0 +1,52 @@
+system:
+    name: Haumea System
+    orbit: haumea
+    children:
+      - dwarfplanet:
+          name: Haumea
+          axes: [2322, 1704, 1138]
+          albedo: 0.804
+          surfaces:
+            - category: artistic
+              resolution: vt:8
+              source: solarsystemscope
+              appearance:
+                  texture: textures/haumea-artistic-snowfall/haumea-artistic-snowfall.ctx
+            - category: artistic
+              resolution: 2
+              source: solarsystemscope
+              appearance:
+                  texture: textures/haumea-artistic-solarsystemscope.jpg
+            - category: uniform
+              appearance:
+                  diffuse-color: [0.5, 0.5, 0.5, 1]
+          rotation:
+              type: uniform
+              period: 3.9155
+              period-units: Hour
+
+      - moon:
+          name: [Namaka, Haumea II]
+          radius: 85
+          albedo: 0.8
+          surfaces:
+              - category: uniform
+                heightmap: asteroid
+                appearance:
+                    diffuse-color: [0.5, 0.5, 0.5, 1]
+                lighting-model: lunar-lambert
+          orbit: namaka
+          rotation: unknown-synchronous
+
+      - moon:
+          name: [Hi’iaka, Haumea I]
+          radius: 160
+          albedo: 0.8
+          surfaces:
+              - category: uniform
+                heightmap: asteroid
+                appearance:
+                    diffuse-color: [0.5, 0.5, 0.5, 1]
+                lighting-model: lunar-lambert
+          orbit: hiiaka
+          rotation: unknown

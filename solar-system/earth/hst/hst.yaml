@@ -1,0 +1,18 @@
+spacecraft:
+    name: [Hubble, HST]
+    radius: 0.007
+    shape:
+        mesh: models/hst.3ds
+    orbit:
+        elliptic:
+            semi-major-axis: 6767
+            semi-major-axis-units: Km
+            eccentricity: 0.0012082
+            epoch: 2452028.18381755
+            period: 0.06903
+            period-units: Day
+            inclination: 28.4675
+            ascending-node: 51.0100
+            arg-of-periapsis: 27.0378
+            mean-anomaly: 333.0836
+            frame: Equatorial

@@ -1,0 +1,67 @@
+                                     ChangeLog
+									 =========
+									 
+Version: 1.0pre1,  initial test release
+---------------------------------------
+
+-- modify example 2) of README to eliminate a possible cause for misunderstandings
+-- add benchmark times for my 2.0 GHz Core 2 Duo/ 2 GB RAM DELL Latitude D620 
+   notebook under Windows XP in README
+
+Version: 1.0pre2   
+----------------
+
+-- created a ChangeLog file and started logging the changes
+
+-- Created a separate binary Windows version with an Installer, README.doc 
+   and ChangeLog.doc for greater convenience of inexperienced Windows users. The
+   installer includes a registry entry such that all tools are known by name in any
+   Windows directory after installation!
+
+-- README/README.doc:
+
+   * Modified example 2) to eliminate a possible cause for misunderstandings
+     (width of generated file specmap.bin)
+   * Added benchmark times for my 2.0 GHz Core 2 Duo/ 2GB RAM DELL Latitude
+	 not ebook besides the times for my Desktop machine (Linux)
+
+-- tx2pow2:
+   Completed the help text to include bpp = 4
+
+-- F-texTools.iss/F-TexTools-1.0pre2.bin.exe
+   Added installer for a binary version in Windows
+
+Version: 1.0pre3
+----------------
+
+-- replaced standard floor() and nint() rounding routines by much faster ones,
+   using "magic numbers" based on Sree Kotay's xs_RoundToInt() and xs_FloorToInt(),
+   http://www.stereopsis.com/sree/fpu2006.html 
+-- made it work also for Linux, using the fix from
+   http://www.wrcad.com/linux_numerics.txt
+-- replaced the original single pass resize_to_power_of_two algorithm with a
+   faster double pass one.    									 
+-- In all cases the tool nvimgdiff from the new nvidia-texture tools was
+   instrumental to assert that the generated images were /identical/ to the
+   original ones after implementation of the speed-up code.
+
+-- Added new command line tool, png2bin, that may be very useful! With it’s help
+   any .png textures are converted to bpp x 8 bit integer binary format, that is
+   supported by all other tools.
+
+   The tool png2bin is strictly the inverse of bin2png, such that
+   png2bin < testfile.png | bin2png bpp width > out.png
+
+   with nvimgdiff testfile.png out.png ==> 0.000
+
+Version: 1.0pre4
+-----------------   
+
+--	added a new command line application 'txtilesDXT' that produces direct
+    high-quality output in DXT formats DXT1/DXT3/DXT5 supported by Celestia. The
+	high-quality DXT compression is based on the NVIDIA-Texture-tools 2 (NVTT),
+	version 2.0.4 at release time.
+
+
+Version: 2.0pre1
+-----------------

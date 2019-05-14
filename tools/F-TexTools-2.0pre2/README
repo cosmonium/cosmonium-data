@@ -1,0 +1,318 @@
+                                README 
+
+
+This F-TexTools distribution contains a set of 8 custom command-line tools for 
+generating huge textures or optimized texture tiles of highest quality for the 
+space simulation Celestia, http://www.shatters.net/celestia/ or similar 
+environments. No image manipulation expertise is required. 
+
+These tools perfectly complement our nmtools package for generating highly 
+optimized normal maps or tiles thereof on standard home computers.
+
+Special attention has been paid to allow for very big textures (>= 64k x 32k)  
+to be handled even by average sized home computers. The tools work directly 
+with the original scientific imaging data for Earth, Mars etc. The execution 
+speed is high due to optimized custom algorithms.
+ 
+Highlights are
+ 
+-- sources compile cleanly for Windows and Linux PC's, 
+   as well as both PPC and Intel MACs; 
+
+-- executables are included for Win32, Linux, OSX-universal;
+
+-- throughout, the tools work between STDIN and STDOUT, 
+   and therefore may be piped together in a module fashion as needed;
+   
+-- a brief help text is printed, if the tools are executed without any
+   parameters;
+      
+-- the 6 texture tools are designed quite similarly to the nmtools package 
+   for normal maps by F. Schrempp and R. Skuridin. 
+               
+-- My F-TexTools AND the updated nmtools now output PNG or directly high-
+   quality DXT formats (as of version 2.0). The DXT compression is based on 
+   the excellent Open Source & cross-platform NVIDIA-texture tools 2!
+   http://code.google.com/p/nvidia-texture-tools/   
+
+Specifically:
+   
+
+1) tx2pow2   
+===========
+
+Usage: tx2pow2 <channels> <width> [<height>  [<#headerlines>]]
+
+---------------------------------------------------------------
+The program reads textures in unsigned 8 bit integer raw format
+from STDIN. It outputs to STDOUT a texture of width reduced to     
+the nearest power of 2 in the same format.
+--------------------------------------------------------------- 
+Assume  : Interleaved RGB ordering (RGB RGB RGB RGB...) for RGB color textures.
+Defaults: Inputwidth : inputheight = 2 : 1.
+          No header (#headerlines = 0).            
+
+For 4 x 8 bit RGB + alpha textures enter channels = 4.
+For 3 x 8 bit RGB colored textures enter channels = 3.      
+For 1 x 8 bit  grayscale  textures enter channels = 1.
+For different aspect ratios enter <height> in pixels.
+For PDS .img, .edr,...format enter #headerlines = 2,.... 
+
+
+
+2) tx2half
+===========
+
+Usage: tx2half <channels> <width> [<height> [<#headerlines>]]
+
+----------------------------------------------------------------
+The program reads textures of even size in unsigned 8 bit
+integer raw format from STDIN. It outputs to STDOUT a texture
+of size reduced by a factor of two in the same 8 bit raw format.
+----------------------------------------------------------------
+
+Assume  : Interleaved RGB(A) storage mode ie. RGB(A)RGB(A)RGB(A)..
+          for RGB (+ alpha) textures
+Defaults: Inputwidth : inputheight = 2 : 1.
+          No header (#headerlines = 0).
+
+For 4 x 8 bit RGB + alpha textures enter channels = 4.
+For 3 x 8 bit RGB colored textures enter channels = 3.
+For 1 x 8 bit  grayscale  textures enter channels = 1.
+For different aspect ratio, enter <height> in pixels.
+For PDS .img, .edr,...format enter  #headerlines  = 2,....
+
+
+3) tx2rgba
+===========
+
+Usage: tx2rgba <width> <specmap name> [<height>]
+
+------------------------------------------------------------------------
+The program reads a RGB map in 3 x 8 bit integer raw format from STDIN
+and a specular graymap of same dimensions in 1 x 8 bit raw format.
+The specmap is mounted as the alpha channel of the resulting RGBA map
+The latter is output at STDOUT in 4 x 8 bit unsigned integer raw format.
+------------------------------------------------------------------------
+Default : height = width / 2.
+
+4) specmap
+===========
+
+Usage: specmap <width> <watermask name> [<light> [<byteswap>]]
+
+------------------------------------------------------------------------
+The program reads an elevation map in signed 16 bit integer raw format
+from STDIN and the BMNG watermask of same width in 8 bit unsigned
+integer raw format via the command line. In the heightmap, oceans are
+found from 'elevation == 0'. The result is bitwise OR-ed with (the
+complement of) the watermask to improve the precision of the ocean
+boundaries of the latter. The resulting specmap is output at STDOUT
+as a graymap in 8 bit unsigned integer raw format.
+------------------------------------------------------------------------
+
+Assume : height = width / 2.
+
+Default: Byte ordering of input heightmap and computer are equal,
+         else specify <byteswap> = 1.
+         The light fraction of the land defaults to 0.0 (black),
+         and may be increased by specifying  <light> (< 1).
+         A recommended value is light = 0.12.
+
+5) bin2png
+===========
+		 
+Usage: bin2png <channels> <width> [<height> [<#headerlines>]]
+
+----------------------------------------------------------------------
+The program reads textures in unsigned bpp x 8 bit integer raw format
+from STDIN and converts them to PNG format at STDOUT.
+----------------------------------------------------------------------
+
+Assume :  Interleaved RGB(A) ordering (RGB(A)RGB(A)RGB(A)...).
+       :  PNG_compression = 6; (0..9(slow!))
+
+Defaults: Inputwidth : inputheight = 2 : 1.
+          No header (#headerlines = 0).
+
+For 4 x 8 bit RGB + alpha textures enter channels = 4.
+For 3 x 8 bit RGB colored textures enter channels = 3.
+For 1 x 8 bit  grayscale  textures enter channels = 1.
+For different aspect ratios enter <height> in pixels.
+For PDS .img, .edr,...format  enter #headerlines  = 2,....
+
+6) png2bin
+===========
+
+Usage: png2bin
+
+----------------------------------------------------------------------
+The program reads PNG textures from STDIN and 
+converts them to unsigned bpp x 8 bit integer raw format at STDOUT.
+----------------------------------------------------------------------
+
+7) txtiles 
+===========
+
+Usage: txtiles <channels> <width> <level> [<PNG_compression>]
+
+--------------------------------------------------------------------
+The program reads textures in unsigned bpp x 8 bit integer raw format
+from STDIN. It outputs VT tiles with many optimizations in PNG format.
+--------------------------------------------------------------------
+
+Units    : tilesize[pixel] = width/2^(level+1).
+
+Input    : Interleaved RGB(A) storage mode ie. RGB(A)RGB(A)RGB(A)...
+           for RGB (+ alpha) textures
+           Inputwidth : inputheight = 2 : 1, power-of-two size.
+           No header.
+Default  : PNG_compression = Z_BEST_SPEED = 1
+         : best choice for subsequent DXT compression!
+
+For VT tiles in PNG format, enter PNG_compression = 6..9 (slow!)
+
+For 4 x 8 bit RGB + alpha textures enter channels = 4.
+For 3 x 8 bit  colored    textures enter channels = 3.
+For 1 x 8 bit grayscale   textures enter channels = 1.
+
+8) txtilesDXT
+==============
+
+Usage: txtilesDXT <channels> <width> <level> [<fast_mode> [<dxt5_format>]]
+
+Version 1.0, November 2008, author: F. Schrempp
+
+
+----------------------------------------------------------------
+The program reads textures in bpp x 8 bit unsigned integer raw format from 
+STDIN. It outputs tiles with many optimizations in
+DXT1 and DXT3/DXT5 format, for bpp = 1,3 and 4, respectively.
+
+Since for RGBA, the alpha channel (A) compression quality is better in DXT5 
+than in DXT3, DXT5 may be selected by entering dxt5_format = 1
+
+But note: DXT5 filesize = 2 * DXT3 filesize!
+------------------------------------------------------------------
+
+Default  : High-quality compression mode (fast_mode = 0)
+           Enter fast_mode = 1 for fast, decent quality
+           compression
+
+Units    : tilesize[pixel] = width[pixel]/2^(level+1).
+
+Input    : Interleaved RGB(A) storage mode ie. RGB(A)RGB(A)RGB(A)...
+           for RGB (+ alpha) textures
+           Inputwidth : inputheight = 2 : 1, power-of-two size.
+
+For 4 x 8 bit RGB + alpha textures enter channels = 4.
+For 3 x 8 bit  colored    textures enter channels = 3.
+For 1 x 8 bit grayscale   textures enter channels = 1.
+
+
+Three Examples:
+----------------
+
+We assume that the compression tool gzip has been installed on the local 
+computer. 
+
+Gzip for Windows may be downloaded from here:
+http://gnuwin32.sourceforge.net/packages/gzip.htm
+
+For Linux and MAC-OS gzip is part of the system installation.
+
+Assumptions:
+
+<RGB-infile>.bin.gz =>
+-- is gzipped (<=> gz file ending)
+-- has width = 86400 pixels (!)
+-- aspect ratio = 2:1
+-- is a RGB (base) texture (bpp=3) in 3 x 8 bit raw format
+
+<outfile>.png => 
+-- is output file in PNG format;
+
+<watermask>.bin => 
+-- has width = 86400 pixels (!)
+-- aspect ratio = 2:1
+-- is a watermask graymap texture (bpp=1) in 1x8 bit raw format
+
+<elevation_map>.bin.gz =>
+-- is gzipped (<=> gz file ending)
+-- has width = 86400 pixels (!)
+-- aspect ratio 2:1
+-- is an elevation graymap in signed 1x16 bit raw format
+-- endedness of stored elevation file = endedness of computer
+
+Tasks:
+
+1) Reduce the binary input file of width = 86400 pixels to the nearest power-
+of-two dimension (65536 x 32768); then reduce it to only 16384 pixels and 
+convert it to PNG output format (PNG_compression = 6). 
+
+
+gzip -dc < <RGB-infile>.bin.gz | tx2pow2 3 86400 | tx2half 3 65536 | tx2half 3 
+32768 | bin2png 3 16384  >  <outfile>.png
+
+
+Linux:        13.1 min on my 3.2 GHz P4/ 3 GB RAM  Desktop machine
+Windows XP:   11.1 min on my 2.0 GHz Core 2 Duo/ 2 GB RAM DELL Latitude D620 
+notebook
+
+
+2) Generate a much improved specmap of width 86400 pixels in 1 x 8 bit raw 
+format from the official BMNG watermask and the 16 bit elevation graymap with 
+recommended residual light level = 0.12 for the land areas. 
+
+
+gzip -dc < <elevation_map>.bin.gz | specmap 86400 <watermask>.bin 0.12 > 
+<specmap>.bin
+
+Linux:         4.4 min on my 3.2 GHz P4 / 3 GB RAM machine
+Windows XP:    8.2 min on my 2.0 GHz Core 2 Duo/ 2 GB RAM DELL Latitude D620 
+notebook
+
+
+3) Read  a 3x8 bit gzipped RGB base texture of width = 86400 pixels from STDIN 
+and mount the improved specmap texture of the same width as alpha channel of 
+the resulting RGBA map. Subsequently, generate a set of 2048 optimized RGBA VT 
+tiles of level 5 in PNG format.
+   
+
+gzip -dc < <RGB-infile>.bin.gz | tx2rgba 86400 <specmap>.bin | tx2pow2 4 86400 
+| txtiles 4 65536 5 
+
+
+Linux:         19.9 min on my 3.2 GHz P4 /3 GB RAM machine
+Windows XP:    22.6 min on my 2.0 GHz Core 2 Duo/ 2 GB RAM DELL Latitude D620 
+notebook
+
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+I cordially thank 
+
+Da Woon Jung <dirkpitt2050@users.sf.net> aka dirkpitt, aka DW
+
+for his active help to make the code run on MACS and for his various 
+contributions to make it run faster! He also coded a faster two-pass version of 
+the resize_to_power_of_two algorithm in tx2pow2.
+
+
+Ignacio Castaño <icast...@nvidia.com>
+
+For his help with the nvidia-texture-tools 2.
+http://code.google.com/p/nvidia-texture-tools/
+
+
+Enjoy,
+
+Fridger Schrempp
+
+----------------------------
+Copyright (c) 2007-2008 Dr.Fridger Schrempp, 
+<fridger.schrempp@desy.de>
+
+

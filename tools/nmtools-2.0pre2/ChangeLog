@@ -1,0 +1,51 @@
+                                     ChangeLog
+	                             =========
+									 
+Version: 1.01,  initial release
+-------------------------------
+-- created a ChangeLog file and started logging the changes
+
+-- created  .doc versions of README and Changelog for Windows users
+  
+-- replaced the 16 bit IO by considerably faster code
+
+-- renaming of the individual tools to match the naming systematics of the 
+   F-TexTools. The latter serve to making the remaining Celestia textures 
+   in highest quality on normal home computers. 
+
+-- replaced standard floor() and nint() rounding routines by much faster ones,
+   using "magic numbers" based on Sree Kotay's xs_RoundToInt() and 
+   xs_FloorToInt(), http://www.stereopsis.com/sree/fpu2006.html 
+
+-- made it work also for Linux, using the fix from
+   http://www.wrcad.com/linux_numerics.txt
+   
+-- replaced the original single pass resize_to_power_of_two algorithm with a
+   faster double pass one.
+
+-- the overall speedup amounts to about a factor of TWO!
+   
+-- In all cases the tool nvimgdiff from the new nvidia-texture tools was
+   instrumental to assert that the generated images were /identical/ to the 
+   original ones after implementation of the speed-up code.
+
+-- the VT-tiles generation tool now directly produces PNG formatted tiles 
+   (instead of PPM format)! This allows their immediate use in Celestia or 
+   further packing into the high-quality DXT5nm formatted tiles by means of 
+   the new OpenSource nvidia-texture-tools.
+   
+-- overhauled considerably the output logging during operation of the tools.
+
+Version: 1.5 released
+---------------------
+-- added a new command line application 'nmtilesDXT' that produces direct
+   high-quality output in the dedicated DXT format DXT5nm supported by Celestia.
+   The DXT compression is based on the NVIDIA-Texture-tools 2 (NVTT), version
+   2.0.4 at release time. 
+
+-- Fixed a typo in 'nmtiles', which made the command line parameter heightmapunit
+   inaccessible.
+   
+Version: 2.0pre1 released
+--------------------------
+   

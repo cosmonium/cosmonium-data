@@ -1,0 +1,32 @@
+system:
+    name: Earth System
+    orbit: earth
+    children:
+        - planet:
+            name: Earth
+            radius: 6378.137
+            ellipticity: 0.0033528
+            albedo: 0.367
+            rotation: earth
+            point-color: [0.85, 0.85, 1.0]
+            surfaces:
+              - category: visible
+                resolution: vt:8
+                source: solarsystemscope
+                appearance:
+                    texture: textures/earth-visible-solarsystemscope/earth-visible-solarsystemscope.ctx
+                    night-texture: textures/earth-night-nasa.png
+                    normalmap: textures/earth-normal-solarsystemscope/earth-normal-solarsystemscope.ctx
+                    specularmap: textures/earth-specular-solarsystemscope/earth-specular-solarsystemscope.ctx
+                    specular-color: [0.8, 0.8, 0.85, 1]
+                    shininess: 100
+            clouds:
+                appearance:
+                    texture: textures/earth-clouds-visible-nasa/earth-clouds-visible-nasa.ctx
+                    transparency: true
+                height: 7
+                source: nasa-visible-earth
+            atmosphere: oneil
+        - include: moon/moon.yaml
+        - include: hst/hst.yaml
+        - include: iss/iss.yaml

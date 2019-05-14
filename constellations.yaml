@@ -1,0 +1,622 @@
+- constellation:
+    name: Aquila
+    genitive: Aquilae
+    abbreviation: Aql
+    ra: 19:40'02"
+    de: +03d24'65"
+
+- constellation:
+    name: Andromeda
+    genitive: Andromedae
+    abbreviation: And
+    ra: 00:48'46"
+    de: +37d25'91"
+
+- constellation:
+    name: Ara
+    genitive: Arae
+    abbreviation: Ara
+    ra: 17:22'49"
+    de: -56d35'30"
+
+- constellation:
+    name: Libra
+    genitive: Librae
+    abbreviation: Lib
+    ra: 15:11'96"
+    de: -15d14'08"
+
+- constellation:
+    name: Cetus
+    genitive: Ceti
+    abbreviation: Cet
+    ra: 01:40'10"
+    de: -07d10'76"
+
+- constellation:
+    name: Aries
+    genitive: Arietis
+    abbreviation: Ari
+    ra: 02:38'16"
+    de: +20d47'54"
+
+- constellation:
+    name: Pyxis
+    genitive: Pyxidis
+    abbreviation: Pyx
+    ra: 08:57'16"
+    de: -27d21'10"
+
+- constellation:
+    name: Bootes
+    genitive: Bootis
+    abbreviation: Boo
+    ra: 14:42'64"
+    de: +31d12'16"
+
+- constellation:
+    name: Caelum
+    genitive: Caeli
+    abbreviation: Cae
+    ra: 04:42'27"
+    de: -37d52'90"
+
+- constellation:
+    name: Chamaeleon
+    genitive: Chamaeleontis
+    abbreviation: Cha
+    ra: 10:41'53"
+    de: -79d12'30"
+
+- constellation:
+    name: Cancer
+    genitive: Cancri
+    abbreviation: Cnc
+    ra: 08:38'96"
+    de: +19d48'35"
+
+- constellation:
+    name: Capricornus
+    genitive: Capricorni
+    abbreviation: Cap
+    ra: 21:02'93"
+    de: -18d01'39"
+
+- constellation:
+    name: Carina
+    genitive: Carinae
+    abbreviation: Car
+    ra: 08:41'70"
+    de: -63d13'16"
+
+- constellation:
+    name: Cassiopeia
+    genitive: Cassiopeiae
+    abbreviation: Cas
+    ra: 01:19'16"
+    de: +62d11'04"
+
+- constellation:
+    name: Centaurus
+    genitive: Centauri
+    abbreviation: Cen
+    ra: 13:04'27"
+    de: -47d20'72"
+
+- constellation:
+    name: Cepheus
+    genitive: Cephei
+    abbreviation: Cep
+    ra: 22:00'00"
+    de: +71d00'51"
+
+- constellation:
+    name: Coma Berenices
+    genitive: Comae Berenices
+    abbreviation: Com
+    ra: 12:47'27"
+    de: +23d18'34"
+
+- constellation:
+    name: Canes Venatici
+    genitive: Canum Venaticorum
+    abbreviation: CVn
+    ra: 13:06'96"
+    de: +40d06'11"
+
+- constellation:
+    name: Auriga
+    genitive: Aurigae
+    abbreviation: Aur
+    ra: 06:04'42"
+    de: +42d01'68"
+
+- constellation:
+    name: Columba
+    genitive: Columbae
+    abbreviation: Col
+    ra: 05:51'76"
+    de: -35d05'67"
+
+- constellation:
+    name: Circinus
+    genitive: Circini
+    abbreviation: Cir
+    ra: 14:34'54"
+    de: -63d01'82"
+
+- constellation:
+    name: Corvus
+    genitive: Corvi
+    abbreviation: Crv
+    ra: 12:26'52"
+    de: -18d26'20"
+
+- constellation:
+    name: Crater
+    genitive: Crateris
+    abbreviation: Crt
+    ra: 11:23'75"
+    de: -15d55'74"
+
+- constellation:
+    name: Corona Australis
+    genitive: Coronae Australis
+    abbreviation: CrA
+    ra: 18:38'79"
+    de: -41d08'85"
+
+- constellation:
+    name: Corona Borealis
+    genitive: Coronae Borealis
+    abbreviation: CrB
+    ra: 15:50'59"
+    de: +32d37'49"
+
+- constellation:
+    name: Crux
+    genitive: Crucis
+    abbreviation: Cru
+    ra: 12:26'99"
+    de: -60d11'19"
+
+- constellation:
+    name: Cygnus
+    genitive: Cygni
+    abbreviation: Cyg
+    ra: 20:35'28"
+    de: +44d32'70"
+
+- constellation:
+    name: Delphinus
+    genitive: Delphini
+    abbreviation: Del
+    ra: 20:41'61"
+    de: +11d40'26"
+
+- constellation:
+    name: Dorado
+    genitive: Doradus
+    abbreviation: Dor
+    ra: 05:14'51"
+    de: -59d23'22"
+
+- constellation:
+    name: Draco
+    genitive: Draconis
+    abbreviation: Dra
+    ra: 15:08'64"
+    de: +67d00'40"
+
+- constellation:
+    name: Scutum
+    genitive: Scuti
+    abbreviation: Sct
+    ra: 18:40'39"
+    de: -09d53'32"
+
+- constellation:
+    name: Eridanus
+    genitive: Eridani
+    abbreviation: Eri
+    ra: 03:18'02"
+    de: -28d45'37"
+
+- constellation:
+    name: Sagitta
+    genitive: Sagittae
+    abbreviation: Sge
+    ra: 19:39'05"
+    de: +18d51'68"
+
+- constellation:
+    name: Fornax
+    genitive: Fornacis
+    abbreviation: For
+    ra: 02:47'88"
+    de: -31d38'07"
+
+- constellation:
+    name: Gemini
+    genitive: Geminorum
+    abbreviation: Gem
+    ra: 07:04'24"
+    de: +22d36'01"
+
+- constellation:
+    name: Camelopardalis
+    genitive: Camelopardalis
+    abbreviation: Cam
+    ra: 08:51'37"
+    de: +69d22'89"
+
+- constellation:
+    name: Canis Major
+    genitive: Canis Majoris
+    abbreviation: CMa
+    ra: 06:49'74"
+    de: -22d08'42"
+
+- constellation:
+    name: Ursa Major
+    genitive: Ursae Majoris
+    abbreviation: UMa
+    ra: 11:18'76"
+    de: +50d43'27"
+
+- constellation:
+    name: Grus
+    genitive: Gruis
+    abbreviation: Gru
+    ra: 22:27'39"
+    de: -46d21'11"
+
+- constellation:
+    name: Hercules
+    genitive: Herculis
+    abbreviation: Her
+    ra: 17:23'16"
+    de: +27d29'93"
+
+- constellation:
+    name: Horologium
+    genitive: ium/ii
+    abbreviation: Hor
+    ra: 03:16'56"
+    de: -53d20'18"
+
+- constellation:
+    name: Hydra
+    genitive: a/ae
+    abbreviation: Hya
+    ra: 11:36'73"
+    de: -14d31'91"
+
+- constellation:
+    name: Hydrus
+    genitive: us/i
+    abbreviation: Hyi
+    ra: 02:20'65"
+    de: -69d57'39"
+
+- constellation:
+    name: Indus
+    genitive: us/i
+    abbreviation: Ind
+    ra: 21:58'33"
+    de: -59d42'40"
+
+- constellation:
+    name: Lacerta
+    genitive: a/ae
+    abbreviation: Lac
+    ra: 22:27'68"
+    de: +46d02'51"
+
+- constellation:
+    name: Monoceros
+    genitive: os/otis
+    abbreviation: Mon
+    ra: 07:03'63"
+    de: +00d16'93"
+
+- constellation:
+    name: Lepus
+    genitive: us/oris
+    abbreviation: Lep
+    ra: 05:33'95"
+    de: -19d02'78"
+
+- constellation:
+    name: Leo
+    genitive: -/nis
+    abbreviation: Leo
+    ra: 10:40'03"
+    de: +13d08'32"
+
+- constellation:
+    name: Lupus
+    genitive: us/i
+    abbreviation: Lup
+    ra: 15:13'21"
+    de: -42d42'53"
+
+- constellation:
+    name: Lynx
+    genitive: x/cis
+    abbreviation: Lyn
+    ra: 07:59'53"
+    de: +47d28'00"
+
+- constellation:
+    name: Lyra
+    genitive: a/ae
+    abbreviation: Lyr
+    ra: 18:51'17"
+    de: +36d41'36"
+
+- constellation:
+    name: Antlia
+    genitive: a/ae
+    abbreviation: Ant
+    ra: 10:16'43"
+    de: -32d29'01"
+
+- constellation:
+    name: Microscopium
+    genitive: ium/ii
+    abbreviation: Mic
+    ra: 20:57'88"
+    de: -36d16'49"
+
+- constellation:
+    name: Musca
+    genitive: a/ae
+    abbreviation: Mus
+    ra: 12:35'28"
+    de: -70d09'66"
+
+- constellation:
+    name: Octans
+    genitive: s/tis
+    abbreviation: Oct
+    ra: 23:00'00"
+    de: -82d09'12"
+
+- constellation:
+    name: Apus
+    genitive: us/odis
+    abbreviation: Aps
+    ra: 16:08'65"
+    de: -75d18'00"
+
+- constellation:
+    name: Ophiuchus
+    genitive: us/i
+    abbreviation: Oph
+    ra: 17:23'69"
+    de: -07d54'74"
+
+- constellation:
+    name: Orion
+    genitive: -/is
+    abbreviation: Ori
+    ra: 05:34'59"
+    de: +05d56'94"
+
+- constellation:
+    name: Pavo
+    genitive: -/nis
+    abbreviation: Pav
+    ra: 19:36'71"
+    de: -65d46'89"
+
+- constellation:
+    name: Pegasus
+    genitive: us/i
+    abbreviation: Peg
+    ra: 22:41'84"
+    de: +19d27'98"
+
+- constellation:
+    name: Pictor
+    genitive: -/ris
+    abbreviation: Pic
+    ra: 05:42'46"
+    de: -53d28'45"
+
+- constellation:
+    name: Perseus
+    genitive: us/i
+    abbreviation: Per
+    ra: 03:10'50"
+    de: +45d00'79"
+
+- constellation:
+    name: Equuleus
+    genitive: us/i
+    abbreviation: Equ
+    ra: 21:11'26"
+    de: +07d45'49"
+
+- constellation:
+    name: Canis Minor
+    genitive: -/is
+    abbreviation: CMi
+    ra: 07:39'17"
+    de: +06d25'63"
+
+- constellation:
+    name: Leo Minor
+    genitive: -/nis -/is
+    abbreviation: LMi
+    ra: 10:14'72"
+    de: +32d08'08"
+
+- constellation:
+    name: Vulpecula
+    genitive: a/ae
+    abbreviation: Vul
+    ra: 20:13'88"
+    de: +24d26'56"
+
+- constellation:
+    name: Ursa Minor
+    genitive: a/ae -/is
+    abbreviation: UMi
+    ra: 15:00'00"
+    de: +77d41'99"
+
+- constellation:
+    name: Phoenix
+    genitive: x/cis
+    abbreviation: Phe
+    ra: 00:55'91"
+    de: -48d34'84"
+
+- constellation:
+    name: Piscis Austrinus
+    genitive: -/- us/i
+    abbreviation: PsA
+    ra: 22:17'07"
+    de: -30d38'53"
+
+- constellation:
+    name: Volans
+    genitive: s/tis
+    abbreviation: Vol
+    ra: 07:47'73"
+    de: -69d48'07"
+
+- constellation:
+    name: Pisces
+    genitive: es/ium
+    abbreviation: Psc
+    ra: 00:28'97"
+    de: +13d41'23"
+
+- constellation:
+    name: Puppis
+    genitive: -/-
+    abbreviation: Pup
+    ra: 07:15'48"
+    de: -31d10'64"
+
+- constellation:
+    name: Norma
+    genitive: a/ae
+    abbreviation: Nor
+    ra: 15:54'18"
+    de: -51d21'09"
+
+- constellation:
+    name: Reticulum
+    genitive: um/i
+    abbreviation: Ret
+    ra: 03:55'27"
+    de: -59d59'85"
+
+- constellation:
+    name: Sagittarius
+    genitive: ius/ii
+    abbreviation: Sgr
+    ra: 19:05'94"
+    de: -28d28'61"
+
+- constellation:
+    name: Scorpius
+    genitive: ius/ii
+    abbreviation: Sco
+    ra: 16:53'24"
+    de: -27d01'89"
+
+- constellation:
+    name: Sculptor
+    genitive: -/is
+    abbreviation: Scl
+    ra: 00:26'28"
+    de: -32d05'30"
+
+- constellation:
+    name: Serpens Caput
+    genitive: s/tis
+    abbreviation: Ser1
+    ra: 15:46'49"
+    de: +10d58'20"
+
+- constellation:
+    name: Serpens Cauda
+    genitive: s/tis
+    abbreviation: Ser2
+    ra: 18:07'60"
+    de: -4d51'73"
+
+- constellation:
+    name: Sextans
+    genitive: s/tis
+    abbreviation: Sex
+    ra: 0:16'29"
+    de: -02d36'88"
+
+- constellation:
+    name: Mensa
+    genitive: a/ae
+    abbreviation: Men
+    ra: 05:24'90"
+    de: -77d30'24"
+
+- constellation:
+    name: Taurus
+    genitive: us/i
+    abbreviation: Tau
+    ra: 04:42'13"
+    de: +14d52'63"
+
+- constellation:
+    name: Telescopium
+    genitive: ium/ii
+    abbreviation: Tel
+    ra: 19:19'54"
+    de: -51d02'21"
+
+- constellation:
+    name: Tucana
+    genitive: a/ae
+    abbreviation: Tuc
+    ra: 23:46'64"
+    de: -65d49'80"
+
+- constellation:
+    name: Triangulum
+    genitive: um/i
+    abbreviation: Tri
+    ra: 02:11'07"
+    de: +31d28'56"
+
+- constellation:
+    name: Triangulum Australe
+    genitive: um/i e/is
+    abbreviation: TrA
+    ra: 16:04'95"
+    de: -65d49'80"
+
+- constellation:
+    name: Aquarius
+    genitive: ius/ii
+    abbreviation: Aqr
+    ra: 22:17'38"
+    de: -10d47'35"
+
+- constellation:
+    name: Virgo
+    genitive: o/inis
+    abbreviation: Vir
+    ra: 13:24'39"
+    de: -04d09'51"
+
+- constellation:
+    name: Vela
+    genitive: a/orum
+    abbreviation: Vel
+    ra: 09:34'64"
+    de: -47d10'03"

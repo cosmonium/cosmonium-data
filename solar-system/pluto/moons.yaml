@@ -1,0 +1,69 @@
+- moon:
+    name: [Charon, Pluto I]
+    radius: 606
+    albedo: 0.372
+    surfaces:
+      - category: monochromatic
+        source: nasa-jpl-usgs
+        resolution: vt:16
+        appearance:
+            texture: textures/charon-bw-nasa/charon-bw-nasa.ctx
+      - category: artistic
+        source: fargetanik
+        resolution: 4
+        appearance:
+            texture: textures/charon-artistic-askaniy.png
+    orbit: charon
+    rotation: charon
+
+- moon:
+    name: [Styx, Pluto V]
+    axes: [16, 9, 8]
+    albedo: 0.35
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: styx
+    rotation: chaotic
+
+- moon:
+    name: [Nix, Pluto II]
+    axes: [50, 35, 33]
+    albedo: 0.35
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: nix
+    rotation: chaotic
+
+- moon:
+    name: [Kerebos, Pluto IV]
+    axes: [16, 9, 8]
+    albedo: 0.35
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: kerebos
+    rotation: chaotic
+
+- moon:
+    name: [Hydra, Pluto III]
+    axes: [65, 45, 25]
+    albedo: 0.35
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: lunar-lambert
+    orbit: hydra
+    rotation: chaotic

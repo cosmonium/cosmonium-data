@@ -1,0 +1,14 @@
+moon:
+    name: Moon
+    radius: 1738.1
+    ellipticity: 0.0012
+    albedo: 0.12
+    surfaces:
+      - category: visible
+        resolution: vt:8
+        source: vanvliet
+        appearance:
+            texture: textures/moon-visible-vanvliet/moon-visible-vanvliet.ctx
+            normalmap: textures/moon-normal-vanvliet/moon-normal-vanvliet.ctx
+    orbit: moon
+    rotation: moon

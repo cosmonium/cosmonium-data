@@ -1,0 +1,8 @@
+star:
+    name: [Sun, Sol]
+    primary: true
+    radius: 695700
+    temperature: 5780
+    magnitude: 4.83
+    spectral-type: G2V
+    rotation: sun

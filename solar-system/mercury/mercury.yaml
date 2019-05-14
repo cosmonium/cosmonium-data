@@ -1,0 +1,12 @@
+planet:
+    name: Mercury
+    radius: 2439.7
+    albedo: 0.106
+    surfaces:
+      - category: visible
+        resolution: vt:32
+        source: vanvliet
+        appearance:
+            texture: textures/mercury-visible-vanvliet/mercury-visible-vanvliet.ctx
+    orbit: mercury
+    rotation: mercury

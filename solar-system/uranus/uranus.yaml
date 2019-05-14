@@ -1,0 +1,19 @@
+system:
+    name: Uranus System
+    orbit: uranus
+    children:
+        - planet:
+            name: Uranus
+            primary: true
+            radius: 25559
+            ellipticity: 0.02293
+            albedo: 0.51
+            surfaces:
+              - category: visible
+                resolution: 2
+                source: fargetanik
+                appearance:
+                    texture: textures/uranus-visible-fargetanik.png
+            rotation: uranus
+        - include: moons.yaml
+        - include: inner-moons.yaml

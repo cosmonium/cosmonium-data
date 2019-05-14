@@ -1,0 +1,33 @@
+# MinGW Win32 Makefile
+
+CXX = g++
+CXXFLAGS = -O3 -Wall  -march=i686
+VPATH = ../Win32_PC.bin
+INSTALL = install.exe
+
+# tools will be installed into
+prefix = /usr/local
+exec_prefix = $(prefix)
+bindir = $(exec_prefix)/bin
+
+programs = tx2pow2.exe tx2half.exe specmap.exe tx2rgba.exe
+
+all:	$(programs)	bin2png.exe txtiles.exe
+
+$(programs):	%.exe: %.cpp 
+	$(CXX) $(CXXFLAGS) $< -o $(VPATH)/$@	
+
+bin2png.exe:	bin2png.cpp
+	$(CXX) 	$(CXXFLAGS) -o $(VPATH)/bin2png.exe bin2png.cpp -lpng
+
+txtiles.exe:	txtiles.cpp
+	$(CXX) 	$(CXXFLAGS) -o $(VPATH)/txtiles.exe txtiles.cpp -lpng
+	
+clean:	
+		rm -f $(VPATH)/*.exe
+install:
+	 strip --strip-all $(VPATH)/*.exe
+	$(INSTALL) $(VPATH)/*.exe $(bindir)
+
+uninstall:
+	rm -f $(bindir)/tx2pow2.exe $(bindir)/tx2half.exe  $(bindir)/txtiles.exe $(bindir)/specmap.exe	 $(bindir)/bin2png.exe $(bindir)/tx2rgba.exe

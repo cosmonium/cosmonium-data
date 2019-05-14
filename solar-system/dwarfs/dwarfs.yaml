@@ -1,0 +1,142 @@
+- system:
+    name: 2007 OR10 System
+    orbit: 2007or10
+    children:
+      - dwarfplanet:
+          name: 2007 OR10
+          diameter: 1280
+          albedo: 0.089
+          surfaces:
+              - category: uniform
+                appearance:
+                    diffuse-color: [0.3, 0.3, 0.3, 1]
+          rotation:
+              type: uniform
+              period: 44.81
+              period-units: Hour
+      - moon:
+          name: S 2007 OR10 1
+          radius: 150
+          albedo: 0.089
+          surfaces:
+              - heightmap: moon
+                category: uniform
+                appearance:
+                    diffuse-color: [0.3, 0.3, 0.3, 1]
+                lighting-model: lunar-lambert
+          orbit: s2007or101
+          rotation: unknown-synchronous
+
+- system:
+    name: Quaoar System
+    orbit: quaoar
+    children:
+      - dwarfplanet:
+          name: Quaoar
+          diameter: 1110
+          albedo: 0.109
+          surfaces:
+            - category: uniform
+              appearance:
+                  diffuse-color: [0.3, 0.3, 0.3, 1]
+          rotation:
+              type: uniform
+              period: 17.6788
+              period-units: Hour
+      - moon:
+          name: Weywot
+          radius: 40.5
+          albedo: 0.109
+          surfaces:
+              - category: uniform
+                heightmap: moon
+                appearance:
+                    diffuse-color: [0.3, 0.3, 0.3, 1]
+                lighting-model: lunar-lambert
+          orbit: weywot
+          rotation: unknown-synchronous
+
+- dwarfplanet:
+    name: Sedna
+    diameter: 1110
+    albedo: 0.32
+    surfaces:
+      - category: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: sedna
+    rotation:
+        type: uniform
+        period: 10.273
+        period-units: Hour
+
+- dwarfplanet:
+    name: 2002 MS4
+    diameter: 934
+    albedo: 0.051
+    surfaces:
+      - category: uniform
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: 2002ms4
+    rotation: unknown
+
+- system:
+    name: Orcus System
+    orbit: orcus
+    children:
+      - dwarfplanet:
+          name: Orcus
+          diameter: 917
+          albedo: 0.231
+          surfaces:
+            - category: uniform
+              appearance:
+                  diffuse-color: [0.3, 0.3, 0.3, 1]
+          rotation:
+              type: uniform
+              ra: 144.8
+              de: -5.0
+              period: 13.188
+              period-units: Hour
+      - moon:
+          name: Vanth
+          diameter: 475
+          albedo: 0.08
+          surfaces:
+              - category: uniform
+                heightmap: moon
+                appearance:
+                    diffuse-color: [0.3, 0.3, 0.3, 1]
+                lighting-model: lunar-lambert
+          orbit: vanth
+          rotation: unknown-synchronous
+
+- system:
+    name: Salacia System
+    orbit: salacia
+    children:
+      - dwarfplanet:
+          name: Salacia
+          diameter: 854
+          albedo: 0.044
+          surfaces:
+            - category: uniform
+              appearance:
+                  diffuse-color: [0.3, 0.3, 0.3, 1]
+          rotation:
+              type: uniform
+              period: 6.09
+              period-units: Hour
+      - moon:
+          name: Actaea
+          diameter: 286
+          albedo: 0.044
+          surfaces:
+              - category: uniform
+                heightmap: moon
+                appearance:
+                    diffuse-color: [0.3, 0.3, 0.3, 1]
+                lighting-model: lunar-lambert
+          orbit: actaea
+          rotation: unknown-synchronous

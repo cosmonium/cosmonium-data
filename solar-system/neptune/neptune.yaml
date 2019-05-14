@@ -1,0 +1,23 @@
+system:
+    name: Neptune System
+    orbit: neptune
+    children:
+        - planet:
+            name: Neptune
+            radius: 24764
+            ellipticity: 0.01708
+            albedo: 0.41
+            surfaces:
+              - category: visible
+                resolution: 2
+                source: askaniy
+                appearance:
+                    texture: textures/neptune-visible-askaniy.png
+              - category: artistic
+                resolution: 2
+                source: snowfall
+                appearance:
+                    texture: textures/neptune-artistic-snowfall.png
+            rotation: neptune
+        - include: moons.yaml
+        - include: inner-moons.yaml

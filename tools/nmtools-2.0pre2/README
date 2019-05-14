@@ -1,0 +1,132 @@
+                                    README
+                                    ======
+									
+This distribution contains a set of custom command-line tools for generating 
+huge normalmap textures or texture tiles of highest quality for the space 
+simulation Celestia, http://www.shatters.net/celestia/. No image manipulation  
+expertise or additional libraries are required.
+
+Special attention has been paid to allow for very big textures (>= 64k x 32k)  
+to be handled even by average sized home computers. The tools work directly 
+with the original published 16bit integer elevation maps for Earth, Mars etc. 
+Therefore, the resulting normalmaps have a very low noise level. The execution 
+speed is very high due to optimized custom algorithms.
+ 
+Highlights are
+ 
+--  sources compile cleanly for Windows and Linux PC's,
+    as well as both PPC and Intel MACs;
+        
+--  executables are included for Win32, Linux, OSX-universal;
+
+--  even for huge textures, the memory requirements are very low, such as to 
+    allow their successful operation on normal home computers;
+
+--  both little-endian and big-endian 16bit elevation maps can be used;
+
+--  throughout, the tools work between STDIN and STDOUT, 
+    and therefore may be piped together in a module fashion as needed;
+   
+--  a brief help text is printed, if the tools are executed without any
+    parameters;
+
+--  the overall speed-up in version 1.5 amounts to about a factor of two;
+
+--  as of version 1.5, the normalmap generation tools directly produce 
+    PNG formatted output (instead of PPM format), and as of this version 2.0,  they also directly write high-quality DXT5nm format! The DXT compression is based on the excellent Open Source & cross-platform NVIDIA-texture tools 2!
+    http://code.google.com/p/nvidia-texture-tools/ 
+
+--  a detailed tutorial about how to use these tools may be found on
+    http://www.celestialmatters.org
+         
+Specifically:
+   
+1) nm2pow2   
+----------
+
+The program reads samples with signed 16-bit integers from STDIN
+and outputs to STDOUT a signed 16-bit integer sample 
+of width reduced to the nearest power of 2.
+
+Specify byteswap = 1 if the byte ordering 
+of input file and computer differ
+
+   
+2) nm2half
+----------
+
+The program reads textures of even height in signed 16-bit integer raw 
+format from STDIN. It outputs to STDOUT a texture of size reduced by 
+a factor of two in the same 16 bit raw format.
+
+Specify byteswap = 1 if the byte ordering 
+of input file and computer differ   
+    
+  
+3) nms
+------
+
+The program reads an elevation map in signed 16-bit raw format 
+from STDIN. It outputs to STDOUT a normalmap (PNG format), for bodies of 
+~spherical geometry. All previously published normalmap programs (including 
+nm16)  are incorrect for ~spherical bodies north and south of the equator.
+ 
+4) nmtiles
+----------
+
+The program reads an elevation map in signed 16-bit raw format  
+from STDIN. It directly outputs normalmap tiles (PNG format), corrected for
+spherical geometry and including many optimizations. These optimizations 
+include: the appropriate reduction of resolution for polar latitudes, correct 
+texel normalization (r*r +g*g + b*b = 1) and the replacement of monochromatic 
+normalmap tiles by the smallest possible 4x4 pixel tiles! The latter saves a 
+large amount of disc space without any loss of quality.  
+
+It is assumed that the input raw file is of power-of-two size
+
+5) nmtilesDXT
+--------------
+
+This program was added in Version 2.0 of the nmtools. It posseses all features of the previous nmtiles application, but outputs the dedicated high-quality normalmap DXT format, DXT5nm, supported by Celestia
+
+
+I cordially thank 
+
+
+Da Woon Jung <dirkpitt2050@users.sf.net> 
+
+
+for his active help to make the code run on MACS and for his various 
+contributions to make it run faster! His various optimizations have been 
+integrated into the 1.5 update release of the nmtools. He compiled the tools as "OSX-universal", meaning they contain both PPC and Intel code and run natively 
+on both PPC and Intel MACs.    
+
+I also want to express my cordial thanks to 
+
+
+Christophe Teyssier <chris@teyssier.org> 
+
+for his extensive profiling contributions! His various optimizations have been 
+integrated into the 1.5 update release of the nmtools.
+
+I am also grateful to 
+
+Chris Laurel <claurel@www.shatters.net>
+
+for code allowing redirection of STDIN and STDOUT for Windows in case of 
+binary file input/output. 
+
+Last not least, I thank
+
+Ignacio Castaño  <icast...@nvidia.com>
+
+for his help with the nvidia-texture-tools 2.
+http://code.google.com/p/nvidia-texture-tools/
+
+Enjoy,
+Fridger Schrempp
+
+Copyright � December, 2006-2008,  Dr.Fridger Schrempp,  <fridger.schrempp@desy.de>
+
+Authors: Dr. Fridger Schrempp <fridger.schrempp@desy.de>
+         Dr. Robert Skuridin  <skuridin1@mail.ru>

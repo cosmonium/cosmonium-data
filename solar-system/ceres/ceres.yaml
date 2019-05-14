@@ -1,0 +1,15 @@
+dwarfplanet:
+    name: Ceres
+    axes: [965.2, 961.2, 891.2]
+    albedo: 0.090
+    surfaces:
+      - category: monochromatic
+        source: nasa-jpl-usgs
+        appearance:
+            texture: textures/ceres-bw-nasa/ceres-bw-nasa.ctx
+      - category: artistic
+        source: fargetanik
+        appearance:
+            texture: textures/ceres-artistic-fargetanik/ceres-artistic-fargetanik.ctx
+    orbit: ceres
+    rotation: ceres

@@ -1,0 +1,119 @@
+- system:
+    name: Sol System
+    orbit: kepler:sol-system
+    children:
+    - include: sun/sun.yaml
+    - include: mercury/mercury.yaml
+    - include: venus/venus.yaml
+    - include: earth/earth.yaml
+    - include: mars/mars.yaml
+    - include: jupiter/jupiter.yaml
+    - include: saturn/saturn.yaml
+    - include: uranus/uranus.yaml
+    - include: neptune/neptune.yaml
+    - include: pluto/pluto.yaml
+    - include: ceres/ceres.yaml
+    - include: eris/eris.yaml
+    - include: haumea/haumea.yaml
+    - include: makemake/makemake.yaml
+    - include: dwarfs/dwarfs.yaml
+    - include: asteroids/asteroids.yaml
+    - include: comets/comets.yaml
+- data-sources:
+    solarsystemscope:
+        name: Solar System Scope
+        copyright: 2017 INOVE
+        license: CC BY 4.0
+        url: https://www.solarsystemscope.com/textures/
+    fargetanik:
+        name: FarGetaNik
+        license: CC BY NC SA 3.0
+        url: https://www.deviantart.com/fargetanik
+    askaniy:
+        name: Askaniy
+        license: CC BY SA 3.0
+        url: https://www.deviantart.com/askaniy
+    nasa-visible-earth:
+        name: NASA
+        license: Public Domain
+        url: https://visibleearth.nasa.gov/
+    schrenk:
+        name: Icy Moons
+        copyright: Global map was produced by Dr. Paul Schenk (Lunar and Planetary Institute, Houston TX. Image data are from the Imaging Science Subsystem (ISS) on the Cassini orbiter (NASA, JPL).
+        license: Public Domain
+        url: https://www.lpi.usra.edu/icy_moons/
+    roatsch:
+        name: Roatsch, T., Kersten, E., Hoffmeister, A., Wahlisch, M.
+        copyright: Roatsch, T., Kersten, E., Hoffmeister, A., Wahlisch, M.
+        license: Public Domain
+        url: http://ciclops.org/ir_index_main.php
+    stooke:
+        name: Phil Stooke
+        copyright: Stooke, P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015.
+        license: Public Domain
+        url: https://sbn.psi.edu/pds/resource/stookemaps.html
+    thomas:
+        name: Peter Thomas
+        copyright: Thomas P., Small Body Optical Shape Models. EAR-A-5-DDR-SHAPE-MODELS-V2.1
+        license: Public Domain
+        url: https://sbn.psi.edu/pds/resource/oshape.html
+    thomas-saturn:
+        name: Peter Thomas
+        copyright: Thomas, P., Joseph, J., and Ansty, T., Saturn Small Moon Shape Models V1.0. urn:nasa:pds:saturn_satellite_shape_models::1.0. NASA Planetary Data System, 2018
+        license: Public Domain
+        url: https://sbn.psi.edu/pds/resource/saturnsatshapes.html
+    gaskell:
+        name: R.W. Gaskell
+        copyright: Gaskell, R.W., Gaskell Phoebe Shape Model V2.0. CO-SA-ISSNA-5-PHOEBESHAPE-V2.0. NASA Planetary Data System, 2013.
+        license: Public Domain
+        url: http://sbn.psi.edu/pds/resource/phoebeshape.html
+    olegpluton:
+        name: Oleg-Pluton
+        copyright: Oleg-Pluton
+        license: unknown
+        url: https://www.deviantart.com/oleg-pluton
+    higgins:
+        name: Jack Higgins
+        copyright: Copyright (C) Jack Higgins 2002-2003 et al.
+        license: Unknown
+        url: http://homepage.eircom.net/~jackcelestia/
+    ikuru:
+        name: Ikuru
+        copyright: unknown
+        license: unknown
+        url: https://www.ikiru.ch/celestia/index.php
+    snowfall:
+        name: Snowfall-The-Cat
+        copyright: Snowfall-The-Cat
+        license: "Public Domain with attribution"
+        url: https://www.deviantart.com/snowfall-the-cat
+    nasa-jpl-usgs:
+        name: NASA/JPL/USGS
+        copyright: NASA/JPL/USGS
+        license: Public Domain
+        url: https://maps.jpl.nasa.gov/
+    albers:
+        name: Steve Albers
+        copyright: Steve Albers
+        license: Personal non-commercial use only.
+        url: http://stevealbers.net/albers/sos/sos.html
+    johnston:
+        name: William Robert Johnston
+        copyright: William Robert Johnston
+        license: Public Domain
+        url: http://www.johnstonsarchive.net/spaceart/cylmaps.html
+    vanvliet:
+        name: John Van Vliet
+        copyright: John Van Vliet
+        license: CC BY SA
+        url: http://www.celestiamotherlode.net/catalog/show_creator_details.php?creator_id=10
+    fireon:
+        name: Fireon
+        copyright: Fireon
+        license: CC BY 3.0
+        url: https://www.deviantart.com/fireon12064
+    hutchison:
+        name: Grant Hutchison
+        copyright: Grant Hutchison
+        license: Pubic Domain ?
+        url: https://www.classe.cornell.edu/~seb/celestia/hutchison/index.html

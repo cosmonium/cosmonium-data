@@ -1,0 +1,182 @@
+- system:
+    name: Procedural System
+    orbit:
+        type: fixed
+        ra: 270
+        de: 0
+        distance: 10000
+    children:
+    - star:
+        name: Psol
+        magnitude: 4.83
+        spectral-type: K9V
+        rotation: sun
+    - planet:
+        name: Rock Demo
+        radius: 600
+        albedo: 0.3
+        orbit:
+            type: elliptic
+            semi-major-axis: 0.3
+            period: 0.3
+        rotation:
+            type: uniform
+            period: 96
+            period-units: Hour
+        surfaces:
+        - heightmap: moon
+          shape: patched-sphere
+          appearance:
+            texture: asteroid.jpg
+    - planet:
+        name: Planet Demo
+        radius: 6000
+        albedo: 0.3
+        orbit:
+            type: elliptic
+            semi-major-axis: 0.9
+            period: 1
+        rotation:
+            type: uniform
+            period: 23
+            period-units: Hour
+        atmosphere: oneil
+        surfaces:
+        - heightmap:
+            scale: 16000
+            filter: bspline
+            noise:
+                aliases:
+                    perlin: gpunoise:perlin
+                noise:
+                  add:
+                    - type: fbm
+                      noise: perlin
+                      octaves: 8
+                      length: 10000
+                    - type: fbm
+                      noise:
+                        ridged: perlin
+                      octaves: 12
+                      length: 20.0
+                      min: -3200
+                      max: 3200
+          appearance:
+              type: textures-dict
+              entries:
+                  grass: textures/grass/GrassGreenTexture0003.jpg
+                  snow: textures/snow/SnowIceTexture0007.jpg
+                  rock: textures/rock/SeamlessMixedStone0009.jpg
+                  gravel: textures/gravel/gravel_01.png
+                  soil: textures/soil/dirt_02.png
+              scale: [0.5, 0.5]
+          old_control:
+              type: colormap
+              percentage: true
+              entries:
+                - height: 0
+                  bottom: [0, 0, 0] #black
+                  top: [255, 120, 255] #Purple
+                - height: .2
+                  top: [120, 120, 255] #Blue
+                - height: .4
+                  top: [120, 255, 255] #Aqua
+                - height: .6
+                  top: [120, 255, 1201] #Green
+                - height: .7
+                  top: [255, 255, 120] #Yellow
+                - height: .9
+                  top: [255, 120, 120] #Red
+                - height: 1.0
+                  top: [255, 255, 255] #White
+                - height: 1.0
+                  top: [0, 0, 0] #black
+          control:
+              slope:
+                #- entry: dirt
+                - entry:
+                    height:
+                        - entry: soil
+                          height: -2000
+                          blend: 10
+                        - entry: grass
+                          height: 0
+                          blend: 10
+                        - entry: rock
+                          height: 1000
+                          blend: 10
+                        - entry: snow
+                          height: 3000
+                  angle: 5
+                  blend: 5
+                - entry: rock
+                  angle: 35
+                  blend: 10
+    - planet:
+        name: Gas Demo
+        radius: 60000
+        albedo: 0.3
+        ellipticity: 0.05
+        orbit:
+            type: elliptic
+            semi-major-axis: 3
+            period: 11
+        rotation:
+            type: uniform
+            period: 10
+            period-units: Hour
+        surfaces:
+          - shape: sqrt-sphere
+            appearance:
+              diffuse-color: [1.0, 0.988, 0.76, 1.0]
+              texture:
+                  type: procedural
+                  noise:
+                     aliases:
+                         perlin: gpunoise:perlin
+                     noise:
+                       min: 0.75
+                       type: warp
+                       noise:
+                         # 1D band noise
+                         type: 1d
+                         noise:
+                             type: fbm
+                             noise: perlin
+                             octaves: 3
+                             length: 0.04
+                       warp:
+                         add:
+                             # Simple warping
+                             - type: fbm
+                               noise: perlin
+                               octaves: 4
+                               length: 0.005
+                             - mul:
+                                 # Storms are made of intersecting thresholded noise
+                                 - threshold:
+                                   - abs:
+                                     type: scale
+                                     noise: perlin
+                                     scale: 5
+                                   - 0.
+                                 - threshold:
+                                   - abs:
+                                     type: scale
+                                     noise:
+                                       type: offset
+                                       noise: perlin
+                                       offset: 1
+                                     scale: 5
+                                   - 0.
+                                 - threshold:
+                                   - abs:
+                                     type: scale
+                                     noise:
+                                       type: offset
+                                       noise: perlin
+                                       offset: 2
+                                     scale: 5
+                                   - 0.
+                                 - 40.0
+                       strength: 0.1

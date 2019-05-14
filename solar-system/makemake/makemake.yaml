@@ -1,0 +1,38 @@
+system:
+    name: Makemake System
+    orbit: makemake
+    children:
+      - dwarfplanet:
+          name: Makemake
+          diameter: 1434
+          albedo: 0.81
+          surfaces:
+            - category: artistic
+              resolution: 2
+              source: solarsystemscope
+              appearance:
+                  texture: textures/makemake-artistic-solarsystemscope.jpg
+            - category: uniform
+              appearance:
+                  diffuse-color: [0.3, 0.3, 0.3, 1]
+          rotation:
+              type: uniform
+              period: 7.771
+              period-units: Hour
+      - moon:
+          name: [S/2015 (136472) 1, Makemake I]
+          diameter: 175
+          abledo: 0.1
+          surfaces:
+              - category: uniform
+                heightmap: moon
+                appearance:
+                    diffuse-color: [0.3, 0.3, 0.3, 1]
+                lighting-model: lunar-lambert
+          orbit:
+              type: elliptic
+              semi-major-axis: 21000
+              semi-major-axis-units: Km
+              period: 12.4
+              period-units: Day
+          rotation: unknown-synchronous
