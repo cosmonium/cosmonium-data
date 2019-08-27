@@ -7,8 +7,10 @@ moon:
       - category: visible
         resolution: vt:8
         source: vanvliet
+        lighting-model: oren-nayar
         appearance:
             texture: textures/moon-visible-vanvliet/moon-visible-vanvliet.ctx
             normalmap: textures/moon-normal-vanvliet/moon-normal-vanvliet.ctx
+            roughness: 0.9
     orbit: moon
     rotation: moon
