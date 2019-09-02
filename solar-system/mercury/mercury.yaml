@@ -5,7 +5,7 @@ planet:
     surfaces:
       - category: visible
         resolution: vt:32
-        source: vanvliet
+        attribution: vanvliet
         appearance:
             texture: textures/mercury-visible-vanvliet/mercury-visible-vanvliet.ctx
     orbit: mercury

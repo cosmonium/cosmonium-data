@@ -4,15 +4,15 @@
     albedo: 0.63
     surfaces:
       - category: visible
-        source: astropedia
+        attribution: astropedia
         appearance:
             texture: textures/io-visible-astropedia/io-visible-astropedia.ctx
       - category: monochromatic
-        source: astropedia
+        attribution: astropedia
         appearance:
             texture: textures/io-bw-astropedia/io-bw-astropedia.ctx
       - category: artistic
-        source: fargetanik
+        attribution: fargetanik
         appearance:
             texture: textures/io-artistic-fargetanik/io-artistic-fargetanik.ctx
     orbit: io
@@ -24,13 +24,13 @@
     albedo: 0.67
     surfaces:
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture:
                 file: textures/europa-visible-albers.png
                 offset: 180
       - category: monochromatic
-        source: astropedia
+        attribution: astropedia
         appearance:
             texture:
                 file: textures/europa-bw-astropedia/europa-bw-astropedia.ctx
@@ -44,15 +44,15 @@
     albedo: 0.43
     surfaces:
       - category: visible
-        source: astropedia
+        attribution: astropedia
         appearance:
             texture: textures/ganymede-visible-astropedia/ganymede-visible-astropedia.ctx
       - category: monochromatic
-        source: astropedia
+        attribution: astropedia
         appearance:
             texture: textures/ganymede-bw-astropedia/ganymede-bw-astropedia.ctx
       - category: artistic
-        source: olegpluton
+        attribution: olegpluton
         appearance:
             texture: textures/ganymede-artistic-olegpluton/ganymede-artistic-olegpluton.ctx
     orbit: ganymede
@@ -64,7 +64,7 @@
     albedo: 0.17
     surfaces:
       - category: monochromatic
-        source: astropedia
+        attribution: astropedia
         appearance:
             texture: textures/callisto-bw-astropedia/callisto-bw-astropedia.ctx
     orbit: callisto

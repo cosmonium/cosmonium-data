@@ -9,12 +9,12 @@ system:
           surfaces:
             - category: artistic
               resolution: vt:8
-              source: solarsystemscope
+              attribution: solarsystemscope
               appearance:
                   texture: textures/haumea-artistic-snowfall/haumea-artistic-snowfall.ctx
             - category: artistic
               resolution: 2
-              source: solarsystemscope
+              attribution: solarsystemscope
               appearance:
                   texture: textures/haumea-artistic-solarsystemscope.jpg
             - category: uniform
@@ -34,7 +34,7 @@ system:
                 heightmap: asteroid
                 appearance:
                     diffuse-color: [0.5, 0.5, 0.5, 1]
-                lighting-model: lunar-lambert
+                lighting-model: oren-nayar
           orbit: namaka
           rotation: unknown-synchronous
 
@@ -47,6 +47,6 @@ system:
                 heightmap: asteroid
                 appearance:
                     diffuse-color: [0.5, 0.5, 0.5, 1]
-                lighting-model: lunar-lambert
+                lighting-model: oren-nayar
           orbit: hiiaka
           rotation: unknown

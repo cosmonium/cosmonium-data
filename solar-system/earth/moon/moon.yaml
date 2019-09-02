@@ -6,7 +6,7 @@ moon:
     surfaces:
       - category: visible
         resolution: vt:8
-        source: vanvliet
+        attribution: vanvliet
         lighting-model: oren-nayar
         appearance:
             texture: textures/moon-visible-vanvliet/moon-visible-vanvliet.ctx

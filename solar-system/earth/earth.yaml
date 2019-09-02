@@ -12,12 +12,19 @@ system:
             surfaces:
               - category: visible
                 resolution: vt:8
-                source: solarsystemscope
                 appearance:
-                    texture: textures/earth-visible-solarsystemscope/earth-visible-solarsystemscope.ctx
-                    night-texture: textures/earth-night-nasa.png
-                    normalmap: textures/earth-normal-solarsystemscope/earth-normal-solarsystemscope.ctx
-                    specularmap: textures/earth-specular-solarsystemscope/earth-specular-solarsystemscope.ctx
+                    texture:
+                        file: textures/earth-visible-solarsystemscope/earth-visible-solarsystemscope.ctx
+                        attribution: solarsystemscope
+                    night-texture:
+                        file: textures/earth-night-nasa.png
+                        attribution: nasa-visible-earth
+                    normalmap:
+                        file: textures/earth-normal-solarsystemscope/earth-normal-solarsystemscope.ctx
+                        attribution: solarsystemscope
+                    specularmap:
+                        file: textures/earth-specular-solarsystemscope/earth-specular-solarsystemscope.ctx
+                        attribution: solarsystemscope
                     specular-color: [0.8, 0.8, 0.85, 1]
                     shininess: 100
             clouds:
@@ -25,7 +32,7 @@ system:
                     texture: textures/earth-clouds-visible-nasa/earth-clouds-visible-nasa.ctx
                     transparency: true
                 height: 7
-                source: nasa-visible-earth
+                attribution: nasa-visible-earth
             atmosphere: oneil
         - include: moon/moon.yaml
         - include: hst/hst.yaml

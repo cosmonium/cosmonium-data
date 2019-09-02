@@ -5,20 +5,20 @@ planet:
     surfaces:
       - category: radar
         resolution: vt:128
-        source: vanvliet
+        attribution: vanvliet
         appearance:
             texture: textures/venus-radar-vanvliet/venus-radar-vanvliet.ctx
             normalmap: textures/venus-normal-vanvliet/venus-normal-vanvliet.ctx
     clouds:
         category: visible
-        source: fargetanik
         resolution: 2
         appearance:
             texture: textures/venus-clouds-visible-fargetanik.jpg
+            attribution: fargetanik
         surfaces:
           - category: enhanced
             resolution: 4
-            source: solarsystemscope
+            attribution: solarsystemscope
             appearance:
                 texture: textures/venus-clouds-enhanced-solarsystemscope.jpg
         height: 50

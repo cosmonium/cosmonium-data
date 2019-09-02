@@ -4,17 +4,17 @@
     albedo: 0.962
     surfaces:
       - category: monochromatic
-        source: roatsch
+        attribution: roatsch
         appearance:
             texture: textures/mimas-bw-roatsch/mimas-bw-roatsch.ctx
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture:
                 file: textures/mimas-visible-albers.png
                 offset: 180
       - category: enhanced
-        source: schrenk
+        attribution: schrenk
         appearance:
             texture:
                 file: textures/mimas-enhanced-schrenk/mimas-enhanced-schrenk.ctx
@@ -28,17 +28,17 @@
     albedo: 1.375
     surfaces:
       - category: monochromatic
-        source: roatsch
+        attribution: roatsch
         appearance:
             texture: textures/enceladus-bw-roatsch/enceladus-bw-roatsch.ctx
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture:
                 file: textures/enceladus-visible-albers/enceladus-visible-albers.ctx
                 offset: 180
       - category: enhanced
-        source: schrenk
+        attribution: schrenk
         appearance:
             texture:
                 file: textures/enceladus-enhanced-schrenk/enceladus-enhanced-schrenk.ctx
@@ -52,17 +52,17 @@
     albedo: 1.229
     surfaces:
       - category: monochromatic
-        source: roatsch
+        attribution: roatsch
         appearance:
             texture: textures/tethys-bw-roatsch/tethys-bw-roatsch.ctx
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture:
                 file: textures/tethys-visible-albers.jpg
                 offset: 180
       - category: enhanced
-        source: schrenk
+        attribution: schrenk
         appearance:
             texture:
                 file: textures/tethys-enhanced-schrenk/tethys-enhanced-schrenk.ctx
@@ -76,17 +76,17 @@
     albedo: 0.998
     surfaces:
       - category: monochromatic
-        source: roatsch
+        attribution: roatsch
         appearance:
             texture: textures/dione-bw-roatsch/dione-bw-roatsch.ctx
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture:
                 file: textures/dione-visible-albers/dione-visible-albers.ctx
                 offset: 180
       - category: enhanced
-        source: schrenk
+        attribution: schrenk
         appearance:
             texture:
                 file: textures/dione-enhanced-schrenk/dione-enhanced-schrenk.ctx
@@ -100,17 +100,17 @@
     albedo: 0.949
     surfaces:
       - category: monochromatic
-        source: roatsch
+        attribution: roatsch
         appearance:
             texture: textures/rhea-bw-roatsch/rhea-bw-roatsch.ctx
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture:
                 file: textures/rhea-visible-albers/rhea-visible-albers.ctx
                 offset: 180
       - category: enhanced
-        source: schrenk
+        attribution: schrenk
         appearance:
             texture:
                 file: textures/rhea-enhanced-schrenk/rhea-enhanced-schrenk.ctx
@@ -125,12 +125,12 @@
     surfaces:
       - name: fargetanik
         category: radar
-        source: fargetanik
+        attribution: fargetanik
         appearance:
             texture: textures/titan-radar-fargetanik/titan-radar-fargetanik.ctx
       - name: nasa-iss
         category: radar
-        source: iss
+        attribution: iss
         appearance:
             texture: textures/titan-radar-iss.jpg
     clouds:
@@ -138,7 +138,7 @@
             texture: textures/titan-clouds-fargetanik.jpg
             transparency: False
         height: 190
-        source: fargetanik
+        attribution: fargetanik
     orbit: titan
     rotation: titan
 
@@ -147,14 +147,15 @@
     axes: [360, 266, 205]
     albedo: 0.3
     surfaces:
-      - source: stooke
-        shape:
-            mesh:
-                model: hyperion-stooke.ply
-                create-uv: true
+      - shape:
+            type: mesh
+            model: hyperion-stooke.ply
+            create-uv: true
+            attribution: stooke
         appearance:
             texture: textures/hyperion-artistic-jvv.png
-        lighting-model: lunar-lambert
+            attribution: vanvliet
+        lighting-model: oren-nayar
     orbit: hyperion
     rotation: hyperion
 
@@ -164,17 +165,17 @@
     albedo: 0.6
     surfaces:
       - category: monochromatic
-        source: roatsch
+        attribution: roatsch
         appearance:
             texture: textures/iapetus-bw-roatsch/iapetus-bw-roatsch.ctx
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture:
                 file: textures/iapetus-visible-albers/iapetus-visible-albers.ctx
                 offset: 180
       - category: enhanced
-        source: schrenk
+        attribution: schrenk
         appearance:
             texture:
                 file: textures/iapetus-enhanced-schrenk/iapetus-enhanced-schrenk.ctx
@@ -188,14 +189,15 @@
     albedo: 0.081
     surfaces:
       - category: visible
-        source: gaskell
         shape:
-            mesh:
-                model: phoebe-gaskell.ply
-                create-uv: true
+            type: mesh
+            model: phoebe-gaskell.ply
+            create-uv: true
+            attribution: gaskell
         appearance:
             texture: textures/phoebe-visible-albers.jpg
-        lighting-model: lunar-lambert
+            attribution: albers
+        lighting-model: oren-nayar
       - category: uniform
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]

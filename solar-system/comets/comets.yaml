@@ -4,11 +4,11 @@
     albedo: 0.04
     surfaces:
       - category: uniform
-        source: stooke
         shape:
-            mesh:
-                model: models/halley-stooke.ply
-                create-uv: true
+            type: mesh
+            model: models/halley-stooke.ply
+            create-uv: true
+            attribution: stooke
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: halley
@@ -19,13 +19,14 @@
     diameter: 7.6
     albedo: 0.04
     surfaces:
-      - source: farnham-tempel
-        shape:
-            mesh:
-                model: models/tempel1-farnham.ply
-                create-uv: true
+      - shape:
+            type: mesh
+            model: models/tempel1-farnham.ply
+            create-uv: true
+            attribution: farnham-tempel
         appearance:
             texture: textures/tempel1-visible-farnham.jpg
+            attribution: farnham-tempel
       - name: uniform
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
@@ -38,11 +39,11 @@
     albedo: 0.06
     surfaces:
       - category: uniform
-        source: spc
         shape:
-            mesh:
-                 model: models/67p-spc.ply
-                 create-uv: true
+            type: mesh
+            model: models/67p-spc.ply
+            create-uv: true
+            attribution: spc
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: 67p
@@ -53,13 +54,14 @@
     diameter: 5.5
     albedo: 0.059
     surfaces:
-      - source: farnham-wild
-        shape:
-            mesh:
-                model: models/wild2-farnham.ply
-                create-uv: true
+      - shape:
+            type: mesh
+            model: models/wild2-farnham.ply
+            create-uv: true
+            attribution: farnham-wild
         appearance:
             texture: textures/wild2-visible-stooke.jpg
+            attribution: stooke
       - category: uniform
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
@@ -71,20 +73,21 @@
     diameter: 1.6
     albedo: 0.028
     surfaces:
-      - source: farnham-hartley
-        shape:
-            mesh:
-                model: models/hartley2-farnham.ply
-                create-uv: true
+      - shape:
+            type: mesh
+            model: models/hartley2-farnham.ply
+            create-uv: true
+            attribution: farnham-hartley
         appearance:
             texture: textures/hartley2-visible-farnham.jpg
+            attribution: farnham-hartley
       - category: uniform
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: 103p
     rotation: chaotic
 
-- data-sources:
+- attributions:
     farnham-tempel:
         name: Farnham, T.L. and Thomas, P.C.
         copyright: Farnham, T.L. and Thomas, P.C, PLATE SHAPE MODEL OF COMET 9P/TEMPEL 1 V2.0, DIF-C-HRIV/ITS/MRI-5-TEMPEL1-SHAPE-MODEL-V2.0, NASA Planetary Data System, 2013.

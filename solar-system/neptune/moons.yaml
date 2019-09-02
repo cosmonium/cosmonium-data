@@ -4,14 +4,14 @@
     albedo: 0.096
     surfaces:
       - category: uniform
-        source: stooke
         shape:
-            mesh:
-                model: proteus-stooke.ply
-                create-uv: true
+            type: mesh
+            model: proteus-stooke.ply
+            create-uv: true
+            attribution: stooke
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: proteus
     rotation: proteus
 
@@ -21,13 +21,13 @@
     albedo: 0.719
     surfaces:
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture:
                 file: textures/triton-visible-albers.png
                 offset: 180
       - category: enhanced
-        source: schrenk
+        attribution: schrenk
         appearance:
             texture:
                 file: textures/triton-enhanced-schrenk/triton-enhanced-schrenk.ctx
@@ -44,6 +44,6 @@
         heightmap: moon
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: nereid
     rotation: chaotic

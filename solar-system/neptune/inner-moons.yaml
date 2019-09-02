@@ -7,7 +7,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: naiad
     rotation: naiad
 
@@ -20,7 +20,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: thalassa
     rotation: thalassa
 
@@ -33,7 +33,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: despina
     rotation: despina
 
@@ -46,7 +46,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: galatea
     rotation: galatea
 
@@ -55,18 +55,18 @@
     diameter: 216
     albedo: 0.091
     surfaces:
-      - source: stooke
-        shape:
-            mesh:
-                model: larissa-stooke.ply
-                create-uv: true
+      - shape:
+            type: mesh
+            model: larissa-stooke.ply
+            create-uv: true
+            attribution: stooke
         appearance:
             texture: textures/larissa-visible-fireon.png
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
       - category: artistic
-        source: snowfall
         appearance:
             texture: textures/larissa-artistic-snowfall.jpg
+            attribution: snowfall
       - category: uniform
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]

@@ -10,10 +10,10 @@ system:
             point-color: [1, 0.75, 0.7]
             surfaces:
                 - category: visible
-                  source: vanvliet
                   appearance:
                       texture: textures/mars-surface-vanvliet/mars-surface-vanvliet.ctx
                       normalmap: textures/mars-normal-vanvliet/mars-normal-vanvliet.ctx
+                      attribution: vanvliet
             rotation: mars
         - moon:
             name: Phobos
@@ -21,18 +21,19 @@ system:
             albedo: 0.071
             surfaces:
                 - category: visible
-                  source: thomas
                   shape:
-                      mesh:
-                          model: phobos-thomas.ply
-                          create-uv: true
+                      type: mesh
+                      model: phobos-thomas.ply
+                      attribution: thomas
+                      create-uv: true
                   appearance:
                       texture: textures/phobos-bw-stooke.png
-                  lighting-model: lunar-lambert
+                      attribution: stooke
+                  lighting-model: oren-nayar
                 - category: topographic
-                  source: thomas
                   appearance:
-                      texture: phobos-topographic-thomas.jpg
+                      texture: textures/phobos-topographic-thomas.jpg
+                      attribution: thomas
                   lighting-model: flat
             orbit: phobos
             rotation: phobos
@@ -42,13 +43,13 @@ system:
             albedo: 0.068
             surfaces:
                 - category: visible
-                  source: thomas
                   shape:
-                      mesh:
-                          model: deimos-thomas.ply
-                          create-uv: true
+                      type: mesh
+                      model: deimos-thomas.ply
+                      attribution: thomas
+                      create-uv: true
                   appearance:
                       texture: textures/deimos-bw-stooke.png
-                  lighting-model: lunar-lambert
+                  lighting-model: oren-nayar
             orbit: deimos
             rotation: deimos
