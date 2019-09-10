@@ -43,7 +43,7 @@
         atmosphere: oneil
         surfaces:
         - heightmap:
-            scale: 16000
+            max-height: 16000
             filter: bspline
             noise:
                 aliases:
@@ -54,6 +54,8 @@
                       noise: perlin
                       octaves: 8
                       length: 10000
+                      min: -16000
+                      max: 16000
                     - type: fbm
                       noise:
                         ridged: perlin
