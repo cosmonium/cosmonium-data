@@ -44,7 +44,8 @@
         surfaces:
         - heightmap:
             max-height: 16000
-            filter: bspline
+            interpolator: bspline
+            max-lod: 12
             noise:
                 aliases:
                     perlin: gpunoise:perlin
