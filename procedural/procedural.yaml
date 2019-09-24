@@ -161,7 +161,7 @@
         name: Gas Demo
         radius: 60000
         albedo: 0.3
-        ellipticity: 0.5
+        ellipticity: 0.05
         orbit:
             type: elliptic
             semi-major-axis: 3
@@ -171,13 +171,6 @@
             period: 10
             period-units: Hour
             inclination: -10
-        rings:
-            inner-radius: 74500
-            outer-radius: 140220
-            appearance:
-                texture: textures/saturn-rings-gh.png
-                transparency: true
-            attribution: hutchison
         surfaces:
           - shape: sqrt-sphere
             appearance:
@@ -233,21 +226,3 @@
                                    - 0.
                                  - 40.0
                        strength: 0.1
-    - planet:
-        name: SE Demo
-        radius: 6000
-        albedo: 0.3
-        orbit:
-            type: elliptic
-            semi-major-axis: 4
-            period: 20
-        rotation:
-            type: uniform
-            period: 96
-            period-units: Hour
-        surfaces:
-        - shape: se-sphere
-          appearance:
-            texture: textures/Earth-Cube
-            specular-color: [1, 1, 1, 1]
-            shininess: 100
