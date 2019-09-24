@@ -47,6 +47,10 @@
         copyright: Roatsch, T., Kersten, E., Hoffmeister, A., Wahlisch, M.
         license: Public Domain
         url: http://ciclops.org/ir_index_main.php
+    frieger:
+        name: Greg Frieger
+        copyright: 2013-2018 Greg Frieger
+        url: https://space.frieger.com/asteroids/
     stooke:
         name: Phil Stooke
         copyright: Stooke, P., Stooke Small Bodies Maps V3.0. MULTI-SA-MULTI-6-STOOKEMAPS-V3.0. NASA Planetary Data System, 2015.

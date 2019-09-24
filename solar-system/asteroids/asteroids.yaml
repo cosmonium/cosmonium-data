@@ -8,7 +8,7 @@
             type: mesh
             model: models/pallas-hanus.ply
             create-uv: true
-            attribution: hanus
+            attribution: [hanus, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: pallas
@@ -24,7 +24,7 @@
             type: mesh
             model: models/juno-viikinkoski.ply
             create-uv: true
-            attribution: viikinkoski
+            attribution: [viikinkoski, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: juno
@@ -45,7 +45,7 @@
             type: mesh
             model: models/vesta-dawn-hamo.ply
             create-uv: true
-            attribution: dawn-hamo
+            attribution: [dawn-hamo, frieger]
         appearance:
             texture: textures/vesta-visible-dlr.png
       - category: uniform

@@ -8,7 +8,7 @@
             type: mesh
             model: models/halley-stooke.ply
             create-uv: true
-            attribution: stooke
+            attribution: [stooke, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: halley
@@ -23,7 +23,7 @@
             type: mesh
             model: models/tempel1-farnham.ply
             create-uv: true
-            attribution: farnham-tempel
+            attribution: [farnham-tempel, frieger]
         appearance:
             texture: textures/tempel1-visible-farnham.jpg
             attribution: farnham-tempel
@@ -43,7 +43,7 @@
             type: mesh
             model: models/67p-spc.ply
             create-uv: true
-            attribution: spc
+            attribution: [spc, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: 67p
@@ -58,7 +58,7 @@
             type: mesh
             model: models/wild2-farnham.ply
             create-uv: true
-            attribution: farnham-wild
+            attribution: [farnham-wild, frieger]
         appearance:
             texture: textures/wild2-visible-stooke.jpg
             attribution: stooke
@@ -77,7 +77,7 @@
             type: mesh
             model: models/hartley2-farnham.ply
             create-uv: true
-            attribution: farnham-hartley
+            attribution: [farnham-hartley, frieger]
         appearance:
             texture: textures/hartley2-visible-farnham.jpg
             attribution: farnham-hartley

@@ -151,7 +151,7 @@
             type: mesh
             model: hyperion-stooke.ply
             create-uv: true
-            attribution: stooke
+            attribution: [stooke, frieger]
         appearance:
             texture: textures/hyperion-artistic-jvv.png
             attribution: vanvliet
@@ -193,7 +193,7 @@
             type: mesh
             model: phoebe-gaskell.ply
             create-uv: true
-            attribution: gaskell
+            attribution: [gaskell, frieger]
         appearance:
             texture: textures/phoebe-visible-albers.jpg
             attribution: albers

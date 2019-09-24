@@ -7,7 +7,7 @@
             type: mesh
             model: pan-thomas.ply
             create-uv: true
-            attribution: thomas-saturn
+            attribution: [thomas-saturn, frieger]
         appearance:
             texture: textures/pan-visible-firion.png
             attribution: firion
@@ -28,7 +28,7 @@
             type: mesh
             model: daphnis-thomas.ply
             create-uv: true
-            attribution: thomas-saturn
+            attribution: [thomas-saturn, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
         lighting-model: oren-nayar
@@ -44,7 +44,7 @@
             type: mesh
             model: atlas-thomas.ply
             create-uv: true
-            attribution: thomas-saturn
+            attribution: [thomas-saturn, frieger]
         appearance:
             texture: textures/atlas-visible-firion.png
             attribution: firion
@@ -65,7 +65,7 @@
             type: mesh
             model: prometheus-thomas.ply
             create-uv: true
-            attribution: oren-nayar
+            attribution: [thomas, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
         lighting-model: oren-nayar
@@ -82,7 +82,7 @@
             type: mesh
             model: pandora-thomas.ply
             create-uv: true
-            attribution: thomas-saturn
+            attribution: [thomas-saturn, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
         lighting-model: oren-nayar
@@ -99,7 +99,7 @@
             type: mesh
             model: janus-thomas.ply
             create-uv: true
-            attribution: thomas-saturn
+            attribution: [thomas-saturn, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
         lighting-model: oren-nayar
@@ -115,7 +115,7 @@
             type: mesh
             model: epimetheus-thomas.ply
             create-uv: true
-            attribution: thomas-saturn
+            attribution: [thomas-saturn, frieger]
         appearance:
             texture: textures/epimetheus-visible-firion.jpg
             attribution: firion

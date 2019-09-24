@@ -59,7 +59,7 @@
             type: mesh
             model: larissa-stooke.ply
             create-uv: true
-            attribution: stooke
+            attribution: [stooke, frieger]
         appearance:
             texture: textures/larissa-visible-fireon.png
         lighting-model: oren-nayar

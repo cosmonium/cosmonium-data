@@ -24,7 +24,7 @@ system:
                   shape:
                       type: mesh
                       model: phobos-thomas.ply
-                      attribution: thomas
+                      attribution: [thomas, frieger]
                       create-uv: true
                   appearance:
                       texture: textures/phobos-bw-stooke.png
@@ -46,7 +46,7 @@ system:
                   shape:
                       type: mesh
                       model: deimos-thomas.ply
-                      attribution: thomas
+                      attribution: [thomas, frieger]
                       create-uv: true
                   appearance:
                       texture: textures/deimos-bw-stooke.png

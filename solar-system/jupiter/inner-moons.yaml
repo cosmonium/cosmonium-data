@@ -40,7 +40,7 @@
             type: mesh
             model: amalthea-stooke.ply
             create-uv: true
-            attribution: stooke
+            attribution: [stooke, frieger]
         appearance:
             texture: textures/amalthea-bw-stooke.jpg
             attribution: stooke
@@ -65,7 +65,7 @@
             type: mesh
             model: thebe-stooke.ply
             create-uv: true
-            attribution: stooke
+            attribution: [stooke, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
         lighting-model: oren-nayar
