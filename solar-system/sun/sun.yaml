@@ -1,6 +1,5 @@
 star:
     name: [Sun, Sol]
-    primary: true
     radius: 695700
     temperature: 5780
     magnitude: 4.83

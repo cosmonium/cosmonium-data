@@ -9,7 +9,7 @@ system:
           surfaces:
             - category: artistic
               resolution: 2
-              source: solarsystemscope
+              attribution: solarsystemscope
               appearance:
                   texture: textures/makemake-artistic-solarsystemscope.jpg
             - category: uniform
@@ -28,7 +28,7 @@ system:
                 heightmap: moon
                 appearance:
                     diffuse-color: [0.3, 0.3, 0.3, 1]
-                lighting-model: lunar-lambert
+                lighting-model: oren-nayar
           orbit:
               type: elliptic
               semi-major-axis: 21000

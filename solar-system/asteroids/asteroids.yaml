@@ -4,11 +4,11 @@
     albedo: 0.159
     surfaces:
       - category: uniform
-        source: hanus
         shape:
-            mesh:
-                model: models/pallas-hanus.ply
-                create-uv: true
+            type: mesh
+            model: models/pallas-hanus.ply
+            create-uv: true
+            attribution: [hanus, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: pallas
@@ -20,11 +20,11 @@
     albedo: 0.238
     surfaces:
       - category: uniform
-        source: viikinkoski
         shape:
-            mesh:
-                model: models/juno-viikinkoski.ply
-                create-uv: true
+            type: mesh
+            model: models/juno-viikinkoski.ply
+            create-uv: true
+            attribution: [viikinkoski, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: juno
@@ -41,11 +41,11 @@
     diameter: 572.6
     albedo: 0.423
     surfaces:
-      - source: dawn-hamo
-        shape:
-            mesh:
-                model: models/vesta-dawn-hamo.ply
-                create-uv: true
+      - shape:
+            type: mesh
+            model: models/vesta-dawn-hamo.ply
+            create-uv: true
+            attribution: [dawn-hamo, frieger]
         appearance:
             texture: textures/vesta-visible-dlr.png
       - category: uniform
@@ -54,7 +54,7 @@
     orbit: vesta
     rotation: vesta
 
-- data-sources:
+- attributions:
     dawn-hamo:
         name: Dawn FC2 Vesta Encounter HAMO Digital Terrain Model (DTM) SPG
         license: Public Domain

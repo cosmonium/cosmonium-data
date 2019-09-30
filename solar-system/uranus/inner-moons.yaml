@@ -7,7 +7,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: cordelia
     rotation: unknown-synchronous
 
@@ -20,7 +20,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: ophelia
     rotation: ophelia
 
@@ -33,7 +33,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: bianca
     rotation: bianca
 
@@ -46,7 +46,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: cressida
     rotation: cressida
 
@@ -59,7 +59,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: desdemona
     rotation: desdemona
 
@@ -72,7 +72,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: juliet
     rotation: juliet
 
@@ -85,7 +85,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: portia
     rotation: portia
 
@@ -98,7 +98,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: rosalind
     rotation: rosalind
 
@@ -111,7 +111,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: cupid
     rotation: unknown-synchronous
 
@@ -124,7 +124,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: belinda
     rotation: belinda
 
@@ -137,7 +137,7 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: perdita
     rotation: unknown-synchronous
 
@@ -147,13 +147,13 @@
     albedo: 0.104
     surfaces:
       - category: uniform
-        source: higgins
         shape:
-            mesh:
-                model: puck.3ds
+            type: mesh
+            model: puck.3ds
+            attribution: higgins
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: puck
     rotation: puck
 
@@ -166,6 +166,6 @@
         heightmap: asteroid
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: mab
     rotation: unknown-synchronous

@@ -3,14 +3,15 @@
     diameter: 34
     albedo: 0.5
     surfaces:
-      - source: thomas-saturn
-        shape:
-            mesh:
-                model: pan-thomas.ply
-                create-uv: true
+      - shape:
+            type: mesh
+            model: pan-thomas.ply
+            create-uv: true
+            attribution: [thomas-saturn, frieger]
         appearance:
             texture: textures/pan-visible-firion.png
-        lighting-model: lunar-lambert
+            attribution: firion
+        lighting-model: oren-nayar
       - category: uniform
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
@@ -23,14 +24,14 @@
     albedo: 0.5
     surfaces:
       - category: uniform
-        source: thomas-saturn
         shape:
-            mesh:
-                model: daphnis-thomas.ply
-                create-uv: true
+            type: mesh
+            model: daphnis-thomas.ply
+            create-uv: true
+            attribution: [thomas-saturn, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: daphnis
     rotation: unknown-synchronous
 
@@ -39,14 +40,15 @@
     diameter: 41
     albedo: 0.4
     surfaces:
-      - source: thomas-saturn
-        shape:
-            mesh:
-                model: atlas-thomas.ply
-                create-uv: true
+      - shape:
+            type: mesh
+            model: atlas-thomas.ply
+            create-uv: true
+            attribution: [thomas-saturn, frieger]
         appearance:
             texture: textures/atlas-visible-firion.png
-        lighting-model: lunar-lambert
+            attribution: firion
+        lighting-model: oren-nayar
       - category: uniform
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
@@ -59,14 +61,14 @@
     albedo: 0.6
     surfaces:
       - category: uniform
-        source: thomas-saturn
         shape:
-            mesh:
-                model: prometheus-thomas.ply
-                create-uv: true
+            type: mesh
+            model: prometheus-thomas.ply
+            create-uv: true
+            attribution: [thomas, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: prometheus
     rotation: prometheus
 
@@ -76,14 +78,14 @@
     albedo: 0.5
     surfaces:
       - category: uniform
-        source: thomas-saturn
         shape:
-            mesh:
-                model: pandora-thomas.ply
-                create-uv: true
+            type: mesh
+            model: pandora-thomas.ply
+            create-uv: true
+            attribution: [thomas-saturn, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: pandora
     rotation: pandora
 
@@ -93,14 +95,14 @@
     albedo: 0.71
     surfaces:
       - category: uniform
-        source: thomas-saturn
         shape:
-            mesh:
-                model: janus-thomas.ply
-                create-uv: true
+            type: mesh
+            model: janus-thomas.ply
+            create-uv: true
+            attribution: [thomas-saturn, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: janus
     rotation: janus
 
@@ -109,14 +111,15 @@
     diameter: 130
     albedo: 0.73
     surfaces:
-      - source: thomas-saturn
-        shape:
-            mesh:
-                model: epimetheus-thomas.ply
-                create-uv: true
+      - shape:
+            type: mesh
+            model: epimetheus-thomas.ply
+            create-uv: true
+            attribution: [thomas-saturn, frieger]
         appearance:
             texture: textures/epimetheus-visible-firion.jpg
-        lighting-model: lunar-lambert
+            attribution: firion
+        lighting-model: oren-nayar
       - category: uniform
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]

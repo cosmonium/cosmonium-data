@@ -4,13 +4,13 @@
     albedo: 0.061
     surfaces:
       - category: uniform
-        source: higgins
         shape:
-            mesh:
-                model: metis-higgins.3ds
+            type: mesh
+            model: metis-higgins.3ds
+            attribution: higgins
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: metis
     rotation: metis
 
@@ -20,13 +20,13 @@
     albedo: 0.1
     surfaces:
       - category: uniform
-        source: higgins
         shape:
-            mesh:
-                model: adrastea-higgins.3ds
+            type: mesh
+            model: adrastea-higgins.3ds
+            attribution: higgins
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
     orbit: adrastea
     rotation: adrastea
 
@@ -36,18 +36,19 @@
     albedo: 0.090
     surfaces:
       - category: monochromatic
-        source: stooke
         shape:
-            mesh:
-                model: amalthea-stooke.ply
-                create-uv: true
+            type: mesh
+            model: amalthea-stooke.ply
+            create-uv: true
+            attribution: [stooke, frieger]
         appearance:
             texture: textures/amalthea-bw-stooke.jpg
-        lighting-model: lunar-lambert
+            attribution: stooke
+        lighting-model: oren-nayar
       - category: artistic
-        source: olegpluton
         appearance:
             texture: textures/amalthea-artistic-olegpluton.png
+            attribution: olegpluton
       - category: uniform
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
@@ -60,17 +61,17 @@
     albedo: 0.047
     surfaces:
       - category: uniform
-        source: stooke
         shape:
-            mesh:
-                model: thebe-stooke.ply
-                create-uv: true
+            type: mesh
+            model: thebe-stooke.ply
+            create-uv: true
+            attribution: [stooke, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
       - category: artistic
-        source: ikuru
         appearance:
             texture: textures/thebe-artistic-ikuru.jpg
+            attribution: ikuru
     orbit: thebe
     rotation: thebe

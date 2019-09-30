@@ -9,7 +9,7 @@ system:
           surfaces:
             - category: artistic
               resolution: 2
-              source: solarsystemscope
+              attribution: solarsystemscope
               appearance:
                   texture: textures/eris-artistic-solarsystemscope.jpg
             - category: uniform
@@ -28,6 +28,6 @@ system:
                 heightmap: moon
                 appearance:
                     diffuse-color: [0.38, 0.3, 0.25, 1]
-                lighting-model: lunar-lambert
+                lighting-model: oren-nayar
           orbit: dysnomia
           rotation: unknown-synchronous

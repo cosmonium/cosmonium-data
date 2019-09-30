@@ -4,16 +4,16 @@
     albedo: 0.32
     surfaces:
       - category: visible
-        source: johnston
+        attribution: johnston
         appearance:
             texture: textures/miranda-visible-johnston.jpg
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
       - category: monochromatic
-        source: nasa-jpl-usgs
+        attribution: nasa-jpl-usgs
         appearance:
             texture: textures/miranda-bw-nasa.png
       - category: artistic
-        source: snowfall
+        attribution: snowfall
         appearance:
             texture: miranda-artistic-snowfall.jpg
     orbit: miranda
@@ -25,18 +25,18 @@
     albedo: 0.39
     surfaces:
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture:
                  file: textures/ariel-visible-albers.png
                  offset: 180
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
       - category: monochromatic
-        source: nasa-jpl-usgs
+        attribution: nasa-jpl-usgs
         appearance:
             texture: textures/ariel-bw-nasa.png
       - category: artistic
-        source: snowfall
+        attribution: snowfall
         appearance:
             texture: ariel-artistic-snowfall.jpg
     orbit: ariel
@@ -48,16 +48,16 @@
     albedo: 0.21
     surfaces:
       - category: visible
-        source: stooke
+        attribution: stooke
         appearance:
             texture: textures/umbriel-visible-stooke.jpg
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
       - category: monochromatic
-        source: nasa-jpl-usgs
+        attribution: nasa-jpl-usgs
         appearance:
             texture: textures/umbriel-bw-nasa.png
       - category: artistic
-        source: snowfall
+        attribution: snowfall
         appearance:
             texture: umbriel-artistic-snowfall.jpg
     orbit: umbriel
@@ -69,16 +69,16 @@
     albedo: 0.27
     surfaces:
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture: textures/titania-visible-albers.jpg
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
       - category: monochromatic
-        source: nasa-jpl-usgs
+        attribution: nasa-jpl-usgs
         appearance:
             texture: textures/titania-bw-nasa.png
       - category: artistic
-        source: snowfall
+        attribution: snowfall
         appearance:
             texture: titania-artistic-snowfall.jpg
     orbit: titania
@@ -90,16 +90,16 @@
     albedo: 0.23
     surfaces:
       - category: visible
-        source: albers
+        attribution: albers
         appearance:
             texture: textures/oberon-visible-albers.png
-        lighting-model: lunar-lambert
+        lighting-model: oren-nayar
       - category: monochromatic
-        source: nasa-jpl-usgs
+        attribution: nasa-jpl-usgs
         appearance:
             texture: textures/oberon-bw-nasa.png
       - category: artistic
-        source: snowfall
+        attribution: snowfall
         appearance:
             texture: oberon-artistic-snowfall.jpg
     orbit: oberon

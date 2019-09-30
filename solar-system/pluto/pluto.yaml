@@ -8,12 +8,12 @@ system:
             albedo: 0.3
             surfaces:
               - category: monochromatic
-                source: nasa-jpl-usgs
+                attribution: nasa-jpl-usgs
                 resolution: vt:16
                 appearance:
                     texture: textures/pluto-bw-nasa/pluto-bw-nasa.ctx
               - category: artistic
-                source: fargetanik
+                attribution: fargetanik
                 resolution: vt:16
                 appearance:
                     texture: textures/pluto-artistic-fargetanik/pluto-albedo.ctx

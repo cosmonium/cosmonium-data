@@ -10,12 +10,12 @@ system:
             surfaces:
               - category: visible
                 resolution: 2
-                source: askaniy
+                attribution: askaniy
                 appearance:
                     texture: textures/neptune-visible-askaniy.png
               - category: artistic
                 resolution: 2
-                source: snowfall
+                attribution: snowfall
                 appearance:
                     texture: textures/neptune-artistic-snowfall.png
             rotation: neptune

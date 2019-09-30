@@ -4,11 +4,11 @@ dwarfplanet:
     albedo: 0.090
     surfaces:
       - category: monochromatic
-        source: nasa-jpl-usgs
+        attribution: nasa-jpl-usgs
         appearance:
             texture: textures/ceres-bw-nasa/ceres-bw-nasa.ctx
       - category: artistic
-        source: fargetanik
+        attribution: fargetanik
         appearance:
             texture: textures/ceres-artistic-fargetanik/ceres-artistic-fargetanik.ctx
     orbit: ceres

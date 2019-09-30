@@ -23,7 +23,7 @@
                 category: uniform
                 appearance:
                     diffuse-color: [0.3, 0.3, 0.3, 1]
-                lighting-model: lunar-lambert
+                lighting-model: oren-nayar
           orbit: s2007or101
           rotation: unknown-synchronous
 
@@ -52,7 +52,7 @@
                 heightmap: moon
                 appearance:
                     diffuse-color: [0.3, 0.3, 0.3, 1]
-                lighting-model: lunar-lambert
+                lighting-model: oren-nayar
           orbit: weywot
           rotation: unknown-synchronous
 
@@ -108,7 +108,7 @@
                 heightmap: moon
                 appearance:
                     diffuse-color: [0.3, 0.3, 0.3, 1]
-                lighting-model: lunar-lambert
+                lighting-model: oren-nayar
           orbit: vanth
           rotation: unknown-synchronous
 
@@ -137,6 +137,6 @@
                 heightmap: moon
                 appearance:
                     diffuse-color: [0.3, 0.3, 0.3, 1]
-                lighting-model: lunar-lambert
+                lighting-model: oren-nayar
           orbit: actaea
           rotation: unknown-synchronous

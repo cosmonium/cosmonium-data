@@ -43,24 +43,68 @@
         atmosphere: oneil
         surfaces:
         - heightmap:
-            scale: 16000
-            filter: bspline
+            max-height: 16000
+            interpolator: bspline
+            max-lod: 12
             noise:
                 aliases:
                     perlin: gpunoise:perlin
+                    cellular: stegu:cellulardiff
                 noise:
                   add:
-                    - type: fbm
-                      noise: perlin
-                      octaves: 8
-                      length: 10000
-                    - type: fbm
-                      noise:
-                        ridged: perlin
-                      octaves: 12
-                      length: 20.0
-                      min: -3200
-                      max: 3200
+                  - -10.0
+                  - mul:
+                    - clamp:
+                        noise:
+                          offset:
+                            offset: -100.0
+                            noise:
+                              fbm:
+                                noise:
+                                  cube: perlin
+                                octaves: 4
+                                length: 5000
+                                scale: 40
+                    - fbm:
+                        noise:
+                          square: perlin
+                        octaves: 4
+                        length: 50
+                        min: -1000.0
+                        max: 0.0
+                  - mul:
+                    - clamp:
+                        noise:
+                          offset:
+                            offset: 100.0
+                            noise:
+                              fbm:
+                                noise:
+                                  cube: perlin
+                                octaves: 4
+                                length: 5000
+                                scale: 40
+                    - add:
+                        - fbm:
+                            noise:
+                              ridged: perlin
+                            octaves: 8
+                            length: 2
+                            scale: 500
+                        - fbm:
+                            noise:
+                              type: cellular
+                              fast: false
+                            octaves: 3
+                            length: 10
+                            scale: 3200
+                        - fbm:
+                            noise:
+                              ridged:
+                                noise: perlin
+                            octaves: 8
+                            length: 2000
+                            scale: 6000
           appearance:
               type: textures-dict
               entries:
@@ -70,6 +114,7 @@
                   gravel: textures/gravel/gravel_01.png
                   soil: textures/soil/dirt_02.png
               scale: [0.5, 0.5]
+              tiling: hash
           old_control:
               type: colormap
               percentage: true
@@ -125,6 +170,7 @@
             type: uniform
             period: 10
             period-units: Hour
+            inclination: -10
         surfaces:
           - shape: sqrt-sphere
             appearance:
