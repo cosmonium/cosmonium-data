@@ -16,3 +16,4 @@ system:
             rotation: jupiter
         - include: inner-moons.yaml
         - include: moons.yaml
+        - include: irregular-moons.yaml

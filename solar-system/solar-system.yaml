@@ -1,6 +1,8 @@
+- include: ssd.yaml
+- include: manual-orbits.yaml
 - system:
     name: Sol System
-    orbit: kepler:sol-system
+    orbit: sol-system
     children:
     - include: sun/sun.yaml
     - include: mercury/mercury.yaml

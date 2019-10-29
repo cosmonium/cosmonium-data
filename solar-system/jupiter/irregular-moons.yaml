@@ -1,0 +1,720 @@
+- minormoon:
+    name: Callisto
+    radius: 2410.3
+    albedo: 0.17
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: callisto
+    rotation: unknown
+- minormoon:
+    name: Himalia
+    radius: 85
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: himalia
+    rotation: unknown
+- minormoon:
+    name: Elara
+    radius: 43
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: elara
+    rotation: unknown
+- minormoon:
+    name: Pasiphae
+    radius: 30
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: pasiphae
+    rotation: unknown
+- minormoon:
+    name: Sinope
+    radius: 19
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: sinope
+    rotation: unknown
+- minormoon:
+    name: Lysithea
+    radius: 18
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: lysithea
+    rotation: unknown
+- minormoon:
+    name: Carme
+    radius: 23
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: carme
+    rotation: unknown
+- minormoon:
+    name: Ananke
+    radius: 14
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: ananke
+    rotation: unknown
+- minormoon:
+    name: Leda
+    radius: 10
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: leda
+    rotation: unknown
+- minormoon:
+    name: Callirrhoe
+    radius: 4.3
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: callirrhoe
+    rotation: unknown
+- minormoon:
+    name: Themisto
+    radius: 4.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: themisto
+    rotation: unknown
+- minormoon:
+    name: Megaclite
+    radius: 2.7
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: megaclite
+    rotation: unknown
+- minormoon:
+    name: Taygete
+    radius: 2.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: taygete
+    rotation: unknown
+- minormoon:
+    name: Chaldene
+    radius: 1.9
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: chaldene
+    rotation: unknown
+- minormoon:
+    name: Harpalyke
+    radius: 2.2
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: harpalyke
+    rotation: unknown
+- minormoon:
+    name: Kalyke
+    radius: 2.6
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: kalyke
+    rotation: unknown
+- minormoon:
+    name: Iocaste
+    radius: 2.6
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: iocaste
+    rotation: unknown
+- minormoon:
+    name: Erinome
+    radius: 1.6
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: erinome
+    rotation: unknown
+- minormoon:
+    name: Isonoe
+    radius: 1.9
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: isonoe
+    rotation: unknown
+- minormoon:
+    name: Praxidike
+    radius: 3.4
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: praxidike
+    rotation: unknown
+- minormoon:
+    name: Autonoe
+    radius: 2.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: autonoe
+    rotation: unknown
+- minormoon:
+    name: Thyone
+    radius: 2.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: thyone
+    rotation: unknown
+- minormoon:
+    name: Hermippe
+    radius: 2.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: hermippe
+    rotation: unknown
+- minormoon:
+    name: Aitne
+    radius: 1.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: aitne
+    rotation: unknown
+- minormoon:
+    name: Eurydome
+    radius: 1.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: eurydome
+    rotation: unknown
+- minormoon:
+    name: Euanthe
+    radius: 1.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: euanthe
+    rotation: unknown
+- minormoon:
+    name: Euporie
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: euporie
+    rotation: unknown
+- minormoon:
+    name: Orthosie
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: orthosie
+    rotation: unknown
+- minormoon:
+    name: Sponde
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: sponde
+    rotation: unknown
+- minormoon:
+    name: Kale
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: kale
+    rotation: unknown
+- minormoon:
+    name: Pasithee
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: pasithee
+    rotation: unknown
+- minormoon:
+    name: Hegemone
+    radius: 1.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: hegemone
+    rotation: unknown
+- minormoon:
+    name: Mneme
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: mneme
+    rotation: unknown
+- minormoon:
+    name: Aoede
+    radius: 2.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: aoede
+    rotation: unknown
+- minormoon:
+    name: Thelxinoe
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: thelxinoe
+    rotation: unknown
+- minormoon:
+    name: Arche
+    radius: 1.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: arche
+    rotation: unknown
+- minormoon:
+    name: Kallichore
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: kallichore
+    rotation: unknown
+- minormoon:
+    name: Helike
+    radius: 2.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: helike
+    rotation: unknown
+- minormoon:
+    name: Carpo
+    radius: 1.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: carpo
+    rotation: unknown
+- minormoon:
+    name: Eukelade
+    radius: 2.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: eukelade
+    rotation: unknown
+- minormoon:
+    name: Cyllene
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: cyllene
+    rotation: unknown
+- minormoon:
+    name: Kore
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: kore
+    rotation: unknown
+- minormoon:
+    name: Herse
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: herse
+    rotation: unknown
+- minormoon:
+    name: S/2000 J11
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2000j11
+    rotation: unknown
+- minormoon:
+    name: S/2003 J2
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j2
+    rotation: unknown
+- minormoon:
+    name: S/2003 J3
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j3
+    rotation: unknown
+- minormoon:
+    name: S/2003 J4
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j4
+    rotation: unknown
+- minormoon:
+    name: S/2003 J5
+    radius: 2.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j5
+    rotation: unknown
+- minormoon:
+    name: S/2003 J9
+    radius: 0.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j9
+    rotation: unknown
+- minormoon:
+    name: S/2003 J10
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j10
+    rotation: unknown
+- minormoon:
+    name: S/2003 J12
+    radius: 0.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j12
+    rotation: unknown
+- minormoon:
+    name: S/2003 J15
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j15
+    rotation: unknown
+- minormoon:
+    name: S/2003 J16
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j16
+    rotation: unknown
+- minormoon:
+    name: S/2003 J18
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j18
+    rotation: unknown
+- minormoon:
+    name: S/2003 J19
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j19
+    rotation: unknown
+- minormoon:
+    name: S/2003 J23
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j23
+    rotation: unknown
+- minormoon:
+    name: S/2010 J1
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2010j1
+    rotation: unknown
+- minormoon:
+    name: S/2010 J2
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2010j2
+    rotation: unknown
+- minormoon:
+    name: S/2011 J1
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2011j1
+    rotation: unknown
+- minormoon:
+    name: S/2011 J2
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2011j2
+    rotation: unknown

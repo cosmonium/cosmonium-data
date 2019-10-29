@@ -1,6 +1,6 @@
 system:
     name: Earth System
-    orbit: earth
+    orbit: earth-system
     children:
         - planet:
             name: Earth

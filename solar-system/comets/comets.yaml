@@ -11,7 +11,7 @@
             attribution: [stooke, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
-    orbit: halley
+    orbit: 1p
     rotation: chaotic
 
 - comet:

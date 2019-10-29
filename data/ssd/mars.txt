@@ -1,0 +1,8 @@
+Mean orbital elements referred to the local Laplace planes
+
+Epoch 1950 Jan. 1.00 TT
+Solution: MAR080
+Sat.    a   e   w   M   i   node    n   P   Pw  Pnode   R.A.    Dec.    Tilt    Ref.
+(km)        (deg)   (deg)   (deg)   (deg)   (deg/day)   (days)  (yr)    (yr)    (deg)   (deg)   (deg)   
+Phobos  9376.   0.0151  150.057 91.059  1.075   207.784 1128.8447569    0.3189  1.1316  2.2617  317.671 52.893  0.009   5
+Deimos  23458.  0.0002  260.729 325.329 1.788   24.525  285.1618790 1.2624  27.3703 54.5367 316.657 53.529  0.889   5

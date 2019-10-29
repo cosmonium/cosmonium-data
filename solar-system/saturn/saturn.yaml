@@ -24,5 +24,6 @@ system:
                 lighting-model: oren-nayar
                 attribution: hutchison
             rotation: saturn
-        - include: moons.yaml
         - include: inner-moons.yaml
+        - include: moons.yaml
+        - include: irregular-moons.yaml

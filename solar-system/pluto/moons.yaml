@@ -43,7 +43,7 @@
     rotation: chaotic
 
 - moon:
-    name: [Kerebos, Pluto IV]
+    name: [Kerberos, Pluto IV]
     axes: [16, 9, 8]
     albedo: 0.35
     surfaces:
@@ -52,7 +52,7 @@
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
         lighting-model: oren-nayar
-    orbit: kerebos
+    orbit: kerberos
     rotation: chaotic
 
 - moon:

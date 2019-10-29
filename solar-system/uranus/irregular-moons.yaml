@@ -1,0 +1,108 @@
+- minormoon:
+    name: Caliban
+    radius: 36
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: caliban
+    rotation: unknown
+- minormoon:
+    name: Sycorax
+    radius: 75
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: sycorax
+    rotation: unknown
+- minormoon:
+    name: Prospero
+    radius: 25
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: prospero
+    rotation: unknown
+- minormoon:
+    name: Setebos
+    radius: 24
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: setebos
+    rotation: unknown
+- minormoon:
+    name: Stephano
+    radius: 16
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: stephano
+    rotation: unknown
+- minormoon:
+    name: Trinculo
+    radius: 9
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: trinculo
+    rotation: unknown
+- minormoon:
+    name: Francisco
+    radius: 11
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: francisco
+    rotation: unknown
+- minormoon:
+    name: Margaret
+    radius: 10
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: margaret
+    rotation: unknown
+- minormoon:
+    name: Ferdinand
+    radius: 10
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: ferdinand
+    rotation: unknown

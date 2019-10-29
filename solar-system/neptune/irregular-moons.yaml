@@ -1,0 +1,72 @@
+- minormoon:
+    name: Halimede
+    radius: 31.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: halimede
+    rotation: unknown
+- minormoon:
+    name: Psamathe
+    radius: 20.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: psamathe
+    rotation: unknown
+- minormoon:
+    name: Sao
+    radius: 22.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: sao
+    rotation: unknown
+- minormoon:
+    name: Laomedeia
+    radius: 21.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: laomedeia
+    rotation: unknown
+- minormoon:
+    name: Neso
+    radius: 30.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: neso
+    rotation: unknown
+- minormoon:
+    name: S/2004 N1
+    radius: 9.0
+    albedo: 0.10
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2004n1
+    rotation: unknown

@@ -6,21 +6,21 @@ spacecraft:
         model: models/iss.3ds
         offset: [-1, 0, 0.5]
     orbit:
-        elliptic:
-            semi-major-axis: 6788
-            semi-major-axis-units: Km
-            eccentricity: 0.0001380
-            epoch: 2458590.049479
-            period: 1.545866464
-            period-units: Hour
-            inclination: 51.6394
-            ascending-node: 307.6103
-            arg-of-periapsis: 201.3746
-            mean-anomaly: 158.7348
-            frame: Equatorial
+        type: elliptic
+        semi-major-axis: 6788
+        semi-major-axis-units: Km
+        eccentricity: 0.0001380
+        epoch: 2458590.049479
+        period: 1.545866464
+        period-units: Hour
+        inclination: 51.6394
+        ascending-node: 307.6103
+        arg-of-periapsis: 201.3746
+        mean-anomaly: 158.7348
+        frame: mean-equatorial
     rotation:
         type: uniform
         synchronous: true
         inclination: 51.6394
         ascending-node: 180
-        frame: Equatorial
+        frame: mean-equatorial

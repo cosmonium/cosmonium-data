@@ -18,6 +18,6 @@ system:
                 appearance:
                     texture: textures/pluto-artistic-fargetanik/pluto-albedo.ctx
                     normalmap: textures/pluto-artistic-fargetanik/pluto-normal.ctx
-            orbit: kepler:pluto
+            orbit: pluto
             rotation: pluto
         - include: moons.yaml

@@ -1,0 +1,7 @@
+Mean ecliptic orbital elements
+
+Epoch 2000 Jan. 1.50 TT
+Solution: DE405/LE405
+Sat.    a   e   w   M   i   node    n   P   Pw  Pnode   Ref.
+(km)        (deg)   (deg)   (deg)   (deg)   (deg/day)   (days)  (yr)    (yr)    
+Moon    384400. 0.0554  318.15  135.27  5.16    125.08  13.176358   27.322  5.997   18.600  1

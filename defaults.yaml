@@ -62,20 +62,20 @@
     name: chaotic
     category: uniform
     type: uniform
-    frame: equatorial
+    frame: mean-equatorial
 
 - rotation:
     name: unknown
     category: uniform
     type: uniform
-    frame: equatorial
+    frame: mean-equatorial
 
 - rotation:
     name: unknown-synchronous
     category: uniform
     type: uniform
     synchronous: true
-    frame: equatorial
+    frame: mean-equatorial
 
 - surface-category:
     name: visible

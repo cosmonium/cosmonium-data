@@ -1,0 +1,147 @@
+# This files contains mean orbital elements that aren't available from SSD or
+# MPCORB, or which are conflicting with the way the solar-system is built in
+# Cosmonium.
+# Dwarf planet moons orbital elements are not available in SSD or MPCORB
+# Pluto and Charon orbits are planetocentric in SSD, not related to barycenter.
+
+- orbit-category:
+    name: manual
+    priority: 10
+- orbit:
+    name: sol-system
+    type: global
+    category: manual
+    position: [0, 0, 0]
+    frame: J2000Ecliptic
+- orbit:
+    name: sun
+    type: global
+    category: manual
+    position: [0, 0, 0]
+    frame: J2000Ecliptic
+- orbit:
+    name: pluto
+    type: elliptic
+    category: manual
+    period: 6.387
+    period-units: day
+    semi-major-axis: 2060.
+    semi-major-axis-units: km
+    eccentricity: 0.0002
+    inclination: 0.080
+    arg-of-periapsis: 326.106
+    ascending-node: 26.928
+    mean-anomaly: 131.070
+    frame: iau:pluto
+- orbit:
+    name: charon
+    type: elliptic
+    category: manual
+    period: 6.387
+    period-units: day
+    semi-major-axis: 17428.
+    semi-major-axis-units: km
+    eccentricity: 0.0002
+    inclination: 0.080
+    arg-of-periapsis: 146.106
+    ascending-node: 26.928
+    mean-anomaly: 131.070
+    frame: iau:pluto
+- orbit:
+    name: dysnomia
+    type: elliptic
+    category: manual
+    period: 15.774
+    period-units: day
+    semi-major-axis: 37350.
+    semi-major-axis-units: km
+    eccentricity: 0
+    inclination: 0
+    arg-of-periapsis: 0
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Ecliptic
+- orbit:
+    name: namaka
+    type: elliptic
+    category: manual
+    period: 18.3
+    period-units: day
+    semi-major-axis: 25660.
+    semi-major-axis-units: km
+    eccentricity: 0.25
+    inclination: 113.013
+    arg-of-periapsis: 0
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Ecliptic
+- orbit:
+    name: hiiaka
+    type: elliptic
+    category: manual
+    period: 49.4
+    period-units: day
+    semi-major-axis: 49880
+    semi-major-axis-units: km
+    eccentricity: 0.05
+    inclination: 126.356
+    arg-of-periapsis: 0
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Ecliptic
+- orbit:
+    name: s2007or101
+    type: elliptic
+    category: manual
+    period: 6
+    period-units: day
+    semi-major-axis: 15000
+    semi-major-axis-units: km
+    eccentricity: 0.31
+    inclination: 0
+    arg-of-periapsis: 0
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Ecliptic
+- orbit:
+    name: weywot
+    type: elliptic
+    category: manual
+    period: 12.438
+    period-units: day
+    semi-major-axis: 14500
+    semi-major-axis-units: km
+    eccentricity: 0.14
+    inclination: 0.14
+    arg-of-periapsis: 0
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Ecliptic
+- orbit:
+    name: vanth
+    type: elliptic
+    category: manual
+    period: 9.5406
+    period-units: day
+    semi-major-axis: 9030
+    semi-major-axis-units: km
+    eccentricity: 0.007
+    inclination: 21
+    arg-of-periapsis: 0
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Ecliptic
+- orbit:
+    name: actaea
+    type: elliptic
+    category: manual
+    period: 5.49380
+    period-units: day
+    semi-major-axis: 5619
+    semi-major-axis-units: km
+    eccentricity: 0.0084
+    inclination: 0
+    arg-of-periapsis: 0
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Ecliptic

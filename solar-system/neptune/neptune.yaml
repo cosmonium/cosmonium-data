@@ -19,5 +19,6 @@ system:
                 appearance:
                     texture: textures/neptune-artistic-snowfall.png
             rotation: neptune
-        - include: moons.yaml
         - include: inner-moons.yaml
+        - include: moons.yaml
+        - include: irregular-moons.yaml

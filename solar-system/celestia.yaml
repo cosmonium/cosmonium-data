@@ -1,0 +1,36 @@
+# This file contains fallback orbits for Celestia that are conflicting with
+# ssd.yaml, manual-orbits.yaml, ...
+# When loading a named orbit from Cosmonium, the celestia category is added
+# so that those orbits are considered first.
+
+- orbit-category:
+    name: celestia
+    priority: -1
+- orbit:
+    name: earth
+    type: elliptic
+    category: celestia
+    period: 1.0
+    period-units: year
+    semi-major-axis: 1.0
+    semi-major-axis-units: AU
+    eccentricity: 0.0167
+    inclination: 0.0001
+    ascending-node: 348.739
+    long-of-pericenter: 102.947
+    mean-longitude: 100.464
+    frame: J2000Ecliptic
+- orbit:
+    name: pluto
+    type: elliptic
+    category: celestia
+    period: 247.998
+    period-units: year
+    semi-major-axis: 39.54
+    semi-major-axis-units: AU
+    eccentricity: 0.24905
+    inclination: 17.1405
+    arg-of-periapsis: 113.834
+    long-of-pericenter: 224.06891629
+    mean-anomaly: 14.53
+    frame: J2000Ecliptic
