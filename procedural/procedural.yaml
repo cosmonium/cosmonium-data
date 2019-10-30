@@ -170,7 +170,7 @@
             type: uniform
             period: 10
             period-units: Hour
-            inclination: -10
+            inclination: -20
         surfaces:
           - shape: sqrt-sphere
             appearance:
@@ -226,3 +226,25 @@
                                    - 0.
                                  - 40.0
                        strength: 0.1
+        rings:
+          inner-radius: 75000
+          outer-radius: 150000
+          lighting-model: oren-nayar
+          appearance:
+            diffuse-color: [1.0, 1.0, 1.0, 1.0]
+            transparency: true
+            roughness: 0.44
+            backlit: 0.02
+            texture:
+              type: procedural
+              #frequency: 40
+              target: alpha
+              noise:
+                 aliases:
+                     perlin: gpunoise:perlin
+                 noise:
+                   type: fbm
+                   noise: perlin
+                   octaves: 5
+                   length: 0.05
+                   scale: 5
