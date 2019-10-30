@@ -13,6 +13,17 @@ system:
                 attribution: fargetanik
                 appearance:
                     texture: textures/uranus-visible-fargetanik.png
+            rings:
+                inner-radius: 41840
+                outer-radius: 51140
+                appearance:
+                    texture: textures/uranus-rings.png
+                    transparency: true
+                    roughness: 0.99
+                    diffuse-color: [0.01, 0.01, 0.01, 1]
+                    backlit: 0.004
+                lighting-model: oren-nayar
+                attribution: nasa
             rotation: uranus
         - include: inner-moons.yaml
         - include: moons.yaml
