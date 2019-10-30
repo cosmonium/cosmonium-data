@@ -157,6 +157,32 @@
                 - entry: rock
                   angle: 35
                   blend: 10
+    - asteroid:
+        name: Asteroid Demo
+        radius: 33
+        albedo: 0.35
+        orbit:
+            type: elliptic
+            semi-major-axis: 2
+            period: 5
+        rotation: chaotic
+        surfaces:
+          - category: uniform
+            shape: sqrt-sphere
+            heightmap: asteroid
+            appearance:
+              type: textures-dict
+              entries:
+                ash:
+                  albedo: ash/Volcanic_Ash_001_COLOR.jpg
+                  normal: ash/Volcanic_Ash_001_NORM.jpg
+              scale: [0.5, 0.5]
+              tiling: hash
+            control:
+              height:
+                - entry: ash
+                  height: 0
+            lighting-model: oren-nayar
     - planet:
         name: Gas Demo
         radius: 60000
