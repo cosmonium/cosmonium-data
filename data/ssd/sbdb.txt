@@ -2,6 +2,12 @@
 2 # Pallas
 3 # Juno
 4 # Vesta
+5 # Astraea
+6 # Hebe
+7 # Iri
+8 # Flora
+9 # Metis
+10 # Hygea
 50000 # Quaoar
 90377 # Sedna
 90482 # Orcus

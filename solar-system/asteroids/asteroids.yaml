@@ -54,6 +54,102 @@
     orbit: vesta
     rotation: vesta
 
+- asteroid:
+    name: 5 Astraea
+    diameter: 106.70
+    albedo: 0.274
+    surfaces:
+      - category: uniform
+        shape:
+            type: mesh
+            model: models/astraea-hanus.ply
+            create-uv: true
+            attribution: [hanus, frieger]
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: astraea
+    rotation: astraea
+
+- asteroid:
+    name: 6 Hebe
+    diameter: 185.18
+    albedo: 0.268
+    surfaces:
+      - category: uniform
+        shape:
+            type: mesh
+            model: models/hebe-marsset.ply
+            create-uv: true
+            attribution: [marsset, frieger]
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: hebe
+    rotation: hebe
+
+- asteroid:
+    name: 7 Iris
+    diameter: 199.83
+    albedo: 0.277
+    surfaces:
+      - category: uniform
+        shape:
+            type: mesh
+            model: models/iris-hanus2019.ply
+            create-uv: true
+            attribution: [hanus2019, frieger]
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: iris
+    rotation: iris
+
+- asteroid:
+    name: 8 Flora
+    diameter: 147.49
+    albedo: 0.226
+    surfaces:
+      - category: uniform
+        shape:
+            type: mesh
+            model: models/flora-hanus.ply
+            create-uv: true
+            attribution: [hanus, frieger]
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: flora
+    rotation: flora
+
+- asteroid:
+    name: 9 Metis
+    diameter: 190.00
+    albedo: 0.118
+    surfaces:
+      - category: uniform
+        shape:
+            type: mesh
+            model: models/metis-hanus.ply
+            create-uv: true
+            attribution: [hanus, frieger]
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: 9-metis
+    rotation: 9-metis
+
+- asteroid:
+    name: 10 Hygiea
+    diameter: 407.12
+    albedo: 0.072
+    surfaces:
+      - category: uniform
+        shape:
+            type: mesh
+            model: models/hygiea-vernazza.ply
+            create-uv: true
+            attribution: [vernazza, frieger]
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: hygiea
+    rotation: hygiea
+
 - attributions:
     dawn-hamo:
         name: Dawn FC2 Vesta Encounter HAMO Digital Terrain Model (DTM) SPG
@@ -69,3 +165,18 @@
         copyright: Viikinkoski et al., VLT/SPHERE- and ALMA-based shape reconstruction of asteroid (3) Juno. Astronomy & Astrophysics, Volume 581, id.L3, 2015.
         license: Public Domain
         url: http://www.aanda.org/articles/aa/abs/2015/09/aa26626-15/aa26626-15.html
+    marsset:
+        name: Marsset et al.
+        copyright: "Marsset et al., 3D shape of asteroid (6) Hebe from VLT/SPHERE imaging: Implications for the origin of ordinary H chondrites"
+        license: Public Domain
+        url: http://adsabs.harvard.edu/abs/2017A%26A...604A..64M
+    hanus2019:
+        name: Hanuš et al.
+        copyright: Hanuš et al., The shape of (7) Iris as evidence of an ancient large impact? Astronomy & Astrophysics 624, A121 (2019)
+        license: Public Domain
+        url: https://www.aanda.org/articles/aa/abs/2019/04/aa34541-18/aa34541-18.html
+    vernazza:
+        name: P. Vernazza et al.
+        copyright: P. Vernazza et al., The impact crater at the origin of the Julia family detected with VLT/SPHERE? Astronomy & Astrophysics 618, A154 (2018)
+        license: Public Domain
+        url: https://www.aanda.org/articles/aa/abs/2018/10/aa33477-18/aa33477-18.html

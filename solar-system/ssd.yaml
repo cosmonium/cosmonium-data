@@ -2928,6 +2928,96 @@
     epoch: 2458600.500000
     frame: J2000Ecliptic
 - orbit:
+    name: astraea
+    type: elliptic
+    category: ssd
+    period: 4.13026045942
+    period-units: year
+    semi-major-axis: 2.5742489
+    semi-major-axis-units: AU
+    eccentricity: 0.19109452
+    inclination: 5.36699
+    arg-of-periapsis: 358.68761
+    ascending-node: 141.57660
+    mean-anomaly: 282.3662873
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
+    name: hebe
+    type: elliptic
+    category: ssd
+    period: 3.7766977596
+    period-units: year
+    semi-major-axis: 2.4251600
+    semi-major-axis-units: AU
+    eccentricity: 0.20300711
+    inclination: 14.73790
+    arg-of-periapsis: 239.80749
+    ascending-node: 138.64020
+    mean-anomaly: 86.1979230
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
+    name: iris
+    type: elliptic
+    category: ssd
+    period: 3.68404884053
+    period-units: year
+    semi-major-axis: 2.3853338
+    semi-major-axis-units: AU
+    eccentricity: 0.23120579
+    inclination: 5.52365
+    arg-of-periapsis: 145.26511
+    ascending-node: 259.56323
+    mean-anomaly: 140.4196556
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
+    name: flora
+    type: elliptic
+    category: ssd
+    period: 3.26706552484
+    period-units: year
+    semi-major-axis: 2.2017642
+    semi-major-axis-units: AU
+    eccentricity: 0.15649925
+    inclination: 5.88695
+    arg-of-periapsis: 285.28746
+    ascending-node: 110.88933
+    mean-anomaly: 194.8828952
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
+    name: 9-metis
+    type: elliptic
+    category: ssd
+    period: 3.68475012411
+    period-units: year
+    semi-major-axis: 2.3856365
+    semi-major-axis-units: AU
+    eccentricity: 0.12311427
+    inclination: 5.57682
+    arg-of-periapsis: 6.41737
+    ascending-node: 68.90858
+    mean-anomaly: 276.8616227
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
+    name: hygiea
+    type: elliptic
+    category: ssd
+    period: 5.56820685596
+    period-units: year
+    semi-major-axis: 3.1415392
+    semi-major-axis-units: AU
+    eccentricity: 0.11246066
+    inclination: 3.83156
+    arg-of-periapsis: 312.31521
+    ascending-node: 283.20217
+    mean-anomaly: 152.1848512
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
     name: quaoar
     type: elliptic
     category: ssd
