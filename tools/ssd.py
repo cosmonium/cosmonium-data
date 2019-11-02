@@ -301,7 +301,10 @@ def dump_sbd_asteroid(stream, elements):
         p = 2 * pi * sqrt(fa*fa*fa / MU) / S_YEAR
         if name == 'Pluto':
             name = 'pluto-system'
-        name = name.lower().replace(' ', '')
+        elif name == 'Metis':
+            name = '9-metis'
+        else:
+            name = name.lower().replace(' ', '')
         dump_orbit(stream, name, p, a, e, w, m, i, node, float(epoch) + 2400000.5, 'J2000Ecliptic', None, None, distance='AU', period='year')
 
 def dump_sbd_comet(stream, elements):
@@ -446,7 +449,6 @@ def main():
     #db = parse_mpcorb_db(mpcorb_db)
     #entries = parse_mpcorb_file(mpcorb_file)
     dump_ssd_sat_phy_files(sat_file, skip_phy)
-    exit()
     planet_db = parse_planet_1(planets_db)
     planet_phy = parse_planet_phy(planets_phy)
     db = parse_sbd_db(sbd_db)
