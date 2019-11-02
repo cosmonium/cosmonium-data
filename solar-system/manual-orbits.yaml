@@ -145,3 +145,59 @@
     ascending-node: 0
     mean-anomaly: 0
     frame: J2000Ecliptic
+- orbit:
+    name: varda
+    type: elliptic
+    category: manual
+    period: 5.75058
+    period-units: day
+    semi-major-axis: 384.72
+    semi-major-axis-units: km
+    eccentricity: 0.0215
+    inclination: 101.0
+    arg-of-periapsis: 0
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Equatorial
+- orbit:
+    name: ilmare
+    type: elliptic
+    category: manual
+    period: 5.75058
+    period-units: day
+    semi-major-axis: 4424.28
+    semi-major-axis-units: km
+    eccentricity: 0.0215
+    inclination: 101.0
+    arg-of-periapsis: 180
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Equatorial
+- orbit:
+    name: g!o'e!hu
+    type: elliptic
+    category: manual
+    period: 11.31473
+    period-units: day
+    semi-major-axis: 6035
+    semi-major-axis-units: km
+    eccentricity: 0.0236
+    inclination: 43.75
+    arg-of-periapsis: 180
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Equatorial
+- orbit:
+    name: s2012(38618)1
+    type: elliptic
+    category: manual
+    period: 3.2
+    period-units: day
+    semi-major-axis: 1740
+    semi-major-axis-units: km
+    eccentricity: 0
+    inclination: 0
+    arg-of-periapsis: 0
+    ascending-node: 0
+    mean-anomaly: 0
+    frame: J2000Equatorial

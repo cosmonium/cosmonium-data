@@ -3018,6 +3018,66 @@
     epoch: 2458600.500000
     frame: J2000Ecliptic
 - orbit:
+    name: chaos
+    type: elliptic
+    category: ssd
+    period: 306.490511211
+    period-units: year
+    semi-major-axis: 45.4579938
+    semi-major-axis-units: AU
+    eccentricity: 0.09864161
+    inclination: 12.05678
+    arg-of-periapsis: 58.54598
+    ascending-node: 50.04248
+    mean-anomaly: 340.7033680
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
+    name: varuna
+    type: elliptic
+    category: ssd
+    period: 279.822154712
+    period-units: year
+    semi-major-axis: 42.7812668
+    semi-major-axis-units: AU
+    eccentricity: 0.05412639
+    inclination: 17.21968
+    arg-of-periapsis: 262.87508
+    ascending-node: 97.36934
+    mean-anomaly: 117.2237977
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
+    name: ixion
+    type: elliptic
+    category: ssd
+    period: 251.001846172
+    period-units: year
+    semi-major-axis: 39.7908778
+    semi-major-axis-units: AU
+    eccentricity: 0.24348130
+    inclination: 19.57759
+    arg-of-periapsis: 298.21653
+    ascending-node: 70.98835
+    mean-anomaly: 287.0803311
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
+    name: huya
+    type: elliptic
+    category: ssd
+    period: 251.418167809
+    period-units: year
+    semi-major-axis: 39.8348648
+    semi-major-axis-units: AU
+    eccentricity: 0.28344283
+    inclination: 15.47017
+    arg-of-periapsis: 68.27372
+    ascending-node: 169.32777
+    mean-anomaly: 5.7948873
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
     name: quaoar
     type: elliptic
     category: ssd
@@ -3138,6 +3198,21 @@
     epoch: 2458600.500000
     frame: J2000Ecliptic
 - orbit:
+    name: varda-system
+    type: elliptic
+    category: ssd
+    period: 313.168170637
+    period-units: year
+    semi-major-axis: 46.1158962
+    semi-major-axis-units: AU
+    eccentricity: 0.14152656
+    inclination: 21.50410
+    arg-of-periapsis: 180.06032
+    ascending-node: 184.05435
+    mean-anomaly: 273.8638173
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
     name: 2007or10
     type: elliptic
     category: ssd
@@ -3153,6 +3228,21 @@
     epoch: 2458600.500000
     frame: J2000Ecliptic
 - orbit:
+    name: g!kun||'homdima
+    type: elliptic
+    category: ssd
+    period: 620.120707803
+    period-units: year
+    semi-major-axis: 72.7193071
+    semi-major-axis-units: AU
+    eccentricity: 0.48428017
+    inclination: 23.37792
+    arg-of-periapsis: 346.87489
+    ascending-node: 131.09427
+    mean-anomaly: 344.2074450
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
     name: 2002ms4
     type: elliptic
     category: ssd
@@ -3165,6 +3255,21 @@
     arg-of-periapsis: 213.30146
     ascending-node: 215.93980
     mean-anomaly: 223.0113999
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
+    name: dziewanna
+    type: elliptic
+    category: ssd
+    period: 592.681277152
+    period-units: year
+    semi-major-axis: 70.5580194
+    semi-major-axis-units: AU
+    eccentricity: 0.53904118
+    inclination: 29.46101
+    arg-of-periapsis: 284.36092
+    ascending-node: 346.21283
+    mean-anomaly: 348.2149417
     epoch: 2458600.500000
     frame: J2000Ecliptic
 - orbit:

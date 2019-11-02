@@ -301,6 +301,8 @@ def dump_sbd_asteroid(stream, elements):
         p = 2 * pi * sqrt(fa*fa*fa / MU) / S_YEAR
         if name == 'Pluto':
             name = 'pluto-system'
+        elif name == 'Varda':
+            name = 'varda-system'
         elif name == 'Metis':
             name = '9-metis'
         else:

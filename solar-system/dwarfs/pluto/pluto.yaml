@@ -2,7 +2,7 @@ system:
     name: Pluto System
     orbit: pluto-system
     children:
-        - planet:
+        - dwarfplanet:
             name: Pluto
             radius: 1188.3
             albedo: 0.3
