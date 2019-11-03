@@ -3123,6 +3123,21 @@
     epoch: 2458600.500000
     frame: J2000Ecliptic
 - orbit:
+    name: bennu
+    type: elliptic
+    category: ssd
+    period: 1.19546094776
+    period-units: year
+    semi-major-axis: 1.1263910
+    semi-major-axis-units: AU
+    eccentricity: 0.20374511
+    inclination: 6.03494
+    arg-of-periapsis: 66.22307
+    ascending-node: 2.06087
+    mean-anomaly: 101.7039479
+    epoch: 2455562.500000
+    frame: J2000Ecliptic
+- orbit:
     name: salacia
     type: elliptic
     category: ssd

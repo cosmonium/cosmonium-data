@@ -15,6 +15,7 @@
 50000 # Quaoar
 90377 # Sedna
 90482 # Orcus
+101955 # Bennu
 120347 # Salacia
 134340 # Pluto
 136108 # Haumea

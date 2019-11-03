@@ -150,6 +150,25 @@
     orbit: hygiea
     rotation: hygiea
 
+- asteroid:
+    name: 101955 Bennu
+    diameter: 0.4920
+    albedo: 0.046
+    surfaces:
+      - category: uniform
+        shape:
+            type: mesh
+            model: models/bennu-osiris2019.ply
+            create-uv: true
+            attribution: [osiris2019, frieger]
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+    orbit: bennu
+    rotation:
+        type: uniform
+        period: 4.2975
+        period-units: hour
+
 - attributions:
     dawn-hamo:
         name: Dawn FC2 Vesta Encounter HAMO Digital Terrain Model (DTM) SPG
@@ -180,3 +199,7 @@
         copyright: P. Vernazza et al., The impact crater at the origin of the Julia family detected with VLT/SPHERE? Astronomy & Astrophysics 618, A154 (2018)
         license: Public Domain
         url: https://www.aanda.org/articles/aa/abs/2018/10/aa33477-18/aa33477-18.html
+    osiris2019:
+        name: OSIRIS-REx
+        license: Public Domain
+        url: https://www.asteroidmission.org/updated-bennu-shape-model-3d-files/
