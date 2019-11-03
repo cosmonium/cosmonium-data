@@ -3273,6 +3273,21 @@
     epoch: 2458600.500000
     frame: J2000Ecliptic
 - orbit:
+    name: 2014mu69
+    type: elliptic
+    category: ssd
+    period: 298.151091392
+    period-units: year
+    semi-major-axis: 44.6296189
+    semi-major-axis-units: AU
+    eccentricity: 0.05046617
+    inclination: 2.44996
+    arg-of-periapsis: 181.14814
+    ascending-node: 159.04395
+    mean-anomaly: 310.9194758
+    epoch: 2458600.500000
+    frame: J2000Ecliptic
+- orbit:
     name: 1p
     type: elliptic
     category: ssd

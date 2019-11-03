@@ -25,6 +25,7 @@
 229762 # Gǃkúnǁʼhòmdímà
 307261 # 2002 MS4
 471143 # Dziewanna
+486958 # Ultima Thule
 1P # Halley
 9P # Tempel 1
 67P # Churyumov-Gerasimenko

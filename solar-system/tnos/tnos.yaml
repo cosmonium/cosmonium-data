@@ -278,3 +278,27 @@
                 lighting-model: oren-nayar
           orbit: s2012(38618)1
           rotation: unknown-synchronous
+- asteroid:
+    name: [(486958) 2014 MU 69, Ultima Thule]
+    axes: [36, 18, 10]
+    albedo: 0.165
+    surfaces:
+      - category: uniform
+        shape:
+          type: mesh
+          model: ultima-thule-stern.ply
+          attribution: [stern, frieger]
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: 2014mu69
+    rotation:
+        type: uniform
+        period: 15.918
+        period-units: hour
+- attributions:
+    stern:
+      name: Stern at al.
+      copyright: "Stern at al., Initial results from the New Horizons exploration of 2014 MU69, a small Kuiper Belt object, Science Vol. 364, Issue 6441"
+      license: Public domain
+      url: https://science.sciencemag.org/content/364/6441/eaaw9771
