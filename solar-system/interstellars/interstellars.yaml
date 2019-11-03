@@ -1,0 +1,48 @@
+- interstellar:
+    name: ["1I/2017 U1", "ʻOumuamua"]
+    axes: [0.230, 0.035, 0.035]
+    albedo: 0.1
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit:
+        type: elliptic
+        mean-motion: 0.6802
+        mean-motion-units: deg/day
+        semi-major-axis: -1.2798
+        semi-major-axis-units: AU
+        eccentricity: 1.19951
+        inclination: 122.69
+        ascending-node: 24.599
+        arg-of-periapsis: 241.70
+        mean-anomaly: 36.425
+        epoch: 2458059.5
+        frame: J2000Ecliptic
+    rotation: chaotic
+- interstellar:
+    name: ["2I/Borisov", "C/2019 Q4"]
+    diameter: 2
+    albedo: 0.1
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit:
+        type: elliptic
+        mean-motion: 1.25266702
+        mean-motion-units: deg/day
+        pericenter-distance: 2.006
+        pericenter-distance-units: AU
+        eccentricity: 3.3535
+        inclination: 44.058
+        ascending-node: 308.142
+        arg-of-periapsis: 209.143
+        mean-anomaly: -98.4294
+        epoch: 2458747.5
+        frame: J2000Ecliptic
+    rotation: chaotic

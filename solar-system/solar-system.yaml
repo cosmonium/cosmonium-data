@@ -22,6 +22,7 @@
     - include: dwarfs/dwarfs.yaml
     - include: asteroids/asteroids.yaml
     - include: comets/comets.yaml
+    - include: interstellars/interstellars.yaml
 - data-sources:
     solarsystemscope:
         name: Solar System Scope
