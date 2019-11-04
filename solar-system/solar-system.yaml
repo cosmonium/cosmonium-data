@@ -1,3 +1,4 @@
+- include: frames.yaml
 - include: ssd.yaml
 - include: manual-orbits.yaml
 - system:
