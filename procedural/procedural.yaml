@@ -56,15 +56,13 @@
                   - mul:
                     - clamp:
                         noise:
-                          offset:
-                            offset: -100.0
+                          fbm:
                             noise:
-                              fbm:
-                                noise:
-                                  cube: perlin
-                                octaves: 4
-                                length: 5000
-                                scale: 40
+                              cube: perlin
+                            pos-offset: -100.0
+                            octaves: 4
+                            length: 5000
+                            scale: 40
                     - fbm:
                         noise:
                           square: perlin
@@ -75,15 +73,13 @@
                   - mul:
                     - clamp:
                         noise:
-                          offset:
-                            offset: 100.0
+                          fbm:
                             noise:
-                              fbm:
-                                noise:
-                                  cube: perlin
-                                octaves: 4
-                                length: 5000
-                                scale: 40
+                              cube: perlin
+                            pos-offset: 100.0
+                            octaves: 4
+                            length: 5000
+                            scale: 40
                     - add:
                         - fbm:
                             noise:
@@ -228,27 +224,20 @@
                                  # Storms are made of intersecting thresholded noise
                                  - threshold:
                                    - abs:
-                                     type: scale
-                                     noise: perlin
-                                     scale: 5
+                                       noise: perlin
+                                       pos-scale: 5
                                    - 0.
                                  - threshold:
                                    - abs:
-                                     type: scale
-                                     noise:
-                                       type: offset
                                        noise: perlin
-                                       offset: 1
-                                     scale: 5
+                                       pos-offset: 1
+                                       pos-scale: 5
                                    - 0.
                                  - threshold:
                                    - abs:
-                                     type: scale
-                                     noise:
-                                       type: offset
                                        noise: perlin
-                                       offset: 2
-                                     scale: 5
+                                       pos-offset: 2
+                                       pos-scale: 5
                                    - 0.
                                  - 40.0
                        strength: 0.1

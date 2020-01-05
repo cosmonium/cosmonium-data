@@ -19,18 +19,14 @@
                   - mul:
                       - threshold:
                           - abs:
-                              type: scale
                               noise: perlin
-                              scale: 10
+                              pos-scale: 10
                           - 0.3
                       - threshold:
                           - abs:
-                              type: scale
-                              noise:
-                                  type: offset
-                                  noise: perlin
-                                  offset: 1
-                              scale: 10
+                              noise: perlin
+                              pos-offset: 1
+                              pos-scale: 10
                           - 0.3
                   - 4
 
