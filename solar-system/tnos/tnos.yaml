@@ -279,14 +279,14 @@
           orbit: s2012(38618)1
           rotation: unknown-synchronous
 - asteroid:
-    name: [(486958) 2014 MU 69, Ultima Thule]
+    name: [(486958) Arrokoth, 2014 MU 69, Ultima Thule]
     axes: [36, 18, 10]
     albedo: 0.165
     surfaces:
       - category: uniform
         shape:
           type: mesh
-          model: ultima-thule-stern.ply
+          model: arrokoth-stern.ply
           attribution: [stern, frieger]
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
