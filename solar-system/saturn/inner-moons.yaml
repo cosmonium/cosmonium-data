@@ -1,5 +1,5 @@
 - moon:
-    name: Pan
+    name: [Pan, Saturn XVIII, S/1981 S 13]
     diameter: 34
     albedo: 0.5
     surfaces:
@@ -19,7 +19,7 @@
     rotation: pan
 
 - moon:
-    name: Daphnis
+    name: [Daphnis, Saturn XXXV, S/2005 S 1]
     diameter: 9
     albedo: 0.5
     surfaces:
@@ -36,7 +36,7 @@
     rotation: unknown-synchronous
 
 - moon:
-    name: Atlas
+    name: [Atlas, Saturn XV, S/1980 S 28]
     diameter: 41
     albedo: 0.4
     surfaces:
@@ -56,7 +56,7 @@
     rotation: atlas
 
 - moon:
-    name: Prometheus
+    name: [Prometheus, Saturn XVI, S/1980 S 27]
     diameter: 136
     albedo: 0.6
     surfaces:
@@ -73,7 +73,7 @@
     rotation: prometheus
 
 - moon:
-    name: Pandora
+    name: [Pandora, Saturn XVII, S/1980 S 26]
     diameter: 104
     albedo: 0.5
     surfaces:
@@ -90,7 +90,7 @@
     rotation: pandora
 
 - moon:
-    name: Janus
+    name: [Janus, Saturn X, S/1966 S 2, S/1979 S 2, S/1980 S 1, S/1980 S 2]
     diameter: 203
     albedo: 0.71
     surfaces:
@@ -107,7 +107,7 @@
     rotation: janus
 
 - moon:
-    name: Epimetheus
+    name: [Epimetheus, Saturn XI, S/1979 S 1]
     diameter: 130
     albedo: 0.73
     surfaces:
