@@ -1,5 +1,5 @@
 - moon:
-    name: Miranda
+    name: [Miranda, Uranus V]
     axes: [481, 468, 466]
     albedo: 0.32
     surfaces:
@@ -20,7 +20,7 @@
     rotation: miranda
 
 - moon:
-    name: Ariel
+    name: [Ariel, Uranus I]
     axes: [1162, 1156, 1155]
     albedo: 0.39
     surfaces:
@@ -43,7 +43,7 @@
     rotation: ariel
 
 - moon:
-    name: Umbriel
+    name: [Umbriel, Uranus II]
     radius: 584.7
     albedo: 0.21
     surfaces:
@@ -64,7 +64,7 @@
     rotation: umbriel
 
 - moon:
-    name: Titania
+    name: [Titania, Uranus III]
     radius: 788.4
     albedo: 0.27
     surfaces:
@@ -85,7 +85,7 @@
     rotation: titania
 
 - moon:
-    name: Oberon
+    name: [Oberon, Uranus IV]
     radius: 761.4
     albedo: 0.23
     surfaces:

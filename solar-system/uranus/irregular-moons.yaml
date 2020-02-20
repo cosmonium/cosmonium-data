@@ -1,5 +1,5 @@
 - minormoon:
-    name: Caliban
+    name: [Caliban, Uranus XVI, S/1997 U 1]
     radius: 36
     albedo: 0.04
     surfaces:
@@ -11,7 +11,7 @@
     orbit: caliban
     rotation: unknown
 - minormoon:
-    name: Sycorax
+    name: [Sycorax, Uranus XVII, S/1997 U 2]
     radius: 75
     albedo: 0.04
     surfaces:
@@ -23,7 +23,7 @@
     orbit: sycorax
     rotation: unknown
 - minormoon:
-    name: Prospero
+    name: [Prospero, Uranus XVIII, S/1999 U 3]
     radius: 25
     albedo: 0.04
     surfaces:
@@ -35,7 +35,7 @@
     orbit: prospero
     rotation: unknown
 - minormoon:
-    name: Setebos
+    name: [Setebos, Uranus XIX, S/1999 U 1]
     radius: 24
     albedo: 0.04
     surfaces:
@@ -47,7 +47,7 @@
     orbit: setebos
     rotation: unknown
 - minormoon:
-    name: Stephano
+    name: [Stephano, Uranus XX, S/1999 U 2]
     radius: 16
     albedo: 0.04
     surfaces:
@@ -59,7 +59,7 @@
     orbit: stephano
     rotation: unknown
 - minormoon:
-    name: Trinculo
+    name: [Trinculo, Uranus XXI, S/2001 U 1]
     radius: 9
     albedo: 0.04
     surfaces:
@@ -71,7 +71,7 @@
     orbit: trinculo
     rotation: unknown
 - minormoon:
-    name: Francisco
+    name: [Francisco, Uranus XXII, S/2001 U 3]
     radius: 11
     albedo: 0.04
     surfaces:
@@ -83,7 +83,7 @@
     orbit: francisco
     rotation: unknown
 - minormoon:
-    name: Margaret
+    name: [Margaret, Uranus XXIII, S/2003 U 3]
     radius: 10
     albedo: 0.04
     surfaces:
@@ -95,7 +95,7 @@
     orbit: margaret
     rotation: unknown
 - minormoon:
-    name: Ferdinand
+    name: [Ferdinand, Uranus XXIV, S/2001 U 2]
     radius: 10
     albedo: 0.04
     surfaces:

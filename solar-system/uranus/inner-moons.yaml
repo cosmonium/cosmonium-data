@@ -1,5 +1,5 @@
 - moon:
-    name: Cordelia
+    name: [Cordelia, Uranus VI, S/1986 U 7]
     axes: [50, 36, 36]
     albedo: 0.07
     surfaces:
@@ -12,7 +12,7 @@
     rotation: unknown-synchronous
 
 - moon:
-    name: Ophelia
+    name: [Ophelia, Uranus VII, S/1986 U 8]
     axes: [54, 38, 38]
     albedo: 0.07
     surfaces:
@@ -25,7 +25,7 @@
     rotation: ophelia
 
 - moon:
-    name: Bianca
+    name: [Bianca, Uranus VIII, S/1986 U 9]
     axes: [64, 46, 46]
     albedo: 0.065
     surfaces:
@@ -38,7 +38,7 @@
     rotation: bianca
 
 - moon:
-    name: Cressida
+    name: [Cressida, Uranus IX, S/1986 U 3]
     axes: [92, 74, 74]
     albedo: 0.069
     surfaces:
@@ -51,7 +51,7 @@
     rotation: cressida
 
 - moon:
-    name: Desdemona
+    name: [Desdemona, Uranus X, S/1986 U 6]
     axes: [90, 54, 54]
     albedo: 0.084
     surfaces:
@@ -64,7 +64,7 @@
     rotation: desdemona
 
 - moon:
-    name: Juliet
+    name: [Juliet, Uranus XI, S/1986 U 2]
     axes: [150, 74, 74]
     albedo: 0.075
     surfaces:
@@ -77,7 +77,7 @@
     rotation: juliet
 
 - moon:
-    name: Portia
+    name: [Portia, Uranus XII, S/1986 U 1]
     axes: [156, 126, 126]
     albedo: 0.069
     surfaces:
@@ -90,7 +90,7 @@
     rotation: portia
 
 - moon:
-    name: Rosalind
+    name: [Rosalind, Uranus XIII, S/1986 U 4]
     diameter: 72
     albedo: 0.072
     surfaces:
@@ -103,7 +103,7 @@
     rotation: rosalind
 
 - moon:
-    name: Cupid
+    name: [Cupid, Uranus XXVII, S/2003 U 2]
     diameter: 18
     albedo: 0.070
     surfaces:
@@ -116,7 +116,7 @@
     rotation: unknown-synchronous
 
 - moon:
-    name: Belinda
+    name: [Belinda, Uranus XIV, S/1986 U 5]
     axes: [128, 64, 64]
     albedo: 0.067
     surfaces:
@@ -129,7 +129,7 @@
     rotation: belinda
 
 - moon:
-    name: Perdita
+    name: [Perdita, Uranus XXV, S/1986 U 10]
     diameter: 30
     albedo: 0.070
     surfaces:
@@ -142,7 +142,7 @@
     rotation: unknown-synchronous
 
 - moon:
-    name: Puck
+    name: [Puck, Uranus XV, S/1985 U 1]
     diameter: 162
     albedo: 0.104
     surfaces:
@@ -158,7 +158,7 @@
     rotation: puck
 
 - moon:
-    name: Mab
+    name: [Mab, Uranus XXVI, S/2003 U 1]
     diameter: 25
     albedo: 0.103
     surfaces:
