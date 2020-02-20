@@ -1,5 +1,5 @@
 - moon:
-    name: Proteus
+    name: [Proteus, Neptune VIII, S/1989 N 1]
     diameter: 436
     albedo: 0.096
     surfaces:
@@ -16,7 +16,7 @@
     rotation: proteus
 
 - moon:
-    name: Triton
+    name: [Triton, Neptune I]
     axes: [2709, 2706, 2705]
     albedo: 0.719
     surfaces:
@@ -36,7 +36,7 @@
     rotation: triton
 
 - moon:
-    name: Nereid
+    name: [Nereid, Neptune II]
     radius: 170
     albedo: 0.155
     surfaces:

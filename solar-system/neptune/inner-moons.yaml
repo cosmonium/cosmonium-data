@@ -1,5 +1,5 @@
 - moon:
-    name: Naiad
+    name: [Naiad, Neptune III, S/1989 N 6]
     axes: [96, 60, 52]
     albedo: 0.072
     surfaces:
@@ -12,7 +12,7 @@
     rotation: naiad
 
 - moon:
-    name: Thalassa
+    name: [Thalassa, Neptune IV, S/1989 N 5]
     axes: [108, 100, 52]
     albedo: 0.091
     surfaces:
@@ -25,7 +25,7 @@
     rotation: thalassa
 
 - moon:
-    name: Despina
+    name: [Despina, Neptune V, S/1989 N 3]
     axes: [180, 148, 128]
     albedo: 0.090
     surfaces:
@@ -38,7 +38,7 @@
     rotation: despina
 
 - moon:
-    name: Galatea
+    name: [Galatea, Neptune VI, S/1989 N 4]
     axes: [204, 184, 144]
     albedo: 0.079
     surfaces:
@@ -51,7 +51,7 @@
     rotation: galatea
 
 - moon:
-    name: Larissa
+    name: [Larissa, Neptune VII, S/1981 N 1, S/1989 N 2]
     diameter: 216
     albedo: 0.091
     surfaces:

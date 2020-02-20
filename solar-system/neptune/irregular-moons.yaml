@@ -1,5 +1,5 @@
 - minormoon:
-    name: Halimede
+    name: [Halimede, Neptune IX, S/2002 N 1]
     radius: 31.0
     albedo: 0.04
     surfaces:
@@ -10,8 +10,9 @@
         lighting-model: oren-nayar
     orbit: halimede
     rotation: unknown
+
 - minormoon:
-    name: Psamathe
+    name: [Psamathe, Neptune X, S/2003 N 1]
     radius: 20.0
     albedo: 0.04
     surfaces:
@@ -22,8 +23,9 @@
         lighting-model: oren-nayar
     orbit: psamathe
     rotation: unknown
+
 - minormoon:
-    name: Sao
+    name: [Sao, Neptune XI, S/2002 N 2]
     radius: 22.0
     albedo: 0.04
     surfaces:
@@ -34,8 +36,9 @@
         lighting-model: oren-nayar
     orbit: sao
     rotation: unknown
+
 - minormoon:
-    name: Laomedeia
+    name: [Laomedeia, Neptune XII, S/2002 N 3]
     radius: 21.0
     albedo: 0.04
     surfaces:
@@ -46,8 +49,9 @@
         lighting-model: oren-nayar
     orbit: laomedeia
     rotation: unknown
+
 - minormoon:
-    name: Neso
+    name: [Neso, Neptune XIII, S/2002 N 4]
     radius: 30.0
     albedo: 0.04
     surfaces:
@@ -58,8 +62,9 @@
         lighting-model: oren-nayar
     orbit: neso
     rotation: unknown
+
 - minormoon:
-    name: S/2004 N1
+    name: [Hippocamp, Neptune XIV, S/2004 N1]
     radius: 9.0
     albedo: 0.10
     surfaces:
