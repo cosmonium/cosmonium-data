@@ -1,17 +1,5 @@
 - minormoon:
-    name: Callisto
-    radius: 2410.3
-    albedo: 0.17
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: callisto
-    rotation: unknown
-- minormoon:
-    name: Himalia
+    name: [Himalia, Jupiter VI]
     radius: 85
     albedo: 0.04
     surfaces:
@@ -23,7 +11,7 @@
     orbit: himalia
     rotation: unknown
 - minormoon:
-    name: Elara
+    name: [Elara, Jupiter VII]
     radius: 43
     albedo: 0.04
     surfaces:
@@ -35,7 +23,7 @@
     orbit: elara
     rotation: unknown
 - minormoon:
-    name: Pasiphae
+    name: [Pasiphae, Jupiter VIII]
     radius: 30
     albedo: 0.04
     surfaces:
@@ -47,7 +35,7 @@
     orbit: pasiphae
     rotation: unknown
 - minormoon:
-    name: Sinope
+    name: [Sinope, Jupiter IX]
     radius: 19
     albedo: 0.04
     surfaces:
@@ -59,7 +47,7 @@
     orbit: sinope
     rotation: unknown
 - minormoon:
-    name: Lysithea
+    name: [Lysithea, Jupiter X]
     radius: 18
     albedo: 0.04
     surfaces:
@@ -71,7 +59,7 @@
     orbit: lysithea
     rotation: unknown
 - minormoon:
-    name: Carme
+    name: [Carme, Jupiter XI]
     radius: 23
     albedo: 0.04
     surfaces:
@@ -83,7 +71,7 @@
     orbit: carme
     rotation: unknown
 - minormoon:
-    name: Ananke
+    name: [Ananke, Jupiter XII]
     radius: 14
     albedo: 0.04
     surfaces:
@@ -95,7 +83,7 @@
     orbit: ananke
     rotation: unknown
 - minormoon:
-    name: Leda
+    name: [Leda, Jupiter XIII]
     radius: 10
     albedo: 0.04
     surfaces:
@@ -107,7 +95,7 @@
     orbit: leda
     rotation: unknown
 - minormoon:
-    name: Callirrhoe
+    name: [Callirrhoe, Jupiter XVII, S/1999 J 1]
     radius: 4.3
     albedo: 0.04
     surfaces:
@@ -119,7 +107,7 @@
     orbit: callirrhoe
     rotation: unknown
 - minormoon:
-    name: Themisto
+    name: [Themisto, Jupiter XVIII, S/1975 J 1, S/2000 J 1]
     radius: 4.0
     albedo: 0.04
     surfaces:
@@ -131,7 +119,7 @@
     orbit: themisto
     rotation: unknown
 - minormoon:
-    name: Megaclite
+    name: [Megaclite, Jupiter XIX, S/2000 J 8]
     radius: 2.7
     albedo: 0.04
     surfaces:
@@ -143,7 +131,7 @@
     orbit: megaclite
     rotation: unknown
 - minormoon:
-    name: Taygete
+    name: [Taygete, Jupiter XX, S/2000 J 9]
     radius: 2.5
     albedo: 0.04
     surfaces:
@@ -155,7 +143,7 @@
     orbit: taygete
     rotation: unknown
 - minormoon:
-    name: Chaldene
+    name: [Chaldene, Jupiter XXI, S/2000 J 10]
     radius: 1.9
     albedo: 0.04
     surfaces:
@@ -167,7 +155,7 @@
     orbit: chaldene
     rotation: unknown
 - minormoon:
-    name: Harpalyke
+    name: [Harpalyke, Jupiter XXII, S/2000 J 5]
     radius: 2.2
     albedo: 0.04
     surfaces:
@@ -179,7 +167,7 @@
     orbit: harpalyke
     rotation: unknown
 - minormoon:
-    name: Kalyke
+    name: [Kalyke, Jupiter XXIII, S/2000 J 2]
     radius: 2.6
     albedo: 0.04
     surfaces:
@@ -191,7 +179,7 @@
     orbit: kalyke
     rotation: unknown
 - minormoon:
-    name: Iocaste
+    name: [Iocaste, Jupiter XXIV, S/2000 J 3]
     radius: 2.6
     albedo: 0.04
     surfaces:
@@ -203,7 +191,7 @@
     orbit: iocaste
     rotation: unknown
 - minormoon:
-    name: Erinome
+    name: [Erinome, Jupiter XXV, S/2000 J 4]
     radius: 1.6
     albedo: 0.04
     surfaces:
@@ -215,7 +203,7 @@
     orbit: erinome
     rotation: unknown
 - minormoon:
-    name: Isonoe
+    name: [Isonoe, Jupiter XXVI, S/2000 J 6]
     radius: 1.9
     albedo: 0.04
     surfaces:
@@ -227,7 +215,7 @@
     orbit: isonoe
     rotation: unknown
 - minormoon:
-    name: Praxidike
+    name: [Praxidike, Jupiter XXVII, S/2000 J 7]
     radius: 3.4
     albedo: 0.04
     surfaces:
@@ -239,7 +227,7 @@
     orbit: praxidike
     rotation: unknown
 - minormoon:
-    name: Autonoe
+    name: [Autonoe, Jupiter XXVIII, S/2001 J 1]
     radius: 2.0
     albedo: 0.04
     surfaces:
@@ -251,7 +239,7 @@
     orbit: autonoe
     rotation: unknown
 - minormoon:
-    name: Thyone
+    name: [Thyone, Jupiter XXIX, S/2001 J 2]
     radius: 2.0
     albedo: 0.04
     surfaces:
@@ -263,7 +251,7 @@
     orbit: thyone
     rotation: unknown
 - minormoon:
-    name: Hermippe
+    name: [Hermippe, Jupiter XXX, S/2001 J 3]
     radius: 2.0
     albedo: 0.04
     surfaces:
@@ -275,7 +263,7 @@
     orbit: hermippe
     rotation: unknown
 - minormoon:
-    name: Aitne
+    name: [Aitne, Jupiter XXXI, S/2001 J 11]
     radius: 1.5
     albedo: 0.04
     surfaces:
@@ -287,7 +275,7 @@
     orbit: aitne
     rotation: unknown
 - minormoon:
-    name: Eurydome
+    name: [Eurydome, Jupiter XXXII, S/2001 J 4]
     radius: 1.5
     albedo: 0.04
     surfaces:
@@ -299,7 +287,7 @@
     orbit: eurydome
     rotation: unknown
 - minormoon:
-    name: Euanthe
+    name: [Euanthe, Jupiter XXXIII, S/2001 J 7]
     radius: 1.5
     albedo: 0.04
     surfaces:
@@ -311,7 +299,7 @@
     orbit: euanthe
     rotation: unknown
 - minormoon:
-    name: Euporie
+    name: [Euporie, Jupiter XXXIV, S/2001 J 10]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -323,7 +311,7 @@
     orbit: euporie
     rotation: unknown
 - minormoon:
-    name: Orthosie
+    name: [Orthosie, Jupiter XXXV, S/2001 J 9]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -335,7 +323,7 @@
     orbit: orthosie
     rotation: unknown
 - minormoon:
-    name: Sponde
+    name: [Sponde, Jupiter XXXVI, S/2001 J 5]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -347,7 +335,7 @@
     orbit: sponde
     rotation: unknown
 - minormoon:
-    name: Kale
+    name: [Kale, Jupiter XXXVII, S/2001 J 8]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -359,7 +347,7 @@
     orbit: kale
     rotation: unknown
 - minormoon:
-    name: Pasithee
+    name: [Pasithee, Jupiter XXXVIII, S/2001 J 6]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -371,7 +359,7 @@
     orbit: pasithee
     rotation: unknown
 - minormoon:
-    name: Hegemone
+    name: [Hegemone, Jupiter XXXIX, S/2003 J 8]
     radius: 1.5
     albedo: 0.04
     surfaces:
@@ -383,7 +371,7 @@
     orbit: hegemone
     rotation: unknown
 - minormoon:
-    name: Mneme
+    name: [Mneme, Jupiter XL, S/2003 J 21]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -395,7 +383,7 @@
     orbit: mneme
     rotation: unknown
 - minormoon:
-    name: Aoede
+    name: [Aoede, Jupiter XLI, S/2003 J 7]
     radius: 2.0
     albedo: 0.04
     surfaces:
@@ -407,7 +395,7 @@
     orbit: aoede
     rotation: unknown
 - minormoon:
-    name: Thelxinoe
+    name: [Thelxinoe, Jupiter XLII, S/2003 J 22]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -419,7 +407,7 @@
     orbit: thelxinoe
     rotation: unknown
 - minormoon:
-    name: Arche
+    name: [Arche, Jupiter XLIII, S/2002 J 1]
     radius: 1.5
     albedo: 0.04
     surfaces:
@@ -431,7 +419,7 @@
     orbit: arche
     rotation: unknown
 - minormoon:
-    name: Kallichore
+    name: [Kallichore, Jupiter XLIV, S/2003 J 11]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -443,7 +431,7 @@
     orbit: kallichore
     rotation: unknown
 - minormoon:
-    name: Helike
+    name: [Helike, Jupiter XLV, S/2003 J 6]
     radius: 2.0
     albedo: 0.04
     surfaces:
@@ -455,7 +443,7 @@
     orbit: helike
     rotation: unknown
 - minormoon:
-    name: Carpo
+    name: [Carpo, Jupiter XLVI, S/2003 J 20]
     radius: 1.5
     albedo: 0.04
     surfaces:
@@ -467,7 +455,7 @@
     orbit: carpo
     rotation: unknown
 - minormoon:
-    name: Eukelade
+    name: [Eukelade, Jupiter XLVII, S/2003 J 1]
     radius: 2.0
     albedo: 0.04
     surfaces:
@@ -479,7 +467,7 @@
     orbit: eukelade
     rotation: unknown
 - minormoon:
-    name: Cyllene
+    name: [Cyllene, Jupiter XLIII, S/2003 J 13]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -491,7 +479,7 @@
     orbit: cyllene
     rotation: unknown
 - minormoon:
-    name: Kore
+    name: [Kore, Jupiter XLIX, S/2003 J 14]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -503,7 +491,7 @@
     orbit: kore
     rotation: unknown
 - minormoon:
-    name: Herse
+    name: [Herse, Jupiter L, S/2003 J 17]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -515,163 +503,7 @@
     orbit: herse
     rotation: unknown
 - minormoon:
-    name: S/2000 J11
-    radius: 1.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2000j11
-    rotation: unknown
-- minormoon:
-    name: S/2003 J2
-    radius: 1.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j2
-    rotation: unknown
-- minormoon:
-    name: S/2003 J3
-    radius: 1.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j3
-    rotation: unknown
-- minormoon:
-    name: S/2003 J4
-    radius: 1.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j4
-    rotation: unknown
-- minormoon:
-    name: S/2003 J5
-    radius: 2.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j5
-    rotation: unknown
-- minormoon:
-    name: S/2003 J9
-    radius: 0.5
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j9
-    rotation: unknown
-- minormoon:
-    name: S/2003 J10
-    radius: 1.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j10
-    rotation: unknown
-- minormoon:
-    name: S/2003 J12
-    radius: 0.5
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j12
-    rotation: unknown
-- minormoon:
-    name: S/2003 J15
-    radius: 1.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j15
-    rotation: unknown
-- minormoon:
-    name: S/2003 J16
-    radius: 1.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j16
-    rotation: unknown
-- minormoon:
-    name: S/2003 J18
-    radius: 1.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j18
-    rotation: unknown
-- minormoon:
-    name: S/2003 J19
-    radius: 1.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j19
-    rotation: unknown
-- minormoon:
-    name: S/2003 J23
-    radius: 1.0
-    albedo: 0.04
-    surfaces:
-      - category: uniform
-        heightmap: asteroid
-        appearance:
-            diffuse-color: [0.3, 0.3, 0.3, 1]
-        lighting-model: oren-nayar
-    orbit: s/2003j23
-    rotation: unknown
-- minormoon:
-    name: S/2010 J1
+    name: [Jupiter LI, S/2010 J 1]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -683,7 +515,7 @@
     orbit: s/2010j1
     rotation: unknown
 - minormoon:
-    name: S/2010 J2
+    name: [Jupiter LII, S/2010 J 2]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -695,7 +527,103 @@
     orbit: s/2010j2
     rotation: unknown
 - minormoon:
-    name: S/2011 J1
+    name: [Dia, Jupiter LIII, S/2000 J 11]
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2000j11
+    rotation: unknown
+# [Jupiter LIV, S/2016 J 1]
+- minormoon:
+    name: [Jupiter LV, S/2003 J 18]
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j18
+    rotation: unknown
+- minormoon:
+    name: [Jupiter LVI, S/2011 J 2]
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2011j2
+    rotation: unknown
+- minormoon:
+    name: [Eirene, Jupiter LVII, S/2003 J 5]
+    radius: 2.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j5
+    rotation: unknown
+- minormoon:
+    name: [Philophrosyne, Jupiter LVIII, S/2003 J 15]
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j15
+    rotation: unknown
+# [Jupiter LIX, S/2017 J 1]
+- minormoon:
+    name: [Eupheme, Jupiter LX, S/2003 J 3]
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j3
+    rotation: unknown
+- minormoon:
+    name: [Jupiter LXI, S/2003 J 19]
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j19
+    rotation: unknown
+# [Valetudo, Jupiter LXIIs, S/2016 J 2]
+# [Jupiter LXIII, S/2017 J 2]
+# [Jupiter LXIV, S/2017 J 3]
+# [Pandia, Jupiter LXV, S/2017 J 4]
+# [Jupiter LXVI, S/2017 J 5]
+# [Jupiter LXVII, S/2017 J 6]
+# [Jupiter LXVIII, S/2017 J 7]
+# [Jupiter LXIX, S/2017 J 8]
+# [Jupiter LXX, S/2017 J 9]
+# [Ersa, Jupiter LXXI, S/2018 J 1]
+- minormoon:
+    name: [Jupiter LXXII, S/2011 J 1]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -706,8 +634,8 @@
         lighting-model: oren-nayar
     orbit: s/2011j1
     rotation: unknown
-- minormoon:
-    name: S/2011 J2
+- lostmoon:
+    name: [S/2003 J 2]
     radius: 1.0
     albedo: 0.04
     surfaces:
@@ -716,5 +644,77 @@
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
         lighting-model: oren-nayar
-    orbit: s/2011j2
+    orbit: s/2003j2
+    rotation: unknown
+- lostmoon:
+    name: [S/2003 J 4]
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j4
+    rotation: unknown
+- lostmoon:
+    name: [S/2003 J 9]
+    radius: 0.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j9
+    rotation: unknown
+- lostmoon:
+    name: [S/2003 J 10]
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j10
+    rotation: unknown
+- lostmoon:
+    name: [S/2003 J 12]
+    radius: 0.5
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j12
+    rotation: unknown
+- lostmoon:
+    name: [S/2003 J 16]
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j16
+    rotation: unknown
+- lostmoon:
+    name: [S/2003 J 23]
+    radius: 1.0
+    albedo: 0.04
+    surfaces:
+      - category: uniform
+        heightmap: asteroid
+        appearance:
+            diffuse-color: [0.3, 0.3, 0.3, 1]
+        lighting-model: oren-nayar
+    orbit: s/2003j23
     rotation: unknown

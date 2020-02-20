@@ -1,5 +1,5 @@
 - moon:
-    name: Metis
+    name: [Metis, Jupiter XVI, S/1979 J 3]
     diameter: 60
     albedo: 0.061
     surfaces:
@@ -15,7 +15,7 @@
     rotation: metis
 
 - moon:
-    name: Adrastea
+    name: [Adrastea, Jupiter XV, S/1979 J 1]
     diameter: 20
     albedo: 0.1
     surfaces:
@@ -31,7 +31,7 @@
     rotation: adrastea
 
 - moon:
-    name: Amalthea
+    name: [Amalthea, Jupiter V]
     diameter: 250
     albedo: 0.090
     surfaces:
@@ -56,7 +56,7 @@
     rotation: amalthea
 
 - moon:
-    name: Thebe
+    name: [Thebe, Jupiter XIV, S/1979 J 2]
     diameter: 116
     albedo: 0.047
     surfaces:

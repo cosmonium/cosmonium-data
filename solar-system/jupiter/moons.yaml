@@ -1,5 +1,5 @@
 - moon:
-    name: Io
+    name: [Io, Jupiter I]
     axes: [3660.0, 3637.4, 3630.6]
     albedo: 0.63
     surfaces:
@@ -19,7 +19,7 @@
     rotation: io
 
 - moon:
-    name: Europa
+    name: [Europa, Jupiter II]
     diameter: 3121.6
     albedo: 0.67
     surfaces:
@@ -39,7 +39,7 @@
     rotation: europa
 
 - moon:
-    name: Ganymede
+    name: [Ganymede, Jupiter III]
     diameter: 5262.4
     albedo: 0.43
     surfaces:
@@ -59,7 +59,7 @@
     rotation: ganymede
 
 - moon:
-    name: Callisto
+    name: [Callisto, Jupiter IV]
     diameter: 4820.6
     albedo: 0.17
     surfaces:
