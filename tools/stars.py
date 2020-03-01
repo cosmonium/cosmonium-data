@@ -24,7 +24,10 @@ from __future__ import absolute_import
 import sys, os
 import re
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+cosmonium_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.append(cosmonium_path)
+sys.path.insert(1, os.path.join(cosmonium_path, 'third-party'))
+
 
 from cosmonium.astro import units, astro
 
