@@ -5809,7 +5809,7 @@
     magnitude: 0.572699
     spectral-type: 'G8 III'
 - star:
-    name: [ALF Psc, 113 Psc, HR 595, ADS 1615 AB, HIP 9487, HD 12446, SAO ]
+    name: [ALF Psc, 113 Psc, HR 595, ADS 1615 AB, HIP 9487, HD 12446]
     orbit:
         type: fixed
         ra: 30.5117
@@ -6469,7 +6469,7 @@
     magnitude: -1.02058
     spectral-type: 'G7III'
 - star:
-    name: [HR 663, HIP 10687, HD 14028, SAO ]
+    name: [HR 663, HIP 10687, HD 14028]
     orbit:
         type: fixed
         ra: 34.3873
@@ -7419,7 +7419,7 @@
     magnitude: 0.819944
     spectral-type: 'K0III'
 - star:
-    name: [HR 758, HIP 12193, HD 16210, SAO ]
+    name: [HR 758, HIP 12193, HD 16210]
     orbit:
         type: fixed
         ra: 39.2596
@@ -8489,7 +8489,7 @@
     magnitude: 0.74774
     spectral-type: 'M6- III:'
 - star:
-    name: [HR 868, HIP 13502, HD 18242, SAO ]
+    name: [HR 868, HIP 13502, HD 18242]
     orbit:
         type: fixed
         ra: 43.4694
@@ -18459,7 +18459,7 @@
     magnitude: -4.09622
     spectral-type: 'O8III'
 - star:
-    name: [LAM Ori, 39 Ori, HR 1880, ADS 4179 AB, HD 36862, SAO ]
+    name: [LAM Ori, 39 Ori, HR 1880, ADS 4179 AB, HD 36862]
     orbit:
         type: fixed
         ra: 83.7854
@@ -18579,7 +18579,7 @@
     magnitude: -2.57487
     spectral-type: 'B1V'
 - star:
-    name: [TET01 Ori, 41 Ori, HR 1893, ADS 4186 AB, HIP 26220, HD 37020, SAO ]
+    name: [TET01 Ori, 41 Ori, HR 1893, ADS 4186 AB, HIP 26220, HD 37020]
     orbit:
         type: fixed
         ra: 83.8159
@@ -18589,7 +18589,7 @@
     magnitude: -3.27
     spectral-type: 'B3III-IV'
 - star:
-    name: [TET01 Ori, 41 Ori, HR 1894, ADS 4186 AB, HD 37021, SAO ]
+    name: [TET01 Ori, 41 Ori, HR 1894, ADS 4186 AB, HD 37021]
     orbit:
         type: fixed
         ra: 83.8171
@@ -18609,7 +18609,7 @@
     magnitude: -4.87
     spectral-type: 'O6.5V'
 - star:
-    name: [TET01 Ori, 41 Ori, HR 1896, ADS 4186 AB, HIP 26224, HD 37023, SAO ]
+    name: [TET01 Ori, 41 Ori, HR 1896, ADS 4186 AB, HIP 26224, HD 37023]
     orbit:
         type: fixed
         ra: 83.8217
@@ -19139,7 +19139,7 @@
     magnitude: -4.71798
     spectral-type: 'O9.5I'
 - star:
-    name: [ZET Ori, 50 Ori, HR 1949, ADS 4263 AB, HD 37743, SAO ]
+    name: [ZET Ori, 50 Ori, HR 1949, ADS 4263 AB, HD 37743]
     orbit:
         type: fixed
         ra: 85.19
@@ -23179,7 +23179,7 @@
     magnitude: 2.0111
     spectral-type: 'B3ne'
 - star:
-    name: [BET Mon, 11 Mon, HR 2358, ADS 5107 AB, HD 45727, SAO ]
+    name: [BET Mon, 11 Mon, HR 2358, ADS 5107 AB, HD 45727]
     orbit:
         type: fixed
         ra: 97.2062
@@ -28359,7 +28359,7 @@
     magnitude: 2.01037
     spectral-type: 'A2Vm'
 - star:
-    name: [Castor, ALF Gem, 66 Gem, HR 2891, Gliese 278 A, ADS 6175 A, HIP 36850, HD 60179, SAO ]
+    name: [Castor, ALF Gem, 66 Gem, HR 2891, Gliese 278 A, ADS 6175 A, HIP 36850, HD 60179]
     orbit:
         type: fixed
         ra: 113.65
@@ -29249,7 +29249,7 @@
     magnitude: -0.611979
     spectral-type: 'B9 IV'
 - star:
-    name: [HR 2980, HD 62154, SAO ]
+    name: [HR 2980, HD 62154]
     orbit:
         type: fixed
         ra: 113.841
@@ -46439,7 +46439,7 @@
     magnitude: -3.64195
     spectral-type: 'B0.5 IV'
 - star:
-    name: [ALF02 Cru, HR 4731, HD 108249, SAO ]
+    name: [ALF02 Cru, HR 4731, HD 108249]
     orbit:
         type: fixed
         ra: 186.652
@@ -53989,7 +53989,7 @@
     magnitude: -1.90909
     spectral-type: 'K2 III'
 - star:
-    name: [EPS Boo, 36 Boo, HR 5505, ADS 9372 AB, HIP 72105, HD 129988, SAO ]
+    name: [EPS Boo, 36 Boo, HR 5505, ADS 9372 AB, HIP 72105, HD 129988]
     orbit:
         type: fixed
         ra: 221.247
@@ -56199,7 +56199,7 @@
     magnitude: -3.37345
     spectral-type: 'K4III'
 - star:
-    name: [ETA CrB, 2 CrB, HR 5728, Gliese 584 B, ADS 9617 B, HD 137108, SAO ]
+    name: [ETA CrB, 2 CrB, HR 5728, Gliese 584 B, ADS 9617 B, HD 137108]
     orbit:
         type: fixed
         ra: 230.801
@@ -59469,7 +59469,7 @@
     magnitude: 3.95898
     spectral-type: 'G1IV-V (k)'
 - star:
-    name: [SIG CrB, 17 CrB, HR 6064, Gliese 615.2 B, ADS 9979 B, HD 146362, SAO ]
+    name: [SIG CrB, 17 CrB, HR 6064, Gliese 615.2 B, ADS 9979 B, HD 146362]
     orbit:
         type: fixed
         ra: 243.67
@@ -60689,7 +60689,7 @@
     magnitude: -0.429118
     spectral-type: 'B9V'
 - star:
-    name: [17 Dra, HR 6186, ADS 10129 AB, HD 150118, SAO ]
+    name: [17 Dra, HR 6186, ADS 10129 AB, HD 150118]
     orbit:
         type: fixed
         ra: 249.059
@@ -65619,7 +65619,7 @@
     magnitude: -2.71364
     spectral-type: 'B3 II/III'
 - star:
-    name: [HR 6693, HIP 88060, HD 163755, SAO ]
+    name: [HR 6693, HIP 88060, HD 163755]
     orbit:
         type: fixed
         ra: 269.772
@@ -66139,7 +66139,7 @@
     magnitude: 2.66199
     spectral-type: 'A5 V'
 - star:
-    name: [HR 6750, HD 165190, SAO ]
+    name: [HR 6750, HD 165190]
     orbit:
         type: fixed
         ra: 271.707
@@ -69089,7 +69089,7 @@
     magnitude: 1.74799
     spectral-type: 'A6Vn'
 - star:
-    name: [EPS02 Lyr, 5 Lyr, HR 7054, ADS 11635 AB, HD 173608, SAO ]
+    name: [EPS02 Lyr, 5 Lyr, HR 7054, ADS 11635 AB, HD 173608]
     orbit:
         type: fixed
         ra: 281.095
@@ -79269,7 +79269,7 @@
     magnitude: 7.50039
     spectral-type: 'K5V'
 - star:
-    name: [61 Cyg, HR 8086, Gliese 820 B, ADS 14636 B, HIP 104217, HD 201092, SAO ]
+    name: [61 Cyg, HR 8086, Gliese 820 B, ADS 14636 B, HIP 104217, HD 201092]
     orbit:
         type: fixed
         ra: 316.717
@@ -89139,7 +89139,7 @@
     magnitude: -1.20027
     spectral-type: 'M2 III'
 - star:
-    name: [ZET Scl, HR 9091, HIP 183, HD 224990, SAO ]
+    name: [ZET Scl, HR 9091, HIP 183, HD 224990]
     orbit:
         type: fixed
         ra: 0.582975

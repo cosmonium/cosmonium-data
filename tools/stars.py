@@ -131,8 +131,8 @@ def collect_names(proper_names, data, comp=None, in_system=False):
                     break
         for entry in data:
             sao = entry.get('sao', None)
-            if sao is not None and hd != '':
-                if isinstance(hd, list):
+            if sao is not None and sao != '':
+                if isinstance(sao, list):
                     print("Multiple entries for SAO", sao)
                 else:
                     sao_name = 'SAO ' + sao
