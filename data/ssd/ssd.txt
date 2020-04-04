@@ -1,7 +1,0 @@
-earth earth.txt x
-mars mars.txt x 
-jupiter jupiter.txt jupiter-phy.txt
-saturn saturn.txt saturn-phy.txt
-uranus uranus.txt uranus-phy.txt
-neptune neptune.txt neptune-phy.txt
-pluto pluto.txt x
