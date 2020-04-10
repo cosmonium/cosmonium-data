@@ -44,7 +44,7 @@
 - asterism:
     name: asterism10
     segments:
-      - [12 CVN, 8 CVN]
+      - [12 CVN A, 8 CVN]
 - asterism:
     name: asterism11
     segments:
@@ -80,7 +80,7 @@
 - asterism:
     name: asterism18
     segments:
-      - [83 PSC, 90 PSC, 85 PSC, 84 PSC, 99 PSC, 110 PSC, 113 PSC, 111 PSC, 106 PSC, 98 PSC, 86 PSC, 71 PSC, 63 PSC, 28 PSC, 17 PSC, 10 PSC, 7 PSC, 6 PSC, 8 PSC, 18 PSC, 17 PSC]
+      - [83 PSC, 90 PSC, 85 PSC, 84 PSC, 99 PSC, 110 PSC, 113 PSC A, 111 PSC, 106 PSC, 98 PSC, 86 PSC A, 71 PSC, 63 PSC, 28 PSC, 17 PSC, 10 PSC, 7 PSC, 6 PSC, 8 PSC, 18 PSC, 17 PSC]
       - [6 PSC, 4 PSC]
 - asterism:
     name: asterism19
@@ -93,7 +93,7 @@
 - asterism:
     name: asterism21
     segments:
-      - [57 AND, 43 AND, 31 AND, 21 AND]
+      - [GAM AND, 43 AND, 31 AND, 21 AND]
 - asterism:
     name: asterism22
     segments:
@@ -103,7 +103,7 @@
 - asterism:
     name: asterism23
     segments:
-      - [2 AQR, 22 AQR, 34 AQR, 48 AQR, 55 AQR, 62 AQR, 73 AQR, 71 AQR, 76 AQR, 88 AQR]
+      - [2 AQR, 22 AQR, 34 AQR, 48 AQR, ZET AQR, 62 AQR, 73 AQR, 71 AQR, 76 AQR, 88 AQR]
 - asterism:
     name: asterism24
     segments:
@@ -115,7 +115,7 @@
 - asterism:
     name: asterism26
     segments:
-      - [2 DEL, 6 DEL, 9 DEL, 12 DEL, 11 DEL, 6 DEL]
+      - [2 DEL, 6 DEL, 9 DEL, GAM02 DEL, 11 DEL, 6 DEL]
 - asterism:
     name: asterism27
     segments:
@@ -176,13 +176,13 @@
       - [20 HER, 27 HER, 40 HER, 44 HER, 35 HER, 22 HER]
       - [40 HER, 58 HER]
       - [44 HER, 67 HER]
-      - [91 HER, 75 HER, 67 HER, 58 HER, 65 HER, 86 HER, 92 HER, 103 HER]
+      - [91 HER, RHO HER, 67 HER, 58 HER, 65 HER, 86 HER, 92 HER, 103 HER]
 - asterism:
     name: asterism41
     segments:
       - [41 SER, 28 SER]
-      - [35 SER, 28 SER, 13 SER, 24 SER, 37 SER, 1 OPH, 2 OPH, 13 OPH, 35 OPH, 55 SER, 64 OPH, 69 OPH, 58 SER, 63 SER]
-      - [64 OPH, 62 OPH, 60 OPH, 55 OPH, 64 HER, 27 OPH, 10 OPH, 1 OPH]
+      - [35 SER, 28 SER, 13 SER, 24 SER, 37 SER, 1 OPH, 2 OPH, 13 OPH, 35 OPH, 55 SER, 64 OPH, 69 OPH, 58 SER, TET SER]
+      - [64 OPH, 62 OPH, 60 OPH, 55 OPH, ALF HER, 27 OPH, 10 OPH, 1 OPH]
       - [35 OPH, 42 OPH]
 - asterism:
     name: asterism42
@@ -196,7 +196,7 @@
     name: asterism44
     segments:
       - [64 CYG, 53 CYG, 37 CYG, 18 CYG, 10 CYG, 1 CYG]
-      - [50 CYG, 37 CYG, 21 CYG, 6 CYG]
+      - [50 CYG, 37 CYG, 21 CYG, 6 CYG A]
 - asterism:
     name: asterism45
     segments:
@@ -259,7 +259,7 @@
 - asterism:
     name: asterism58
     segments:
-      - [HD 108248, HD 108903]
+      - [ALF CRU, HD 108903]
 - asterism:
     name: asterism59
     segments:
