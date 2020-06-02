@@ -33,7 +33,14 @@ system:
                     transparency: true
                 height: 7
                 attribution: nasa-visible-earth
-            atmosphere: oneil
+            atmosphere:
+              type: oneil
+              height: 60
+              rayleigh-scale-depth: 8
+              rayleigh: 0.0025
+              mie-scale-depth: 1.2
+              mie: 0.0015
+              g: -0.85
         - include: moon/moon.yaml
         - include: hst/hst.yaml
         - include: iss/iss.yaml
