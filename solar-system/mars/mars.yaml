@@ -14,6 +14,15 @@ system:
                       texture: textures/mars-surface-vanvliet/mars-surface-vanvliet.ctx
                       normalmap: textures/mars-normal-vanvliet/mars-normal-vanvliet.ctx
                       attribution: vanvliet
+            atmosphere:
+              type: oneil
+              height: 120.0
+              rayleigh-scale-depth: 11.1
+              rayleigh: 0.0002
+              mie-scale-depth: 10.0
+              mie: 0.0002
+              mie-alpha: 0.85
+              g: -0.75
             rotation: mars
         - moon:
             name: Phobos

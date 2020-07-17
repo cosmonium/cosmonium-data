@@ -13,6 +13,15 @@ system:
                 attribution: askaniy
                 appearance:
                   texture: textures/jupiter-visible-askaniy/jupiter-visible-askaniy.ctx
+            atmosphere:
+              type: oneil
+              height: 100.0
+              rayleigh-scale-depth: 10
+              rayleigh: 0.001
+              mie-scale-depth: 1.0
+              mie: 0.0002
+              mie-alpha: 0.85
+              g: -0.75
             rotation: jupiter
         - include: inner-moons.yaml
         - include: moons.yaml

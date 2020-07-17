@@ -24,6 +24,15 @@ system:
                 lighting-model: oren-nayar
                 attribution: hutchison
             rotation: saturn
+            atmosphere:
+              type: oneil
+              height: 40.0
+              rayleigh-scale-depth: 10
+              rayleigh: 0.0002
+              mie-scale-depth: 1.0
+              mie: 0.0002
+              mie-alpha: 0.85
+              g: -0.75
         - include: inner-moons.yaml
         - include: moons.yaml
         - include: irregular-moons.yaml
