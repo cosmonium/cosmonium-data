@@ -1,9 +1,9 @@
 - system:
-    name: 2007 OR10 System
+    name: Gonggong System
     orbit: 2007or10
     children:
       - dwarfplanet:
-          name: 2007 OR10
+          name: [Gonggong, 2007 OR10]
           diameter: 1280
           albedo: 0.089
           surfaces:
@@ -15,7 +15,7 @@
               period: 44.81
               period-units: Hour
       - moon:
-          name: S 2007 OR10 1
+          name: [Xiangliu, S 2007 OR10 1]
           radius: 150
           albedo: 0.089
           surfaces:
