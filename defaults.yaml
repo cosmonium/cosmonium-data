@@ -1,9 +1,9 @@
 - star-surface:
     name: default
-    noise:
+    func:
         aliases:
             perlin: gpunoise:perlin
-        noise:
+        func:
             sub:
               - pow:
                   - fbm:
@@ -32,10 +32,10 @@
 
 - heightmap:
     name: asteroid
-    noise:
+    func:
         aliases:
             perlin: gpunoise:perlin
-        noise:
+        func:
             type: fbm
             noise: perlin
             octaves: 5
@@ -44,10 +44,10 @@
 
 - heightmap:
     name: moon
-    noise:
+    func:
         aliases:
             perlin: gpunoise:perlin
-        noise:
+        func:
             type: fbm
             noise: perlin
             octaves: 5

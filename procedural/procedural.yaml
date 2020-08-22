@@ -46,11 +46,11 @@
             max-height: 16000
             interpolator: bspline
             max-lod: 12
-            noise:
+            func:
                 aliases:
                     perlin: gpunoise:perlin
                     cellular: stegu:cellulardiff
-                noise:
+                func:
                   add:
                   - -10.0
                   - mul:
@@ -199,10 +199,10 @@
               diffuse-color: [1.0, 0.988, 0.76, 1.0]
               texture:
                   type: procedural
-                  noise:
+                  func:
                      aliases:
                          perlin: gpunoise:perlin
-                     noise:
+                     func:
                        min: 0.75
                        type: warp
                        noise:
@@ -254,10 +254,10 @@
               type: procedural
               #frequency: 40
               target: alpha
-              noise:
+              func:
                  aliases:
                      perlin: gpunoise:perlin
-                 noise:
+                 func:
                    type: fbm
                    noise: perlin
                    octaves: 5
