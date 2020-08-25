@@ -3473,7 +3473,7 @@
     magnitude: 0.435181
     spectral-type: 'A0Vnn'
 - star:
-    name: ["MIRACH", "BET And", "43 And", "HR 337", "HD 6860", "HIP 5447", "GJ 53.3", "GJ 9044", "SAO 54471", "ADS 949 A", "WDS J01097+3537A", "CCDM J01097+3537A"]
+    name: ["Mirach", "BET And", "43 And", "HR 337", "HD 6860", "HIP 5447", "GJ 53.3", "GJ 9044", "SAO 54471", "ADS 949 A", "WDS J01097+3537A", "CCDM J01097+3537A"]
     orbit:
         type: fixed
         ra: 17.433
@@ -4333,7 +4333,7 @@
     magnitude: -2.49758
     spectral-type: 'C-N5+'
 - star:
-    name: ["Lodestar", "Polaris", "North Star", "ALF UMi", "1 UMi", "HR 424", "HD 8890", "HIP 11767", "SAO 308", "ADS 1477 A", "ADS 1477 AP", "WDS J02318+8916Aa,Ab", "WDS J02318+8916A", "CCDM J02319+8915A"]
+    name: ["Polaris", "Lodestar", "North Star", "ALF UMi", "1 UMi", "HR 424", "HD 8890", "HIP 11767", "SAO 308", "ADS 1477 A", "ADS 1477 AP", "WDS J02318+8916Aa,Ab", "WDS J02318+8916A", "CCDM J02319+8915A"]
     orbit:
         type: fixed
         ra: 37.9546
@@ -12471,7 +12471,7 @@
     magnitude: 1.09359
     spectral-type: 'A4V'
 - star:
-    name: ["Menkhib", "Menkib", "KSI Per", "46 Per", "HR 1228", "HD 24912", "HIP 18614", "SAO 56856", "WDS J03590+3547AB"]
+    name: ["Menkib", "Menkhib", "KSI Per", "46 Per", "HR 1228", "HD 24912", "HIP 18614", "SAO 56856", "WDS J03590+3547AB"]
     orbit:
         type: fixed
         ra: 59.7413
@@ -25352,7 +25352,7 @@
     magnitude: -1.7383
     spectral-type: 'B4IV'
 - star:
-    name: ["Sirius A", "Dog Star", "Sirius", "ALF CMa A", "ALF CMa", "9 CMa", "HR 2491", "HD 48915A", "HD 48915", "HIP 32349", "GJ 244 A", "SAO 151881", "ADS 5423 A", "WDS J06451-1643A", "CCDM J06451-1643A"]
+    name: ["Sirius", "Sirius A", "Dog Star", "ALF CMa A", "ALF CMa", "9 CMa", "HR 2491", "HD 48915A", "HD 48915", "HIP 32349", "GJ 244 A", "SAO 151881", "ADS 5423 A", "WDS J06451-1643A", "CCDM J06451-1643A"]
     orbit:
         type: fixed
         ra: 101.287
@@ -29974,7 +29974,7 @@
     magnitude: -0.427799
     spectral-type: 'K1III'
 - star:
-    name: ["Procyon A", "Procyon", "ALF CMi A", "ALF CMi", "10 CMi", "HR 2943", "HD 61421", "HIP 37279", "GJ 280 A", "GJ 280.0", "GJ 280", "SAO 115756", "WDS J07393+0514A", "CCDM J07393+0514A"]
+    name: ["Procyon", "Procyon A", "ALF CMi A", "ALF CMi", "10 CMi", "HR 2943", "HD 61421", "HIP 37279", "GJ 280 A", "GJ 280.0", "GJ 280", "SAO 115756", "WDS J07393+0514A", "CCDM J07393+0514A"]
     orbit:
         type: fixed
         ra: 114.825
@@ -53941,7 +53941,7 @@
     magnitude: -0.0747552
     spectral-type: 'K2III'
 - barycenter:
-    name: ["Agena", "Hadar", "BET Cen", "HR 5267", "HD 122451", "HIP 68702", "SAO 252582", "WDS J14038-6022AB", "CCDM J14038-6022AB"]
+    name: ["Hadar", "Agena", "BET Cen", "HR 5267", "HD 122451", "HIP 68702", "SAO 252582", "WDS J14038-6022AB", "CCDM J14038-6022AB"]
     orbit:
         type: fixed
         ra: 210.956
@@ -75675,7 +75675,7 @@
     magnitude: 0.0302091
     spectral-type: 'ApCrEuSr'
 - barycenter:
-    name: ["Albereo", "Albireo", "BET01 Cyg", "BET Cyg A", "6 Cyg A", "HR 7417", "HIP 95947", "SAO 87301", "ADS 12540 A", "WDS J19307+2758Aa,Ac", "WDS J19307+2758A", "CCDM J19307+2758AC"]
+    name: ["Albireo", "Albereo", "BET01 Cyg", "BET Cyg A", "6 Cyg A", "HR 7417", "HIP 95947", "SAO 87301", "ADS 12540 A", "WDS J19307+2758Aa,Ac", "WDS J19307+2758A", "CCDM J19307+2758AC"]
     orbit:
         type: fixed
         ra: 292.68
@@ -79614,7 +79614,7 @@
     magnitude: -2.6107
     spectral-type: 'G9Ib-II'
 - star:
-    name: ["SADR", "GAM Cyg", "37 Cyg", "HR 7796", "HD 194093", "HIP 100453", "SAO 49528", "ADS 13765 A", "WDS J20222+4015A", "CCDM J20222+4015A"]
+    name: ["Sadr", "GAM Cyg", "37 Cyg", "HR 7796", "HD 194093", "HIP 100453", "SAO 49528", "ADS 13765 A", "WDS J20222+4015A", "CCDM J20222+4015A"]
     orbit:
         type: fixed
         ra: 305.557
