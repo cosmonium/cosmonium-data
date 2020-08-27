@@ -10,6 +10,8 @@ dwarfplanet:
       - category: artistic
         attribution: fargetanik
         appearance:
-            texture: textures/ceres-artistic-fargetanik/ceres-artistic-fargetanik.ctx
+            texture:
+                file: textures/ceres-artistic-fargetanik/ceres-artistic-fargetanik.ctx
+                offset: 180
     orbit: ceres
     rotation: ceres
