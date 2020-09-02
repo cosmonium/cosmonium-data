@@ -263,3 +263,62 @@
                    octaves: 5
                    length: 0.05
                    scale: 5
+- nebula:
+    name: Emissive Nebula
+    radius: 600000
+    magnitude: 1
+    albedo: 0.3
+    orbit:
+        type: fixed
+        ra: 280
+        de: 0
+        distance: 10000
+    surfaces:
+      - shape: raymarching
+        lighting-model: flat
+        shader-appearance:
+            type: raymarching:emissive
+            emission-power: 1
+            emission-color: [0.37, 0.59, 1.]
+            max-steps: 128
+            density:
+              noise:
+                mul:
+                  - name: density_coef
+                    type: const
+                    value: 96
+                  - pow:
+                      base:
+                        max:
+                          - 0.0
+                          - add:
+                            - sub:
+                              - const:
+                                  name: max_density
+                                  value: 0.8
+                              - abs:
+                                  noise:
+                                    add:
+                                      - sphere:
+                                          name: sphere
+                                          radius: 0.8
+                                      - mul:
+                                          - fbm:
+                                              noise: gpunoise:perlin
+                                              octaves: 6
+                                              frequency: 2
+                                          - const:
+                                              name: scale_wobble
+                                              value: 0.2
+                            - mul:
+                                - fbm:
+                                    noise: gpunoise:perlin
+                                    octaves: 6
+                                    frequency: 5
+                                - const:
+                                    value: 0.15
+                                    name: scale_noise
+                      power:
+                        name: density_power
+                        type: const
+                        value: 32
