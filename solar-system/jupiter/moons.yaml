@@ -54,7 +54,9 @@
       - category: artistic
         attribution: olegpluton
         appearance:
-            texture: textures/ganymede-artistic-olegpluton/ganymede-artistic-olegpluton.ctx
+            texture:
+                file: textures/ganymede-artistic-olegpluton/ganymede-artistic-olegpluton.ctx
+                offset: 180
     orbit: ganymede
     rotation: ganymede
 
