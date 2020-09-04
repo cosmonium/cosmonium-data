@@ -287,6 +287,7 @@
                   - name: density_coef
                     type: const
                     value: 96
+                    value-range: [0, 2000]
                   - pow:
                       base:
                         max:
@@ -296,6 +297,7 @@
                               - const:
                                   name: max_density
                                   value: 0.8
+                                  value-range: [0, 1]
                               - abs:
                                   noise:
                                     add:
@@ -310,6 +312,7 @@
                                           - const:
                                               name: scale_wobble
                                               value: 0.2
+                                              value-range: [0, 2]
                             - mul:
                                 - fbm:
                                     noise: gpunoise:perlin
@@ -318,7 +321,9 @@
                                 - const:
                                     value: 0.15
                                     name: scale_noise
+                                    value-range: [0, 2]
                       power:
                         name: density_power
                         type: const
                         value: 32
+                        value-range: [0, 200]
