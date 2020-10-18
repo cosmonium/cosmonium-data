@@ -19,7 +19,7 @@
     - include: tnos/tnos.yaml
     - include: comets/comets.yaml
     - include: interstellars/interstellars.yaml
-- data-sources:
+- attributions:
     solarsystemscope:
         name: Solar System Scope
         copyright: 2017 INOVE
