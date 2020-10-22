@@ -46,17 +46,19 @@
       - category: visible
         attribution: astropedia
         appearance:
-            texture: textures/ganymede-visible-astropedia/ganymede-visible-astropedia.ctx
+            texture:
+                file: textures/ganymede-visible-astropedia/ganymede-visible-astropedia.ctx
+                offset: 180
       - category: monochromatic
         attribution: astropedia
         appearance:
-            texture: textures/ganymede-bw-astropedia/ganymede-bw-astropedia.ctx
+            texture:
+                file: textures/ganymede-bw-astropedia/ganymede-bw-astropedia.ctx
+                offset: 180
       - category: artistic
         attribution: olegpluton
         appearance:
-            texture:
-                file: textures/ganymede-artistic-olegpluton/ganymede-artistic-olegpluton.ctx
-                offset: 180
+            texture: textures/ganymede-artistic-olegpluton/ganymede-artistic-olegpluton.ctx
     orbit: ganymede
     rotation: ganymede
 
