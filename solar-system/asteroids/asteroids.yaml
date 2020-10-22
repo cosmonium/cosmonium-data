@@ -12,7 +12,7 @@
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: pallas
-    rotation: pallas
+    rotation: 2-pallas
 
 - asteroid:
     name: 3 Juno
@@ -52,7 +52,7 @@
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: vesta
-    rotation: vesta
+    rotation: 4-vesta
 
 - asteroid:
     name: 5 Astraea
@@ -84,7 +84,7 @@
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: hebe
-    rotation: hebe
+    rotation: 6-hebe
 
 - asteroid:
     name: 7 Iris
@@ -100,7 +100,7 @@
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: iris
-    rotation: iris
+    rotation: 7-iris
 
 - asteroid:
     name: 8 Flora
@@ -116,7 +116,7 @@
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: flora
-    rotation: flora
+    rotation: 8-flora
 
 - asteroid:
     name: 9 Metis
@@ -148,7 +148,7 @@
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
     orbit: hygiea
-    rotation: hygiea
+    rotation: 10-hygiea
 
 - asteroid:
     name: 101955 Bennu
