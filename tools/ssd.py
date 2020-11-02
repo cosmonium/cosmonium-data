@@ -420,9 +420,7 @@ def dump_planet_db(stream, db, phy_db):
         if name == 'EM_Bary':
             name = 'Earth'
         (name, equatorial, mean, mass, density, rotation, orbit, v, albedo, gravity, velocity) = phy_db[name.lower()]
-        if name == 'Earth':
-            name = 'earth-system'
-        elif name == 'Pluto':
+        if name == 'Pluto':
             name = 'pluto-system'
         dump_orbit_2(stream, name.lower(), orbit, a, e, i, l, w, node, J2000)
 

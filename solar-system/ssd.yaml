@@ -20,7 +20,7 @@
     mean-longitude: 252.25032350
     frame: J2000Ecliptic
 - orbit:
-    name: earth-system
+    name: earth
     type: elliptic
     category: ssd
     period: 1.0000174
