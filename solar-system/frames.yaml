@@ -1,5 +1,5 @@
 - frame:
-    name: ia:jupiter
+    name: iau:jupiter
     type: equatorial
     ra: 268.057
     de: 64.495
