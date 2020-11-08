@@ -2243,7 +2243,7 @@ msgid "Anser"
 msgstr ""
 
 msgid "Antares"
-msgstr ""
+msgstr "Antarès"
 
 msgid "Arcturus"
 msgstr ""
