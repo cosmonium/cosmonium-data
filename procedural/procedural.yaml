@@ -44,7 +44,8 @@
         surfaces:
         - heightmap:
             max-height: 16000
-            interpolator: bspline
+            interpolator: software
+            filter: bspline
             max-lod: 12
             func:
                 aliases:
