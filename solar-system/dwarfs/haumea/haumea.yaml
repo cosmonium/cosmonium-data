@@ -31,13 +31,13 @@ system:
                 backlit: 0.02
                 texture:
                   type: procedural
-                  frequency: 4
                   target: alpha
-                  noise:
+                  func:
                      aliases:
                          perlin: gpunoise:perlin
-                     noise:
+                     func:
                        type: perlin
+                       pos-scale: 3
           rotation:
               type: uniform
               period: 3.9155

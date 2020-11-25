@@ -253,7 +253,6 @@
             backlit: 0.02
             texture:
               type: procedural
-              #frequency: 40
               target: alpha
               func:
                  aliases:
