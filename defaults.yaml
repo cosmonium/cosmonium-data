@@ -32,6 +32,7 @@
 
 - heightmap:
     name: asteroid
+    height-scale: 1000
     func:
         aliases:
             perlin: gpunoise:perlin
@@ -44,6 +45,7 @@
 
 - heightmap:
     name: moon
+    height-scale: 1000
     func:
         aliases:
             perlin: gpunoise:perlin
