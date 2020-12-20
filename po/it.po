@@ -1,0 +1,3051 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+msgid "Sol System"
+msgstr "Sistema Solare"
+
+msgid "Sun"
+msgstr "Sole"
+
+msgid "Sol"
+msgstr "Sol"
+
+msgid "Mercury"
+msgstr "Mercurio"
+
+msgid "Venus"
+msgstr "Venere"
+
+msgid "Earth System"
+msgstr "Sistema di Terra"
+
+msgid "Earth"
+msgstr "Terra"
+
+msgid "Moon"
+msgstr "Luna"
+
+msgid "Hubble"
+msgstr "Hubble"
+
+msgid "HST"
+msgstr "HST"
+
+msgid "ISS"
+msgstr "ISS"
+
+msgid "International Space Station"
+msgstr "International Space Station"
+
+msgid "Mars System"
+msgstr "Sistema di Marte"
+
+msgid "Mars"
+msgstr "Marte"
+
+msgid "Phobos"
+msgstr "Fobos"
+
+msgid "Deimos"
+msgstr "Deimos"
+
+msgid "Jupiter System"
+msgstr "Sistema di Giove"
+
+msgid "Jupiter"
+msgstr "Giove"
+
+msgid "Metis"
+msgstr "Metis"
+
+msgid "Jupiter XVI"
+msgstr "Giove XVI"
+
+msgid "S/1979 J 3"
+msgstr ""
+
+msgid "Adrastea"
+msgstr "Adrastea"
+
+msgid "Jupiter XV"
+msgstr "Giove XV"
+
+msgid "S/1979 J 1"
+msgstr ""
+
+msgid "Amalthea"
+msgstr "Amaltea"
+
+msgid "Jupiter V"
+msgstr "Giove V"
+
+msgid "Thebe"
+msgstr "Tebe"
+
+msgid "Jupiter XIV"
+msgstr "Giove XIV"
+
+msgid "S/1979 J 2"
+msgstr ""
+
+msgid "Io"
+msgstr "Io"
+
+msgid "Jupiter I"
+msgstr "Giove I"
+
+msgid "Europa"
+msgstr "Europa"
+
+msgid "Jupiter II"
+msgstr "Giove II"
+
+msgid "Ganymede"
+msgstr "Ganimede"
+
+msgid "Jupiter III"
+msgstr "Giove III"
+
+msgid "Callisto"
+msgstr "Callisto"
+
+msgid "Jupiter IV"
+msgstr "Giove IV"
+
+msgid "Himalia"
+msgstr "Imalia"
+
+msgid "Jupiter VI"
+msgstr "Giove VI"
+
+msgid "Elara"
+msgstr "Elara"
+
+msgid "Jupiter VII"
+msgstr "Giove VII"
+
+msgid "Pasiphae"
+msgstr "Pasifae"
+
+msgid "Jupiter VIII"
+msgstr "Giove VIII"
+
+msgid "Sinope"
+msgstr "Sinope"
+
+msgid "Jupiter IX"
+msgstr "Giove IX"
+
+msgid "Lysithea"
+msgstr "Lisitea"
+
+msgid "Jupiter X"
+msgstr "Jupiter"
+
+msgid "Carme"
+msgstr "Carme"
+
+msgid "Jupiter XI"
+msgstr "Giove XI"
+
+msgid "Ananke"
+msgstr "Ananke"
+
+msgid "Jupiter XII"
+msgstr "Giove XII"
+
+msgid "Leda"
+msgstr "Leda"
+
+msgid "Jupiter XIII"
+msgstr "Giove XIII"
+
+msgid "Callirrhoe"
+msgstr "Calliroe"
+
+msgid "Jupiter XVII"
+msgstr "Giove XVII"
+
+msgid "S/1999 J 1"
+msgstr ""
+
+msgid "Themisto"
+msgstr "Temisto"
+
+msgid "Jupiter XVIII"
+msgstr "Giove XVIII"
+
+msgid "S/1975 J 1"
+msgstr ""
+
+msgid "S/2000 J 1"
+msgstr ""
+
+msgid "Megaclite"
+msgstr "Megaclite"
+
+msgid "Jupiter XIX"
+msgstr "Giove XIX"
+
+msgid "S/2000 J 8"
+msgstr ""
+
+msgid "Taygete"
+msgstr "Taigete"
+
+msgid "Jupiter XX"
+msgstr "Giove XX"
+
+msgid "S/2000 J 9"
+msgstr ""
+
+msgid "Chaldene"
+msgstr "Caldene"
+
+msgid "Jupiter XXI"
+msgstr "Giove XXI"
+
+msgid "S/2000 J 10"
+msgstr ""
+
+msgid "Harpalyke"
+msgstr "Arpalice"
+
+msgid "Jupiter XXII"
+msgstr "Giove XXII"
+
+msgid "S/2000 J 5"
+msgstr ""
+
+msgid "Kalyke"
+msgstr "Calice"
+
+msgid "Jupiter XXIII"
+msgstr "Giove XXIII"
+
+msgid "S/2000 J 2"
+msgstr ""
+
+msgid "Iocaste"
+msgstr "Giocasta"
+
+msgid "Jupiter XXIV"
+msgstr "Giove XXIV"
+
+msgid "S/2000 J 3"
+msgstr ""
+
+msgid "Erinome"
+msgstr "Erinome"
+
+msgid "Jupiter XXV"
+msgstr "Giove XXV"
+
+msgid "S/2000 J 4"
+msgstr ""
+
+msgid "Isonoe"
+msgstr "Isonoe"
+
+msgid "Jupiter XXVI"
+msgstr "Giove XXVI"
+
+msgid "S/2000 J 6"
+msgstr ""
+
+msgid "Praxidike"
+msgstr "Prassidice"
+
+msgid "Jupiter XXVII"
+msgstr "Giove XXVII"
+
+msgid "S/2000 J 7"
+msgstr ""
+
+msgid "Autonoe"
+msgstr "Autonoe"
+
+msgid "Jupiter XXVIII"
+msgstr "Giove XXVIII"
+
+msgid "S/2001 J 1"
+msgstr ""
+
+msgid "Thyone"
+msgstr "Tione"
+
+msgid "Jupiter XXIX"
+msgstr "Giove XXIX"
+
+msgid "S/2001 J 2"
+msgstr ""
+
+msgid "Hermippe"
+msgstr "Ermippe"
+
+msgid "Jupiter XXX"
+msgstr "Giove XXX"
+
+msgid "S/2001 J 3"
+msgstr ""
+
+msgid "Aitne"
+msgstr "Etna"
+
+msgid "Jupiter XXXI"
+msgstr "Giove XXXI"
+
+msgid "S/2001 J 11"
+msgstr ""
+
+msgid "Eurydome"
+msgstr "Euridome"
+
+msgid "Jupiter XXXII"
+msgstr "Giove XXXII"
+
+msgid "S/2001 J 4"
+msgstr ""
+
+msgid "Euanthe"
+msgstr "Euante"
+
+msgid "Jupiter XXXIII"
+msgstr "Giove XXXIII"
+
+msgid "S/2001 J 7"
+msgstr ""
+
+msgid "Euporie"
+msgstr "Euporia"
+
+msgid "Jupiter XXXIV"
+msgstr "Giove XXXIV"
+
+msgid "S/2001 J 10"
+msgstr ""
+
+msgid "Orthosie"
+msgstr "Ortosia"
+
+msgid "Jupiter XXXV"
+msgstr "Giove XXXV"
+
+msgid "S/2001 J 9"
+msgstr ""
+
+msgid "Sponde"
+msgstr "Sponde"
+
+msgid "Jupiter XXXVI"
+msgstr "Giove XXXVI"
+
+msgid "S/2001 J 5"
+msgstr ""
+
+msgid "Kale"
+msgstr "Cale"
+
+msgid "Jupiter XXXVII"
+msgstr "Giove XXXVII"
+
+msgid "S/2001 J 8"
+msgstr ""
+
+msgid "Pasithee"
+msgstr "Pasitea"
+
+msgid "Jupiter XXXVIII"
+msgstr "Giove XXXVIII"
+
+msgid "S/2001 J 6"
+msgstr ""
+
+msgid "Hegemone"
+msgstr "Egemone"
+
+msgid "Jupiter XXXIX"
+msgstr "Giove XXXIX"
+
+msgid "S/2003 J 8"
+msgstr ""
+
+msgid "Mneme"
+msgstr "Mneme"
+
+msgid "Jupiter XL"
+msgstr "Giove XL"
+
+msgid "S/2003 J 21"
+msgstr ""
+
+msgid "Aoede"
+msgstr "Aede"
+
+msgid "Jupiter XLI"
+msgstr "Giove XLI"
+
+msgid "S/2003 J 7"
+msgstr ""
+
+msgid "Thelxinoe"
+msgstr "Telsinoe"
+
+msgid "Jupiter XLII"
+msgstr "Giove XLII"
+
+msgid "S/2003 J 22"
+msgstr ""
+
+msgid "Arche"
+msgstr "Arche"
+
+msgid "Jupiter XLIII"
+msgstr "Giove XLIII"
+
+msgid "S/2002 J 1"
+msgstr ""
+
+msgid "Kallichore"
+msgstr "Callicore"
+
+msgid "Jupiter XLIV"
+msgstr "Giove XLIV"
+
+msgid "S/2003 J 11"
+msgstr ""
+
+msgid "Helike"
+msgstr "Elice"
+
+msgid "Jupiter XLV"
+msgstr "Giove XLV"
+
+msgid "S/2003 J 6"
+msgstr ""
+
+msgid "Carpo"
+msgstr "Carpo"
+
+msgid "Jupiter XLVI"
+msgstr "Giove XLVI"
+
+msgid "S/2003 J 20"
+msgstr ""
+
+msgid "Eukelade"
+msgstr "Eucelade"
+
+msgid "Jupiter XLVII"
+msgstr "Giove XLVII"
+
+msgid "S/2003 J 1"
+msgstr ""
+
+msgid "Cyllene"
+msgstr "Cillene"
+
+msgid "Jupiter XLVIII"
+msgstr "Giove XLVIII"
+
+msgid "S/2003 J 13"
+msgstr ""
+
+msgid "Kore"
+msgstr "Core"
+
+msgid "Jupiter XLIX"
+msgstr "Giove XLIX"
+
+msgid "S/2003 J 14"
+msgstr ""
+
+msgid "Herse"
+msgstr "Erse"
+
+msgid "Jupiter L"
+msgstr "Giove L"
+
+msgid "S/2003 J 17"
+msgstr ""
+
+msgid "Jupiter LI"
+msgstr "Giove LI"
+
+msgid "S/2010 J 1"
+msgstr ""
+
+msgid "Jupiter LII"
+msgstr "Giove LII"
+
+msgid "S/2010 J 2"
+msgstr ""
+
+msgid "Dia"
+msgstr "Dia"
+
+msgid "Jupiter LIII"
+msgstr "Giove LIII"
+
+msgid "S/2000 J 11"
+msgstr ""
+
+msgid "Jupiter LV"
+msgstr "Giove LV"
+
+msgid "S/2003 J 18"
+msgstr ""
+
+msgid "Jupiter LVI"
+msgstr "Giove LVI"
+
+msgid "S/2011 J 2"
+msgstr ""
+
+msgid "Eirene"
+msgstr "Eirene"
+
+msgid "Jupiter LVII"
+msgstr "Giove LVII"
+
+msgid "S/2003 J 5"
+msgstr ""
+
+msgid "Philophrosyne"
+msgstr "Filofrosine"
+
+msgid "Jupiter LVIII"
+msgstr "Giove LVIII"
+
+msgid "S/2003 J 15"
+msgstr ""
+
+msgid "Eupheme"
+msgstr "Eufeme"
+
+msgid "Jupiter LX"
+msgstr "Giove LX"
+
+msgid "S/2003 J 3"
+msgstr ""
+
+msgid "Jupiter LXI"
+msgstr "Giove LXI"
+
+msgid "S/2003 J 19"
+msgstr ""
+
+msgid "Jupiter LXXII"
+msgstr "Giove LXXII"
+
+msgid "S/2011 J 1"
+msgstr ""
+
+msgid "S/2003 J 2"
+msgstr ""
+
+msgid "S/2003 J 4"
+msgstr ""
+
+msgid "S/2003 J 9"
+msgstr ""
+
+msgid "S/2003 J 10"
+msgstr ""
+
+msgid "S/2003 J 12"
+msgstr ""
+
+msgid "S/2003 J 16"
+msgstr ""
+
+msgid "S/2003 J 23"
+msgstr ""
+
+msgid "Saturn System"
+msgstr "Sistema di Saturno"
+
+msgid "Saturn"
+msgstr "Saturno"
+
+msgid "Pan"
+msgstr "Pan"
+
+msgid "Saturn XVIII"
+msgstr "Saturno XVIII"
+
+msgid "S/1981 S 13"
+msgstr ""
+
+msgid "Daphnis"
+msgstr "Dafni"
+
+msgid "Saturn XXXV"
+msgstr "Saturno XXXV"
+
+msgid "S/2005 S 1"
+msgstr ""
+
+msgid "Atlas"
+msgstr "Atlante"
+
+msgid "Saturn XV"
+msgstr "Saturno XV"
+
+msgid "S/1980 S 28"
+msgstr ""
+
+msgid "Prometheus"
+msgstr "Prometeo"
+
+msgid "Saturn XVI"
+msgstr "Saturno XVI"
+
+msgid "S/1980 S 27"
+msgstr ""
+
+msgid "Pandora"
+msgstr "Pandora"
+
+msgid "Saturn XVII"
+msgstr "Saturno XVII"
+
+msgid "S/1980 S 26"
+msgstr ""
+
+msgid "Janus"
+msgstr "Giano"
+
+msgid "Saturn X"
+msgstr "Saturno X"
+
+msgid "S/1966 S 2"
+msgstr ""
+
+msgid "S/1979 S 2"
+msgstr ""
+
+msgid "S/1980 S 1"
+msgstr ""
+
+msgid "S/1980 S 2"
+msgstr ""
+
+msgid "Epimetheus"
+msgstr "Epimeteo"
+
+msgid "Saturn XI"
+msgstr "Saturno XI"
+
+msgid "S/1979 S 1"
+msgstr ""
+
+msgid "Mimas"
+msgstr "Mimas"
+
+msgid "Saturn I"
+msgstr "Saturno I"
+
+msgid "Enceladus"
+msgstr "Encelado"
+
+msgid "Saturn II"
+msgstr "Saturno II"
+
+msgid "Tethys"
+msgstr "Teti"
+
+msgid "Saturn III"
+msgstr "Saturno III"
+
+msgid "Dione"
+msgstr "Dione"
+
+msgid "Saturn IV"
+msgstr "Saturno IV"
+
+msgid "Rhea"
+msgstr "Rea"
+
+msgid "Saturn V"
+msgstr "Saturno V"
+
+msgid "Titan"
+msgstr "Titano"
+
+msgid "Saturn VI"
+msgstr "Saturno VI"
+
+msgid "Hyperion"
+msgstr "Iperione"
+
+msgid "Saturn VII"
+msgstr "Saturno VII"
+
+msgid "Iapetus"
+msgstr "Giapeto"
+
+msgid "Saturn VIII"
+msgstr "Saturno VIII"
+
+msgid "Phoebe"
+msgstr "Febe"
+
+msgid "Saturn IX"
+msgstr "Saturno IX"
+
+msgid "Helene"
+msgstr "Elena"
+
+msgid "Saturn XII"
+msgstr "Saturno XII"
+
+msgid "S/1980 S 6"
+msgstr ""
+
+msgid "Dione B"
+msgstr "Dione B"
+
+msgid "Telesto"
+msgstr "Telesto"
+
+msgid "Saturn XIII"
+msgstr "Saturno XIII"
+
+msgid "S/1980 S 13"
+msgstr ""
+
+msgid "Tethys B"
+msgstr "Teti B"
+
+msgid "Calypso"
+msgstr "Calipso"
+
+msgid "Saturn XIV"
+msgstr "Saturno XIV"
+
+msgid "S/1980 S 25"
+msgstr ""
+
+msgid "Tethys C"
+msgstr "Teti C"
+
+msgid "Methone"
+msgstr "Metone"
+
+msgid "Saturn XXXII"
+msgstr "Saturno XXXII"
+
+msgid "S/2004 S 1"
+msgstr ""
+
+msgid "Pallene"
+msgstr "Pallene"
+
+msgid "Saturn XXXIII"
+msgstr "Saturno XXXIII"
+
+msgid "S/2004 S 2"
+msgstr ""
+
+msgid "Polydeuces"
+msgstr "Poluce"
+
+msgid "Saturn XXXIV"
+msgstr "Saturno XXXIV"
+
+msgid "S/2004 S 5"
+msgstr ""
+
+msgid "Anthe"
+msgstr "Antea"
+
+msgid "Saturn XLIX"
+msgstr "Saturno XLIX"
+
+msgid "S/2007 S 4"
+msgstr ""
+
+msgid "Aegaeon"
+msgstr "Egeone"
+
+msgid "Saturn LIII"
+msgstr "Saturno LIII"
+
+msgid "S/2008 S 1"
+msgstr ""
+
+msgid "Ymir"
+msgstr "Ymir"
+
+msgid "Saturn XIX"
+msgstr "Saturno XIX"
+
+msgid "S/2000 S 1"
+msgstr ""
+
+msgid "Paaliaq"
+msgstr "Paaliaq"
+
+msgid "Saturn XX"
+msgstr "Saturno XX"
+
+msgid "S/2000 S 2"
+msgstr ""
+
+msgid "Tarvos"
+msgstr "Tarvos"
+
+msgid "Saturn XXI"
+msgstr "Saturno XXI"
+
+msgid "S/2000 S 4"
+msgstr ""
+
+msgid "Ijiraq"
+msgstr "Ijiraq"
+
+msgid "Saturn XXII"
+msgstr "Saturno XXII"
+
+msgid "S/2000 S 6"
+msgstr ""
+
+msgid "Suttungr"
+msgstr "Suttungr"
+
+msgid "Saturn XXIII"
+msgstr "Saturno XXIII"
+
+msgid "S/2000 S 12"
+msgstr ""
+
+msgid "Kiviuq"
+msgstr "Kiviuq"
+
+msgid "Saturn XXIV"
+msgstr "Saturno XXIV"
+
+msgid "S/2000 S 5"
+msgstr ""
+
+msgid "Mundilfari"
+msgstr "Mundilfari"
+
+msgid "Saturn XXV"
+msgstr "Saturno XXV"
+
+msgid "S/2000 S 9"
+msgstr ""
+
+msgid "Albiorix"
+msgstr "Albiorix"
+
+msgid "Saturn XXVI"
+msgstr "Saturno XXVI"
+
+msgid "S/2000 S 11"
+msgstr ""
+
+msgid "Skathi"
+msgstr "Skathi"
+
+msgid "Saturn XXVII"
+msgstr "Saturno XXVII"
+
+msgid "S/2000 S 8"
+msgstr ""
+
+msgid "Erriapus"
+msgstr "Erriapo"
+
+msgid "Saturn XXVIII"
+msgstr "Saturno XXVIII"
+
+msgid "S/2000 S 10"
+msgstr ""
+
+msgid "Siarnaq"
+msgstr "Siarnaq"
+
+msgid "Saturn XXIX"
+msgstr "Saturno XXIX"
+
+msgid "S/2000 S 3"
+msgstr ""
+
+msgid "Thrymr"
+msgstr "Thrymr"
+
+msgid "Saturn XXX"
+msgstr "Saturno XXX"
+
+msgid "S/2000 S 7"
+msgstr ""
+
+msgid "Narvi"
+msgstr "Narvi"
+
+msgid "Saturn XXXI"
+msgstr "Saturno XXXI"
+
+msgid "S/2003 S 1"
+msgstr ""
+
+msgid "Aegir"
+msgstr "Aegir"
+
+msgid "Saturn XXXVI"
+msgstr "Saturno XXXVI"
+
+msgid "S/2004 S 10"
+msgstr ""
+
+msgid "Bebhionn"
+msgstr "Bebhionn"
+
+msgid "Saturn XXXVII"
+msgstr "Saturno XXXVII"
+
+msgid "S/2004 S 11"
+msgstr ""
+
+msgid "Bergelmir"
+msgstr "Bergelmir"
+
+msgid "Saturn XXXVIII"
+msgstr "Saturno XXXVIII"
+
+msgid "S/2004 S 15"
+msgstr ""
+
+msgid "Bestla"
+msgstr "Bestla"
+
+msgid "Saturn XXXIX"
+msgstr "Saturno XXXIX"
+
+msgid "S/2004 S 18"
+msgstr ""
+
+msgid "Farbauti"
+msgstr "Farbauti"
+
+msgid "Saturn XL"
+msgstr "Saturno XL"
+
+msgid "S/2004 S 9"
+msgstr ""
+
+msgid "Fenrir"
+msgstr "Fenrir"
+
+msgid "Saturn XLI"
+msgstr "Saturno XLI"
+
+msgid "S/2004 S 16"
+msgstr ""
+
+msgid "Fornjot"
+msgstr "Fornjot"
+
+msgid "Saturn XLII"
+msgstr "Saturno XLII"
+
+msgid "S/2004 S 8"
+msgstr ""
+
+msgid "Hati"
+msgstr "Hati"
+
+msgid "Saturn XLIII"
+msgstr "Saturno XLIII"
+
+msgid "S/2004 S 14"
+msgstr ""
+
+msgid "Hyrrokkin"
+msgstr "Hyrrokkin"
+
+msgid "Saturn XLIV"
+msgstr "Saturno XLIV"
+
+msgid "S/2004 S 19"
+msgstr ""
+
+msgid "Kari"
+msgstr "Kari"
+
+msgid "Saturn XLV"
+msgstr "Saturno XLV"
+
+msgid "S/2006 S 2"
+msgstr ""
+
+msgid "Loge"
+msgstr "Loge"
+
+msgid "Saturn XLVI"
+msgstr "Saturno XLVI"
+
+msgid "S/2006 S 5"
+msgstr ""
+
+msgid "Skoll"
+msgstr "Skoll"
+
+msgid "Saturn XLVII"
+msgstr "Saturno XLVII"
+
+msgid "S/2006 S 8"
+msgstr ""
+
+msgid "Surtur"
+msgstr "Surtur"
+
+msgid "Saturn XLVIII"
+msgstr "Saturno XLVIII"
+
+msgid "S/2006 S 7"
+msgstr ""
+
+msgid "Jarnsaxa"
+msgstr "Jarnsaxa"
+
+msgid "Saturn L"
+msgstr "Saturno L"
+
+msgid "S/2006 S 6"
+msgstr ""
+
+msgid "Greip"
+msgstr "Greip"
+
+msgid "Saturn LI"
+msgstr "Saturno LI"
+
+msgid "S/2006 S 4"
+msgstr ""
+
+msgid "Tarqeq"
+msgstr "Tarqeq"
+
+msgid "Saturn LII"
+msgstr "Saturno LII"
+
+msgid "S/2007 S 1"
+msgstr ""
+
+msgid "S/2004 S 7"
+msgstr ""
+
+msgid "S/2004 S 12"
+msgstr ""
+
+msgid "S/2004 S 13"
+msgstr ""
+
+msgid "S/2004 S 17"
+msgstr ""
+
+msgid "S/2006 S 1"
+msgstr ""
+
+msgid "S/2006 S 3"
+msgstr ""
+
+msgid "S/2007 S 2"
+msgstr ""
+
+msgid "S/2007 S 3"
+msgstr ""
+
+msgid "Uranus System"
+msgstr "Sistema di Urano"
+
+msgid "Uranus"
+msgstr "Urano"
+
+msgid "Cordelia"
+msgstr "Cordelia"
+
+msgid "Uranus VI"
+msgstr "Urano VI"
+
+msgid "S/1986 U 7"
+msgstr ""
+
+msgid "Ophelia"
+msgstr "Ofelia"
+
+msgid "Uranus VII"
+msgstr "Urano VII"
+
+msgid "S/1986 U 8"
+msgstr ""
+
+msgid "Bianca"
+msgstr "Bianca"
+
+msgid "Uranus VIII"
+msgstr "Urano VIII"
+
+msgid "S/1986 U 9"
+msgstr ""
+
+msgid "Cressida"
+msgstr "Cressida"
+
+msgid "Uranus IX"
+msgstr "Urano IX"
+
+msgid "S/1986 U 3"
+msgstr ""
+
+msgid "Desdemona"
+msgstr "Desdemona"
+
+msgid "Uranus X"
+msgstr "Urano X"
+
+msgid "S/1986 U 6"
+msgstr ""
+
+msgid "Juliet"
+msgstr "Giulietta"
+
+msgid "Uranus XI"
+msgstr "Urano XI"
+
+msgid "S/1986 U 2"
+msgstr ""
+
+msgid "Portia"
+msgstr "Porzia"
+
+msgid "Uranus XII"
+msgstr "Urano XII"
+
+msgid "S/1986 U 1"
+msgstr ""
+
+msgid "Rosalind"
+msgstr "Rosalinda"
+
+msgid "Uranus XIII"
+msgstr "Urano XIII"
+
+msgid "S/1986 U 4"
+msgstr ""
+
+msgid "Cupid"
+msgstr "Cupido"
+
+msgid "Uranus XXVII"
+msgstr "Urano XXVII"
+
+msgid "S/2003 U 2"
+msgstr ""
+
+msgid "Belinda"
+msgstr "Belinda"
+
+msgid "Uranus XIV"
+msgstr "Urano XIV"
+
+msgid "S/1986 U 5"
+msgstr ""
+
+msgid "Perdita"
+msgstr "Perdita"
+
+msgid "Uranus XXV"
+msgstr "Urano XXV"
+
+msgid "S/1986 U 10"
+msgstr ""
+
+msgid "Puck"
+msgstr "Puck"
+
+msgid "Uranus XV"
+msgstr "Urano XV"
+
+msgid "S/1985 U 1"
+msgstr ""
+
+msgid "Mab"
+msgstr "Mab"
+
+msgid "Uranus XXVI"
+msgstr "Urano XXVI"
+
+msgid "S/2003 U 1"
+msgstr ""
+
+msgid "Miranda"
+msgstr "Miranda"
+
+msgid "Uranus V"
+msgstr "Urano V"
+
+msgid "Ariel"
+msgstr "Ariel"
+
+msgid "Uranus I"
+msgstr "Urano I"
+
+msgid "Umbriel"
+msgstr "Umbriel"
+
+msgid "Uranus II"
+msgstr "Urano II"
+
+msgid "Titania"
+msgstr "Titania"
+
+msgid "Uranus III"
+msgstr "Urano III"
+
+msgid "Oberon"
+msgstr "Oberon"
+
+msgid "Uranus IV"
+msgstr "Urano IV"
+
+msgid "Caliban"
+msgstr "Calibano"
+
+msgid "Uranus XVI"
+msgstr "Urano XVI"
+
+msgid "S/1997 U 1"
+msgstr ""
+
+msgid "Sycorax"
+msgstr "Sicorace"
+
+msgid "Uranus XVII"
+msgstr "Urano XVII"
+
+msgid "S/1997 U 2"
+msgstr ""
+
+msgid "Prospero"
+msgstr "Prospero"
+
+msgid "Uranus XVIII"
+msgstr "Urano XVIII"
+
+msgid "S/1999 U 3"
+msgstr ""
+
+msgid "Setebos"
+msgstr "Setebos"
+
+msgid "Uranus XIX"
+msgstr "Urano XIX"
+
+msgid "S/1999 U 1"
+msgstr ""
+
+msgid "Stephano"
+msgstr "Stefano"
+
+msgid "Uranus XX"
+msgstr "Urano XX"
+
+msgid "S/1999 U 2"
+msgstr ""
+
+msgid "Trinculo"
+msgstr "Trinculo"
+
+msgid "Uranus XXI"
+msgstr "Urano XXI"
+
+msgid "S/2001 U 1"
+msgstr ""
+
+msgid "Francisco"
+msgstr "Francisco"
+
+msgid "Uranus XXII"
+msgstr "Urano XXII"
+
+msgid "S/2001 U 3"
+msgstr ""
+
+msgid "Margaret"
+msgstr "Margherita"
+
+msgid "Uranus XXIII"
+msgstr "Urano XXIII"
+
+msgid "S/2003 U 3"
+msgstr ""
+
+msgid "Ferdinand"
+msgstr "Ferdinando"
+
+msgid "Uranus XXIV"
+msgstr "Urano XXIV"
+
+msgid "S/2001 U 2"
+msgstr ""
+
+msgid "Neptune System"
+msgstr "Sistema di Nettuna"
+
+msgid "Neptune"
+msgstr "Nettuno"
+
+msgid "Naiad"
+msgstr "Naiade"
+
+msgid "Neptune III"
+msgstr "Nettuno III"
+
+msgid "S/1989 N 6"
+msgstr ""
+
+msgid "Thalassa"
+msgstr "Talassa"
+
+msgid "Neptune IV"
+msgstr "Nettuno IV"
+
+msgid "S/1989 N 5"
+msgstr ""
+
+msgid "Despina"
+msgstr "Despina"
+
+msgid "Neptune V"
+msgstr "Nettuno V"
+
+msgid "S/1989 N 3"
+msgstr ""
+
+msgid "Galatea"
+msgstr "Galatea"
+
+msgid "Neptune VI"
+msgstr "Nettuno VI"
+
+msgid "S/1989 N 4"
+msgstr ""
+
+msgid "Larissa"
+msgstr "Larissa"
+
+msgid "Neptune VII"
+msgstr "Nettuno VII"
+
+msgid "S/1981 N 1"
+msgstr ""
+
+msgid "S/1989 N 2"
+msgstr ""
+
+msgid "Proteus"
+msgstr "Proteo"
+
+msgid "Neptune VIII"
+msgstr "Nettuno VIII"
+
+msgid "S/1989 N 1"
+msgstr ""
+
+msgid "Triton"
+msgstr "Tritone"
+
+msgid "Neptune I"
+msgstr "Nettuno I"
+
+msgid "Nereid"
+msgstr "Nereide"
+
+msgid "Neptune II"
+msgstr "Nettuno II"
+
+msgid "Halimede"
+msgstr "Alimede"
+
+msgid "Neptune IX"
+msgstr "Nettuno IX"
+
+msgid "S/2002 N 1"
+msgstr ""
+
+msgid "Psamathe"
+msgstr "Psamathe"
+
+msgid "Neptune X"
+msgstr "Nettuno X"
+
+msgid "S/2003 N 1"
+msgstr ""
+
+msgid "Sao"
+msgstr "Sao"
+
+msgid "Neptune XI"
+msgstr "Nettuno XI"
+
+msgid "S/2002 N 2"
+msgstr ""
+
+msgid "Laomedeia"
+msgstr "Laomedea"
+
+msgid "Neptune XII"
+msgstr "Nettuno XII"
+
+msgid "S/2002 N 3"
+msgstr ""
+
+msgid "Neso"
+msgstr "Neso"
+
+msgid "Neptune XIII"
+msgstr "Nettuno XIII"
+
+msgid "S/2002 N 4"
+msgstr ""
+
+msgid "Hippocamp"
+msgstr "Ippocampo"
+
+msgid "Neptune XIV"
+msgstr "Nettuno XIV"
+
+msgid "S/2004 N1"
+msgstr ""
+
+msgid "Pluto System"
+msgstr "Sistema di Plutone"
+
+msgid "Pluto"
+msgstr ""
+
+msgid "Charon"
+msgstr "Caronte"
+
+msgid "Pluto I"
+msgstr ""
+
+msgid "Styx"
+msgstr "Stige"
+
+msgid "Pluto V"
+msgstr ""
+
+msgid "Nix"
+msgstr "Notte"
+
+msgid "Pluto II"
+msgstr ""
+
+msgid "Kerberos"
+msgstr "Cerebo"
+
+msgid "Pluto IV"
+msgstr ""
+
+msgid "Hydra"
+msgstr "Idra"
+
+msgid "Pluto III"
+msgstr ""
+
+msgid "Ceres"
+msgstr "Cerere"
+
+msgid "Eris System"
+msgstr "Sistema di Eris"
+
+msgid "Eris"
+msgstr "Eris"
+
+msgid "Dysnomia"
+msgstr "Disnomia"
+
+msgid "Haumea System"
+msgstr "Sistema di Haumea"
+
+msgid "Haumea"
+msgstr "Haumea"
+
+msgid "Namaka"
+msgstr "Namaka"
+
+msgid "Haumea II"
+msgstr "Haumea II"
+
+msgid "Hi’iaka"
+msgstr "Hi’iaka"
+
+msgid "Haumea I"
+msgstr "Haumea I"
+
+msgid "Makemake System"
+msgstr "Sistema di Makemake"
+
+msgid "Makemake"
+msgstr "Makemake"
+
+msgid "S/2015 (136472) 1"
+msgstr ""
+
+msgid "Makemake I"
+msgstr "Makemake I"
+
+msgid "2 Pallas"
+msgstr "2 Pallade"
+
+msgid "3 Juno"
+msgstr "3 Giunone"
+
+msgid "4 Vesta"
+msgstr "4 Vesta"
+
+msgid "5 Astraea"
+msgstr "5 Astrea"
+
+msgid "6 Hebe"
+msgstr "6 Ebe"
+
+msgid "7 Iris"
+msgstr "7 Iris"
+
+msgid "8 Flora"
+msgstr "8 Flora"
+
+msgid "9 Metis"
+msgstr "9 Meti"
+
+msgid "10 Hygiea"
+msgstr "10 Igea"
+
+msgid "101955 Bennu"
+msgstr ""
+
+msgid "Gonggong System"
+msgstr "Sistema di Gonggong"
+
+msgid "Gonggong"
+msgstr "Gonggong"
+
+msgid "2007 OR10"
+msgstr ""
+
+msgid "Xiangliu"
+msgstr "Xiangliu"
+
+msgid "S 2007 OR10 1"
+msgstr ""
+
+msgid "Quaoar System"
+msgstr "Sistema di Quaoar"
+
+msgid "Quaoar"
+msgstr "Quaoar"
+
+msgid "Weywot"
+msgstr "Weywot"
+
+msgid "Sedna"
+msgstr "Sedna"
+
+msgid "2002 MS4"
+msgstr ""
+
+msgid "Orcus System"
+msgstr "Sistema di Orcus"
+
+msgid "Orcus"
+msgstr "Orcus"
+
+msgid "Vanth"
+msgstr "Vanth"
+
+msgid "Salacia System"
+msgstr ""
+
+msgid "Salacia"
+msgstr "Sistema di Salacia"
+
+msgid "Actaea"
+msgstr "Actaea"
+
+msgid "Varuna"
+msgstr "Varuna"
+
+msgid "Varda System"
+msgstr "Sistema di Varda"
+
+msgid "Varda"
+msgstr "Varda"
+
+msgid "Ilmarë"
+msgstr "Ilmarë"
+
+msgid "Gǃkúnǁʼhòmdímà System"
+msgstr "Sistema di Gǃkúnǁʼhòmdímà"
+
+msgid "Gǃkúnǁʼhòmdímà"
+msgstr "Gǃkúnǁʼhòmdímà"
+
+msgid "Gǃòʼé ǃHú"
+msgstr "Gǃòʼé ǃHú"
+
+msgid "Chaos"
+msgstr "Chaos"
+
+msgid "Ixion"
+msgstr "Ixion"
+
+msgid "Dziewanna"
+msgstr "Dziewanna"
+
+msgid "Huya System"
+msgstr "Sistema di Huya"
+
+msgid "Huya"
+msgstr "Huya"
+
+msgid "S/2012 (38618) 1"
+msgstr ""
+
+msgid "(486958) Arrokoth"
+msgstr ""
+
+msgid "2014 MU 69"
+msgstr ""
+
+msgid "Ultima Thule"
+msgstr ""
+
+msgid "1P/Halley"
+msgstr ""
+
+msgid "Halley"
+msgstr ""
+
+msgid "9P/Tempel 1"
+msgstr ""
+
+msgid "Tempel 1"
+msgstr ""
+
+msgid "67P/Churyumov-Gerasimenko"
+msgstr ""
+
+msgid "67P"
+msgstr ""
+
+msgid "81P/Wild 2"
+msgstr ""
+
+msgid "Wild 2"
+msgstr ""
+
+msgid "103P/Hartley 2"
+msgstr ""
+
+msgid "Hartley 2"
+msgstr ""
+
+msgid "1I/2017 U1"
+msgstr ""
+
+msgid "ʻOumuamua"
+msgstr ""
+
+msgid "2I/Borisov"
+msgstr ""
+
+msgid "C/2019 Q4"
+msgstr ""
+
+msgctxt "constellation"
+msgid "Aquila"
+msgstr "Aquila"
+
+msgctxt "constellation"
+msgid "Andromeda"
+msgstr "Andromeda"
+
+msgctxt "constellation"
+msgid "Ara"
+msgstr "Altare"
+
+msgctxt "constellation"
+msgid "Libra"
+msgstr "Bilancia"
+
+msgctxt "constellation"
+msgid "Cetus"
+msgstr "Balena"
+
+msgctxt "constellation"
+msgid "Aries"
+msgstr "Ariete"
+
+msgctxt "constellation"
+msgid "Pyxis"
+msgstr "Bussola"
+
+msgctxt "constellation"
+msgid "Bootes"
+msgstr "Boote"
+
+msgctxt "constellation"
+msgid "Caelum"
+msgstr "Bulino"
+
+msgctxt "constellation"
+msgid "Chamaeleon"
+msgstr "Camaleonte"
+
+msgctxt "constellation"
+msgid "Cancer"
+msgstr "Cancro"
+
+msgctxt "constellation"
+msgid "Capricornus"
+msgstr "Capricorno"
+
+msgctxt "constellation"
+msgid "Carina"
+msgstr "Carena"
+
+msgctxt "constellation"
+msgid "Cassiopeia"
+msgstr "Cassiopea"
+
+msgctxt "constellation"
+msgid "Centaurus"
+msgstr "Centauro"
+
+msgctxt "constellation"
+msgid "Cepheus"
+msgstr "Cefeo"
+
+msgctxt "constellation"
+msgid "Coma Berenices"
+msgstr "Chioma di Berenice"
+
+msgctxt "constellation"
+msgid "Canes Venatici"
+msgstr "Cani da Caccia"
+
+msgctxt "constellation"
+msgid "Auriga"
+msgstr "Auriga"
+
+msgctxt "constellation"
+msgid "Columba"
+msgstr "Colomba"
+
+msgctxt "constellation"
+msgid "Circinus"
+msgstr "Compasso"
+
+msgctxt "constellation"
+msgid "Corvus"
+msgstr "Corvo"
+
+msgctxt "constellation"
+msgid "Crater"
+msgstr "Cratere"
+
+msgctxt "constellation"
+msgid "Corona Australis"
+msgstr ""
+
+msgctxt "constellation"
+msgid "Corona Borealis"
+msgstr "Corona Australe"
+
+msgctxt "constellation"
+msgid "Crux"
+msgstr "Croce del Sud"
+
+msgctxt "constellation"
+msgid "Cygnus"
+msgstr "Cigno"
+
+msgctxt "constellation"
+msgid "Delphinus"
+msgstr "Delfino"
+
+msgctxt "constellation"
+msgid "Dorado"
+msgstr "Dorado"
+
+msgctxt "constellation"
+msgid "Draco"
+msgstr "Dragone"
+
+msgctxt "constellation"
+msgid "Scutum"
+msgstr "Scudo"
+
+msgctxt "constellation"
+msgid "Eridanus"
+msgstr "Eridano"
+
+msgctxt "constellation"
+msgid "Sagitta"
+msgstr "Freccia"
+
+msgctxt "constellation"
+msgid "Fornax"
+msgstr "Fornace"
+
+msgctxt "constellation"
+msgid "Gemini"
+msgstr "Gemelli"
+
+msgctxt "constellation"
+msgid "Camelopardalis"
+msgstr "Giraffa"
+
+msgctxt "constellation"
+msgid "Canis Major"
+msgstr "Cane Maggiore"
+
+msgctxt "constellation"
+msgid "Ursa Major"
+msgstr "Orsa Maggiore"
+
+msgctxt "constellation"
+msgid "Grus"
+msgstr "Gru"
+
+msgctxt "constellation"
+msgid "Hercules"
+msgstr "Ercole"
+
+msgctxt "constellation"
+msgid "Horologium"
+msgstr "Orologio"
+
+msgctxt "constellation"
+msgid "Hydra"
+msgstr "Idra"
+
+msgctxt "constellation"
+msgid "Hydrus"
+msgstr "Idra Maschio"
+
+msgctxt "constellation"
+msgid "Indus"
+msgstr "Indiano"
+
+msgctxt "constellation"
+msgid "Lacerta"
+msgstr "Lucertola"
+
+msgctxt "constellation"
+msgid "Monoceros"
+msgstr "Unicorno"
+
+msgctxt "constellation"
+msgid "Lepus"
+msgstr "Lepre"
+
+msgctxt "constellation"
+msgid "Leo"
+msgstr "Leone"
+
+msgctxt "constellation"
+msgid "Lupus"
+msgstr "Lupo"
+
+msgctxt "constellation"
+msgid "Lynx"
+msgstr "Lince"
+
+msgctxt "constellation"
+msgid "Lyra"
+msgstr "Lira"
+
+msgctxt "constellation"
+msgid "Antlia"
+msgstr "Macchina Pneumatica"
+
+msgctxt "constellation"
+msgid "Microscopium"
+msgstr "Microscopio"
+
+msgctxt "constellation"
+msgid "Musca"
+msgstr "Mosca"
+
+msgctxt "constellation"
+msgid "Octans"
+msgstr "Ottante"
+
+msgctxt "constellation"
+msgid "Apus"
+msgstr "Uccello del Paradiso"
+
+msgctxt "constellation"
+msgid "Ophiuchus"
+msgstr "Ofiuco"
+
+msgctxt "constellation"
+msgid "Orion"
+msgstr "Orione"
+
+msgctxt "constellation"
+msgid "Pavo"
+msgstr "Pavone"
+
+msgctxt "constellation"
+msgid "Pegasus"
+msgstr "Pegaso"
+
+msgctxt "constellation"
+msgid "Pictor"
+msgstr "Pittore"
+
+msgctxt "constellation"
+msgid "Perseus"
+msgstr "Perseo"
+
+msgctxt "constellation"
+msgid "Equuleus"
+msgstr "Cavallino"
+
+msgctxt "constellation"
+msgid "Canis Minor"
+msgstr "Cane Minore"
+
+msgctxt "constellation"
+msgid "Leo Minor"
+msgstr "Leone Minore"
+
+msgctxt "constellation"
+msgid "Vulpecula"
+msgstr "Volpetta"
+
+msgctxt "constellation"
+msgid "Ursa Minor"
+msgstr "Orsa Minore"
+
+msgctxt "constellation"
+msgid "Phoenix"
+msgstr "Fenice"
+
+msgctxt "constellation"
+msgid "Piscis Austrinus"
+msgstr "Pesce Australe"
+
+msgctxt "constellation"
+msgid "Volans"
+msgstr "Pesce Volante"
+
+msgctxt "constellation"
+msgid "Pisces"
+msgstr "Pesci"
+
+msgctxt "constellation"
+msgid "Puppis"
+msgstr "Poppa"
+
+msgctxt "constellation"
+msgid "Norma"
+msgstr "Regolo"
+
+msgctxt "constellation"
+msgid "Reticulum"
+msgstr "Reticolo"
+
+msgctxt "constellation"
+msgid "Sagittarius"
+msgstr "Sagittario"
+
+msgctxt "constellation"
+msgid "Scorpius"
+msgstr "Scorpione"
+
+msgctxt "constellation"
+msgid "Sculptor"
+msgstr "Scultore"
+
+msgctxt "constellation"
+msgid "Serpens Caput"
+msgstr "Testa del Serpente"
+
+msgctxt "constellation"
+msgid "Serpens Cauda"
+msgstr "Coda del Serpente"
+
+msgctxt "constellation"
+msgid "Sextans"
+msgstr "Sestante"
+
+msgctxt "constellation"
+msgid "Mensa"
+msgstr "Mensa"
+
+msgctxt "constellation"
+msgid "Taurus"
+msgstr "Toro"
+
+msgctxt "constellation"
+msgid "Telescopium"
+msgstr "Telescopio"
+
+msgctxt "constellation"
+msgid "Tucana"
+msgstr "Tucano"
+
+msgctxt "constellation"
+msgid "Triangulum"
+msgstr "Triangolo"
+
+msgctxt "constellation"
+msgid "Triangulum Australe"
+msgstr "Triangolo Australe"
+
+msgctxt "constellation"
+msgid "Aquarius"
+msgstr "Aquario"
+
+msgctxt "constellation"
+msgid "Virgo"
+msgstr "Vergine"
+
+msgctxt "constellation"
+msgid "Vela"
+msgstr "Vele"
+
+msgid "Acamar"
+msgstr ""
+
+msgid "Achernar"
+msgstr ""
+
+msgid "Achird"
+msgstr ""
+
+msgid "Acrab"
+msgstr ""
+
+msgid "Acrux"
+msgstr ""
+
+msgid "Acubens"
+msgstr ""
+
+msgid "Adhafera"
+msgstr ""
+
+msgid "Adhara"
+msgstr ""
+
+msgid "Adhil"
+msgstr ""
+
+msgid "Ain"
+msgstr ""
+
+msgid "Ainalrami"
+msgstr ""
+
+msgid "Aladfar"
+msgstr ""
+
+msgid "Albaldah"
+msgstr ""
+
+msgid "Albali"
+msgstr ""
+
+msgid "Albireo"
+msgstr ""
+
+msgid "Alchiba"
+msgstr ""
+
+msgid "Alcor"
+msgstr ""
+
+msgid "Alcyone"
+msgstr ""
+
+msgid "Aldebaran"
+msgstr ""
+
+msgid "Alderamin"
+msgstr ""
+
+msgid "Aldhanab"
+msgstr ""
+
+msgid "Aldhibah"
+msgstr ""
+
+msgid "Aldulfin"
+msgstr ""
+
+msgid "Alfirk"
+msgstr ""
+
+msgid "Algedi"
+msgstr ""
+
+msgid "Algenib"
+msgstr ""
+
+msgid "Algieba"
+msgstr ""
+
+msgid "Algol"
+msgstr ""
+
+msgid "Algorab"
+msgstr ""
+
+msgid "Alhena"
+msgstr ""
+
+msgid "Alioth"
+msgstr ""
+
+msgid "Aljanah"
+msgstr ""
+
+msgid "Alkaid"
+msgstr ""
+
+msgid "Alkalurops"
+msgstr ""
+
+msgid "Alkaphrah"
+msgstr ""
+
+msgid "Alkarab"
+msgstr ""
+
+msgid "Alkes"
+msgstr ""
+
+msgid "Almaaz"
+msgstr ""
+
+msgid "Almach"
+msgstr ""
+
+msgid "Alnair"
+msgstr ""
+
+msgid "Alnasl"
+msgstr ""
+
+msgid "Alnilam"
+msgstr ""
+
+msgid "Alnitak"
+msgstr ""
+
+msgid "Alniyat"
+msgstr ""
+
+msgid "Alphard"
+msgstr ""
+
+msgid "Alphecca"
+msgstr ""
+
+msgid "Alpheratz"
+msgstr ""
+
+msgid "Alpherg"
+msgstr ""
+
+msgid "Alrakis"
+msgstr ""
+
+msgid "Alrescha"
+msgstr ""
+
+msgid "Alruba"
+msgstr ""
+
+msgid "Alsafi"
+msgstr ""
+
+msgid "Alsciaukat"
+msgstr ""
+
+msgid "Alsephina"
+msgstr ""
+
+msgid "Alshain"
+msgstr ""
+
+msgid "Alshat"
+msgstr ""
+
+msgid "Altair"
+msgstr ""
+
+msgid "Altais"
+msgstr ""
+
+msgid "Alterf"
+msgstr ""
+
+msgid "Aludra"
+msgstr ""
+
+msgid "Alula Australis"
+msgstr ""
+
+msgid "Alula Borealis"
+msgstr ""
+
+msgid "Alya"
+msgstr ""
+
+msgid "Alzirr"
+msgstr ""
+
+msgid "Ancha"
+msgstr ""
+
+msgid "Angetenar"
+msgstr ""
+
+msgid "Ankaa"
+msgstr ""
+
+msgid "Anser"
+msgstr ""
+
+msgid "Antares"
+msgstr ""
+
+msgid "Arcturus"
+msgstr ""
+
+msgid "Arkab Posterior"
+msgstr ""
+
+msgid "Arkab Prior"
+msgstr ""
+
+msgid "Arneb"
+msgstr ""
+
+msgid "Ascella"
+msgstr ""
+
+msgid "Asellus Australis"
+msgstr ""
+
+msgid "Asellus Borealis"
+msgstr ""
+
+msgid "Ashlesha"
+msgstr ""
+
+msgid "Aspidiske"
+msgstr ""
+
+msgid "Asterope"
+msgstr ""
+
+msgid "Athebyne"
+msgstr ""
+
+msgid "Atik"
+msgstr ""
+
+msgid "Atria"
+msgstr ""
+
+msgid "Avior"
+msgstr ""
+
+msgid "Azelfafage"
+msgstr ""
+
+msgid "Azha"
+msgstr ""
+
+msgid "Azmidi"
+msgstr ""
+
+msgid "Barnard's Star"
+msgstr ""
+
+msgid "Baten Kaitos"
+msgstr ""
+
+msgid "Beemim"
+msgstr ""
+
+msgid "Beid"
+msgstr ""
+
+msgid "Bellatrix"
+msgstr ""
+
+msgid "Betelgeuse"
+msgstr ""
+
+msgid "Bharani"
+msgstr ""
+
+msgid "Biham"
+msgstr ""
+
+msgid "Botein"
+msgstr ""
+
+msgid "Brachium"
+msgstr ""
+
+msgid "Bunda"
+msgstr ""
+
+msgid "Canopus"
+msgstr ""
+
+msgid "Capella"
+msgstr ""
+
+msgid "Caph"
+msgstr ""
+
+msgid "Castor"
+msgstr ""
+
+msgid "Castula"
+msgstr ""
+
+msgid "Cebalrai"
+msgstr ""
+
+msgid "Celaeno"
+msgstr ""
+
+msgid "Cervantes"
+msgstr ""
+
+msgid "Chalawan"
+msgstr ""
+
+msgid "Chamukuy"
+msgstr ""
+
+msgid "Chara"
+msgstr ""
+
+msgid "Chertan"
+msgstr ""
+
+msgid "Copernicus"
+msgstr ""
+
+msgid "Cor Caroli"
+msgstr ""
+
+msgid "Cujam"
+msgstr ""
+
+msgid "Cursa"
+msgstr ""
+
+msgid "Dabih"
+msgstr ""
+
+msgid "Dalim"
+msgstr ""
+
+msgid "Deneb"
+msgstr ""
+
+msgid "Deneb Algedi"
+msgstr ""
+
+msgid "Denebola"
+msgstr ""
+
+msgid "Diadem"
+msgstr ""
+
+msgid "Diphda"
+msgstr ""
+
+msgid "Dschubba"
+msgstr ""
+
+msgid "Dubhe"
+msgstr ""
+
+msgid "Dziban"
+msgstr ""
+
+msgid "Edasich"
+msgstr ""
+
+msgid "Electra"
+msgstr ""
+
+msgid "Elgafar"
+msgstr ""
+
+msgid "Elkurud"
+msgstr ""
+
+msgid "Elnath"
+msgstr ""
+
+msgid "Eltanin"
+msgstr ""
+
+msgid "Enif"
+msgstr ""
+
+msgid "Errai"
+msgstr ""
+
+msgid "Fafnir"
+msgstr ""
+
+msgid "Fang"
+msgstr ""
+
+msgid "Fawaris"
+msgstr ""
+
+msgid "Felis"
+msgstr ""
+
+msgid "Fomalhaut"
+msgstr ""
+
+msgid "Fulu"
+msgstr ""
+
+msgid "Fumalsamakah"
+msgstr ""
+
+msgid "Furud"
+msgstr ""
+
+msgid "Fuyue"
+msgstr ""
+
+msgid "Gacrux"
+msgstr ""
+
+msgid "Giausar"
+msgstr ""
+
+msgid "Gienah"
+msgstr ""
+
+msgid "Ginan"
+msgstr ""
+
+msgid "Gomeisa"
+msgstr ""
+
+msgid "Grumium"
+msgstr ""
+
+msgid "Gudja"
+msgstr ""
+
+msgid "Guniibuu"
+msgstr ""
+
+msgid "Hadar"
+msgstr ""
+
+msgid "Haedus"
+msgstr ""
+
+msgid "Hamal"
+msgstr ""
+
+msgid "Hassaleh"
+msgstr ""
+
+msgid "Hatysa"
+msgstr ""
+
+msgid "Helvetios"
+msgstr ""
+
+msgid "Heze"
+msgstr ""
+
+msgid "Homam"
+msgstr ""
+
+msgid "Iklil"
+msgstr ""
+
+msgid "Imai"
+msgstr ""
+
+msgid "Intercrus"
+msgstr ""
+
+msgid "Izar"
+msgstr ""
+
+msgid "Jabbah"
+msgstr ""
+
+msgid "Jishui"
+msgstr ""
+
+msgid "Kaffaljidhma"
+msgstr ""
+
+msgid "Kang"
+msgstr ""
+
+msgid "Kaus Australis"
+msgstr ""
+
+msgid "Kaus Borealis"
+msgstr ""
+
+msgid "Kaus Media"
+msgstr ""
+
+msgid "Keid"
+msgstr ""
+
+msgid "Khambalia"
+msgstr ""
+
+msgid "Kitalpha"
+msgstr ""
+
+msgid "Kochab"
+msgstr ""
+
+msgid "Kornephoros"
+msgstr ""
+
+msgid "Kraz"
+msgstr ""
+
+msgid "Kurhah"
+msgstr ""
+
+msgid "Larawag"
+msgstr ""
+
+msgid "La Superba"
+msgstr ""
+
+msgid "Lesath"
+msgstr ""
+
+msgid "Libertas"
+msgstr ""
+
+msgid "Lich"
+msgstr ""
+
+msgid "Lilii Borea"
+msgstr ""
+
+msgid "Maasym"
+msgstr ""
+
+msgid "Mahasim"
+msgstr ""
+
+msgid "Maia"
+msgstr ""
+
+msgid "Marfik"
+msgstr ""
+
+msgid "Markab"
+msgstr ""
+
+msgid "Markeb"
+msgstr ""
+
+msgid "Marsic"
+msgstr ""
+
+msgid "Matar"
+msgstr ""
+
+msgid "Mebsuta"
+msgstr ""
+
+msgid "Megrez"
+msgstr ""
+
+msgid "Meissa"
+msgstr ""
+
+msgid "Mekbuda"
+msgstr ""
+
+msgid "Meleph"
+msgstr ""
+
+msgid "Menkalinan"
+msgstr ""
+
+msgid "Menkar"
+msgstr ""
+
+msgid "Menkent"
+msgstr ""
+
+msgid "Menkib"
+msgstr ""
+
+msgid "Merak"
+msgstr ""
+
+msgid "Merga"
+msgstr ""
+
+msgid "Meridiana"
+msgstr ""
+
+msgid "Merope"
+msgstr ""
+
+msgid "Mesarthim"
+msgstr ""
+
+msgid "Miaplacidus"
+msgstr ""
+
+msgid "Mimosa"
+msgstr ""
+
+msgid "Minchir"
+msgstr ""
+
+msgid "Minelauva"
+msgstr ""
+
+msgid "Mintaka"
+msgstr ""
+
+msgid "Mira"
+msgstr ""
+
+msgid "Mirach"
+msgstr ""
+
+msgid "Miram"
+msgstr ""
+
+msgid "Mirfak"
+msgstr ""
+
+msgid "Mirzam"
+msgstr ""
+
+msgid "Misam"
+msgstr ""
+
+msgid "Mizar"
+msgstr ""
+
+msgid "Mothallah"
+msgstr ""
+
+msgid "Muliphein"
+msgstr ""
+
+msgid "Muphrid"
+msgstr ""
+
+msgid "Muscida"
+msgstr ""
+
+msgid "Musica"
+msgstr ""
+
+msgid "Nahn"
+msgstr ""
+
+msgid "Naos"
+msgstr ""
+
+msgid "Nashira"
+msgstr ""
+
+msgid "Nekkar"
+msgstr ""
+
+msgid "Nembus"
+msgstr ""
+
+msgid "Nihal"
+msgstr ""
+
+msgid "Nunki"
+msgstr ""
+
+msgid "Nusakan"
+msgstr ""
+
+msgid "Ogma"
+msgstr ""
+
+msgid "Okab"
+msgstr ""
+
+msgid "Paikauhale"
+msgstr ""
+
+msgid "Peacock"
+msgstr ""
+
+msgid "Phact"
+msgstr ""
+
+msgid "Phecda"
+msgstr ""
+
+msgid "Pherkad"
+msgstr ""
+
+msgid "Piautos"
+msgstr ""
+
+msgid "Pipirima"
+msgstr ""
+
+msgid "Pleione"
+msgstr ""
+
+msgid "Polaris"
+msgstr ""
+
+msgid "Polaris Australis"
+msgstr ""
+
+msgid "Polis"
+msgstr ""
+
+msgid "Pollux"
+msgstr ""
+
+msgid "Porrima"
+msgstr ""
+
+msgid "Praecipua"
+msgstr ""
+
+msgid "Prima Hyadum"
+msgstr ""
+
+msgid "Procyon"
+msgstr ""
+
+msgid "Propus"
+msgstr ""
+
+msgid "Proxima Centauri"
+msgstr ""
+
+msgid "Ran"
+msgstr ""
+
+msgid "Rasalas"
+msgstr ""
+
+msgid "Rasalgethi"
+msgstr ""
+
+msgid "Rasalhague"
+msgstr ""
+
+msgid "Rastaban"
+msgstr ""
+
+msgid "Regulus"
+msgstr ""
+
+msgid "Revati"
+msgstr ""
+
+msgid "Rigel"
+msgstr ""
+
+msgid "Rigil Kentaurus"
+msgstr ""
+
+msgid "Rotanev"
+msgstr ""
+
+msgid "Ruchbah"
+msgstr ""
+
+msgid "Rukbat"
+msgstr ""
+
+msgid "Sabik"
+msgstr ""
+
+msgid "Saclateni"
+msgstr ""
+
+msgid "Sadachbia"
+msgstr ""
+
+msgid "Sadalbari"
+msgstr ""
+
+msgid "Sadalmelik"
+msgstr ""
+
+msgid "Sadalsuud"
+msgstr ""
+
+msgid "Sadr"
+msgstr ""
+
+msgid "Saiph"
+msgstr ""
+
+msgid "Salm"
+msgstr ""
+
+msgid "Sargas"
+msgstr ""
+
+msgid "Sarin"
+msgstr ""
+
+msgid "Sceptrum"
+msgstr ""
+
+msgid "Scheat"
+msgstr ""
+
+msgid "Schedar"
+msgstr ""
+
+msgid "Secunda Hyadum"
+msgstr ""
+
+msgid "Segin"
+msgstr ""
+
+msgid "Seginus"
+msgstr ""
+
+msgid "Sham"
+msgstr ""
+
+msgid "Shaula"
+msgstr ""
+
+msgid "Sheliak"
+msgstr ""
+
+msgid "Sheratan"
+msgstr ""
+
+msgid "Sirius"
+msgstr ""
+
+msgid "Situla"
+msgstr ""
+
+msgid "Skat"
+msgstr ""
+
+msgid "Spica"
+msgstr ""
+
+msgid "Sualocin"
+msgstr ""
+
+msgid "Subra"
+msgstr ""
+
+msgid "Suhail"
+msgstr ""
+
+msgid "Sulafat"
+msgstr ""
+
+msgid "Syrma"
+msgstr ""
+
+msgid "Tabit"
+msgstr ""
+
+msgid "Taiyangshou"
+msgstr ""
+
+msgid "Taiyi"
+msgstr ""
+
+msgid "Talitha"
+msgstr ""
+
+msgid "Tania Australis"
+msgstr ""
+
+msgid "Tania Borealis"
+msgstr ""
+
+msgid "Tarazed"
+msgstr ""
+
+msgid "Tarf"
+msgstr ""
+
+msgid "Taygeta"
+msgstr ""
+
+msgid "Tegmine"
+msgstr ""
+
+msgid "Tejat"
+msgstr ""
+
+msgid "Terebellum"
+msgstr ""
+
+msgid "Theemin"
+msgstr ""
+
+msgid "Thuban"
+msgstr ""
+
+msgid "Tiaki"
+msgstr ""
+
+msgid "Tianguan"
+msgstr ""
+
+msgid "Tianyi"
+msgstr ""
+
+msgid "Titawin"
+msgstr ""
+
+msgid "Toliman"
+msgstr ""
+
+msgid "Tonatiuh"
+msgstr ""
+
+msgid "Torcular"
+msgstr ""
+
+msgid "Tureis"
+msgstr ""
+
+msgid "Ukdah"
+msgstr ""
+
+msgid "Unukalhai"
+msgstr ""
+
+msgid "Unurgunite"
+msgstr ""
+
+msgid "Vega"
+msgstr ""
+
+msgid "Veritate"
+msgstr ""
+
+msgid "Vindemiatrix"
+msgstr ""
+
+msgid "Wasat"
+msgstr ""
+
+msgid "Wazn"
+msgstr ""
+
+msgid "Wezen"
+msgstr ""
+
+msgid "Wurren"
+msgstr ""
+
+msgid "Xamidimura"
+msgstr ""
+
+msgid "Xuange"
+msgstr ""
+
+msgid "Yed Posterior"
+msgstr ""
+
+msgid "Yed Prior"
+msgstr ""
+
+msgid "Yildun"
+msgstr ""
+
+msgid "Zaniah"
+msgstr ""
+
+msgid "Zaurak"
+msgstr ""
+
+msgid "Zavijava"
+msgstr ""
+
+msgid "Zhang"
+msgstr ""
+
+msgid "Zibal"
+msgstr ""
+
+msgid "Zosma"
+msgstr ""
+
+msgid "Zubenelgenubi"
+msgstr ""
+
+msgid "Zubenelhakrabi"
+msgstr ""
+
+msgid "Zubeneschamali"
+msgstr ""
+
+msgid "North Star"
+msgstr ""
+
+msgid "Lodestar"
+msgstr ""
+
