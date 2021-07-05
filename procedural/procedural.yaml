@@ -278,7 +278,7 @@
     surfaces:
       - shape: raymarching
         lighting-model: flat
-        shader-appearance:
+        appearance:
             type: raymarching:density
             absorption-factor: 0.4
             absorption-coef: [0.9, 0.7, 0.5]
@@ -342,7 +342,7 @@
     surfaces:
       - shape: raymarching
         lighting-model: flat
-        shader-appearance:
+        appearance:
             type: raymarching:emissive
             emission-power: 1
             emission-color: [0.37, 0.59, 1.]
