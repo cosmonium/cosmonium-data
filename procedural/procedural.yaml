@@ -170,17 +170,19 @@
             shape: sqrt-sphere
             heightmap: asteroid
             appearance:
-              type: textures-dict
-              entries:
-                ash:
-                  albedo: ash/Volcanic_Ash_001_COLOR.jpg
-                  normal: ash/Volcanic_Ash_001_NORM.jpg
-              scale: [0.5, 0.5]
-              tiling: hash
-            control:
-              height:
-                - entry: ash
-                  height: 0
+              type: procedural
+              textures:
+                type: textures-dict
+                entries:
+                  ash:
+                    albedo: ash/Volcanic_Ash_001_COLOR.jpg
+                    normal: ash/Volcanic_Ash_001_NORM.jpg
+                scale: [0.5, 0.5]
+                tiling: hash
+              control:
+                height:
+                  - entry: ash
+                    height: 0
             lighting-model: oren-nayar
     - planet:
         name: Gas Demo
