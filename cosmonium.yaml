@@ -1,8 +1,6 @@
 - universe:
     children:
-      - include: solar-system/solar-system.yaml
-      - include: stars.yaml
+      - include: milky-way.yaml
       - include: galaxies.yaml
-      - include: procedural/procedural.yaml
 - include: constellations.yaml
 - include: asterisms.yaml
