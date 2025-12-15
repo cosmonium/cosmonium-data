@@ -150,6 +150,7 @@
       - shape:
             type: mesh
             model: hyperion-stooke.ply
+            auto-scale: True
             create-uv: true
             attribution: [stooke, frieger]
         appearance:
@@ -192,6 +193,7 @@
         shape:
             type: mesh
             model: phoebe-gaskell.ply
+            auto-scale: True
             create-uv: true
             attribution: [gaskell, frieger]
         appearance:

@@ -1,10 +1,11 @@
 spacecraft:
     name: [ISS, International Space Station]
-    radius: 0.100
+    radius: 0.050
     shape:
         type: mesh
         model: models/iss.3ds
-        offset: [-1, 0, 0.5]
+        auto-center: True
+        auto-scale: True
     orbit:
         type: elliptic
         semi-major-axis: 6788

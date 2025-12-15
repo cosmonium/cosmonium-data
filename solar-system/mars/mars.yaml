@@ -33,8 +33,9 @@ system:
                   shape:
                       type: mesh
                       model: phobos-thomas.ply
-                      attribution: [thomas, frieger]
+                      auto-scale: True
                       create-uv: true
+                      attribution: [thomas, frieger]
                   appearance:
                       texture: textures/phobos-bw-stooke.png
                       attribution: stooke
@@ -55,8 +56,9 @@ system:
                   shape:
                       type: mesh
                       model: deimos-thomas.ply
-                      attribution: [thomas, frieger]
+                      auto-scale: True
                       create-uv: true
+                      attribution: [thomas, frieger]
                   appearance:
                       texture: textures/deimos-bw-stooke.png
                   lighting-model: oren-nayar

@@ -150,6 +150,7 @@
         shape:
             type: mesh
             model: puck.3ds
+            auto-scale: True
             attribution: higgins
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]

@@ -3,6 +3,7 @@ spacecraft:
     radius: 0.007
     shape:
         mesh: models/hst.3ds
+        auto-scale: True
     orbit:
         type: elliptic
         semi-major-axis: 6767

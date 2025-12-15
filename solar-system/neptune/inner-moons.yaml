@@ -58,6 +58,7 @@
       - shape:
             type: mesh
             model: larissa-stooke.ply
+            auto-scale: True
             create-uv: true
             attribution: [stooke, frieger]
         appearance:

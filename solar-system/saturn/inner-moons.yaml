@@ -6,6 +6,7 @@
       - shape:
             type: mesh
             model: pan-thomas.ply
+            auto-scale: True
             create-uv: true
             attribution: [thomas-saturn, frieger]
         appearance:
@@ -27,6 +28,7 @@
         shape:
             type: mesh
             model: daphnis-thomas.ply
+            auto-scale: True
             create-uv: true
             attribution: [thomas-saturn, frieger]
         appearance:
@@ -43,6 +45,7 @@
       - shape:
             type: mesh
             model: atlas-thomas.ply
+            auto-scale: True
             create-uv: true
             attribution: [thomas-saturn, frieger]
         appearance:
@@ -64,6 +67,7 @@
         shape:
             type: mesh
             model: prometheus-thomas.ply
+            auto-scale: True
             create-uv: true
             attribution: [thomas, frieger]
         appearance:
@@ -81,6 +85,7 @@
         shape:
             type: mesh
             model: pandora-thomas.ply
+            auto-scale: True
             create-uv: true
             attribution: [thomas-saturn, frieger]
         appearance:
@@ -98,6 +103,7 @@
         shape:
             type: mesh
             model: janus-thomas.ply
+            auto-scale: True
             create-uv: true
             attribution: [thomas-saturn, frieger]
         appearance:
@@ -114,6 +120,7 @@
       - shape:
             type: mesh
             model: epimetheus-thomas.ply
+            auto-scale: True
             create-uv: true
             attribution: [thomas-saturn, frieger]
         appearance:

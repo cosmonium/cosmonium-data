@@ -7,6 +7,7 @@
         shape:
             type: mesh
             model: proteus-stooke.ply
+            auto-scale: True
             create-uv: true
             attribution: [stooke, frieger]
         appearance:

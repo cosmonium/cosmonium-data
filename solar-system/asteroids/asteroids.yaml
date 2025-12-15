@@ -7,6 +7,7 @@
         shape:
             type: mesh
             model: models/pallas-hanus.ply
+            auto-scale: True
             create-uv: true
             attribution: [hanus, frieger]
         appearance:
@@ -23,6 +24,7 @@
         shape:
             type: mesh
             model: models/juno-viikinkoski.ply
+            auto-scale: True
             create-uv: true
             attribution: [viikinkoski, frieger]
         appearance:
@@ -44,6 +46,7 @@
       - shape:
             type: mesh
             model: models/vesta-dawn-hamo.ply
+            auto-scale: True
             create-uv: true
             attribution: [dawn-hamo, frieger]
         appearance:
@@ -63,6 +66,7 @@
         shape:
             type: mesh
             model: models/astraea-hanus.ply
+            auto-scale: True
             create-uv: true
             attribution: [hanus, frieger]
         appearance:
@@ -79,6 +83,7 @@
         shape:
             type: mesh
             model: models/hebe-marsset.ply
+            auto-scale: True
             create-uv: true
             attribution: [marsset, frieger]
         appearance:
@@ -95,6 +100,7 @@
         shape:
             type: mesh
             model: models/iris-hanus2019.ply
+            auto-scale: True
             create-uv: true
             attribution: [hanus2019, frieger]
         appearance:
@@ -111,6 +117,7 @@
         shape:
             type: mesh
             model: models/flora-hanus.ply
+            auto-scale: True
             create-uv: true
             attribution: [hanus, frieger]
         appearance:
@@ -127,6 +134,7 @@
         shape:
             type: mesh
             model: models/metis-hanus.ply
+            auto-scale: True
             create-uv: true
             attribution: [hanus, frieger]
         appearance:
@@ -143,6 +151,7 @@
         shape:
             type: mesh
             model: models/hygiea-vernazza.ply
+            auto-scale: True
             create-uv: true
             attribution: [vernazza, frieger]
         appearance:
@@ -159,6 +168,7 @@
         shape:
             type: mesh
             model: models/bennu-osiris2019.ply
+            auto-scale: True
             create-uv: true
             attribution: [osiris2019, frieger]
         appearance:

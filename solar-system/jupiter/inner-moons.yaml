@@ -7,6 +7,7 @@
         shape:
             type: mesh
             model: metis-higgins.3ds
+            auto-scale: True
             attribution: higgins
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
@@ -23,6 +24,7 @@
         shape:
             type: mesh
             model: adrastea-higgins.3ds
+            auto-scale: True
             attribution: higgins
         appearance:
             diffuse-color: [0.3, 0.3, 0.3, 1]
@@ -39,6 +41,7 @@
         shape:
             type: mesh
             model: amalthea-stooke.ply
+            auto-scale: True
             create-uv: true
             attribution: [stooke, frieger]
         appearance:
@@ -64,6 +67,7 @@
         shape:
             type: mesh
             model: thebe-stooke.ply
+            auto-scale: True
             create-uv: true
             attribution: [stooke, frieger]
         appearance:
