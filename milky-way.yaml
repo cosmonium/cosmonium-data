@@ -1,6 +1,6 @@
 - galaxy:
     name: Milky Way
-    type: SBc
+    classification: SBc
     radius: 5e+04
     orbit:
         type: fixed

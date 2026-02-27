@@ -2,7 +2,8 @@ spacecraft:
     name: [Hubble, HST]
     radius: 0.007
     shape:
-        mesh: models/hst.3ds
+        type: mesh
+        model: models/hst.3ds
         auto-scale: True
     orbit:
         type: elliptic

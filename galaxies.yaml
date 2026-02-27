@@ -1,6 +1,6 @@
 - galaxy:
     name: SMC
-    type: Irr
+    classification: Irr
     radius: 8611
     orbit:
         fixed:
@@ -16,7 +16,7 @@
     magnitude: -16.35
 - galaxy:
     name: LMC
-    type: Irr
+    classification: Irr
     radius: 1.59e+04
     orbit:
         fixed:
