@@ -12,8 +12,7 @@
                     diffuse-color: [0.3, 0.3, 0.3, 1]
           rotation:
               type: uniform
-              period: 44.81
-              period-units: Hour
+              period: [44.81, Hour]
       - moon:
           name: [Xiangliu, S 2007 OR10 1]
           radius: 150
@@ -41,8 +40,7 @@
                   diffuse-color: [0.3, 0.3, 0.3, 1]
           rotation:
               type: uniform
-              period: 17.6788
-              period-units: Hour
+              period: [17.6788, Hour]
       - moon:
           name: Weywot
           radius: 40.5
@@ -67,8 +65,7 @@
     orbit: sedna
     rotation:
         type: uniform
-        period: 10.273
-        period-units: Hour
+        period: [10.273, Hour]
 
 - dwarfplanet:
     name: 2002 MS4
@@ -97,8 +94,7 @@
               type: uniform
               ra: 144.8
               de: -5.0
-              period: 13.188
-              period-units: Hour
+              period: [13.188, Hour]
       - moon:
           name: Vanth
           diameter: 475
@@ -126,8 +122,7 @@
                   diffuse-color: [0.3, 0.3, 0.3, 1]
           rotation:
               type: uniform
-              period: 6.09
-              period-units: Hour
+              period: [6.09, Hour]
       - moon:
           name: Actaea
           diameter: 286
@@ -151,8 +146,7 @@
     orbit: varuna
     rotation:
         type: uniform
-        period: 6.343572
-        period-units: Hour
+        period: [6.343572, Hour]
 - system:
     name: Varda System
     orbit: varda-system
@@ -169,8 +163,7 @@
           orbit: varda
           rotation:
               type: uniform
-              period: 5.91
-              period-units: Hour
+              period: [5.91, Hour]
       - moon:
           name: Ilmarë
           diameter: 361
@@ -197,8 +190,7 @@
                   diffuse-color: [0.3, 0.3, 0.3, 1]
           rotation:
               type: uniform
-              period: 11.05
-              period-units: Hour
+              period: [11.05, Hour]
       - moon:
           name: Gǃòʼé ǃHú
           diameter: 71
@@ -222,8 +214,7 @@
     orbit: chaos
     rotation:
         type: uniform
-        period: 3.985
-        period-units: Day
+        period: [3.985, Day]
 - dwarfplanet:
     name: Ixion
     diameter: 617
@@ -235,8 +226,7 @@
     orbit: ixion
     rotation:
         type: uniform
-        period: 12.4
-        period-units: hour
+        period: [12.4, hour]
 - dwarfplanet:
     name: Dziewanna
     diameter: 470
@@ -248,8 +238,7 @@
     orbit: dziewanna
     rotation:
         type: uniform
-        period: 7.07
-        period-units: hour
+        period: [7.07, hour]
 - system:
     name: Huya System
     orbit: huya
@@ -264,8 +253,7 @@
                   diffuse-color: [0.3, 0.3, 0.3, 1]
           rotation:
               type: uniform
-              period: 5.28
-              period-units: Hour
+              period: [5.28, Hour]
       - moon:
           name: S/2012 (38618) 1
           diameter: 213
@@ -295,8 +283,7 @@
     orbit: 2014mu69
     rotation:
         type: uniform
-        period: 15.918
-        period-units: hour
+        period: [15.918, hour]
 - attributions:
     stern:
       name: Stern at al.

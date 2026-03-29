@@ -10,9 +10,7 @@
     type: elliptic
     category: ssd
     period: 0.2408467
-    period-units: year
     semi-major-axis: 0.38709927
-    semi-major-axis-units: AU
     eccentricity: 0.20563593
     inclination: 7.00497902
     long-of-pericenter: 77.45779628
@@ -24,9 +22,7 @@
     type: elliptic
     category: ssd
     period: 1.0000174
-    period-units: year
     semi-major-axis: 1.00000261
-    semi-major-axis-units: AU
     eccentricity: 0.01671123
     inclination: -0.00001531
     long-of-pericenter: 102.93768193
@@ -38,9 +34,7 @@
     type: elliptic
     category: ssd
     period: 164.79132
-    period-units: year
     semi-major-axis: 30.06992276
-    semi-major-axis-units: AU
     eccentricity: 0.00859048
     inclination: 1.77004347
     long-of-pericenter: 44.96476227
@@ -52,9 +46,7 @@
     type: elliptic
     category: ssd
     period: 247.92065
-    period-units: year
     semi-major-axis: 39.48211675
-    semi-major-axis-units: AU
     eccentricity: 0.24882730
     inclination: 17.14001206
     long-of-pericenter: 224.06891629
@@ -66,9 +58,7 @@
     type: elliptic
     category: ssd
     period: 11.862615
-    period-units: year
     semi-major-axis: 5.20288700
-    semi-major-axis-units: AU
     eccentricity: 0.04838624
     inclination: 1.30439695
     long-of-pericenter: 14.72847983
@@ -80,9 +70,7 @@
     type: elliptic
     category: ssd
     period: 84.016846
-    period-units: year
     semi-major-axis: 19.18916464
-    semi-major-axis-units: AU
     eccentricity: 0.04725744
     inclination: 0.77263783
     long-of-pericenter: 170.95427630
@@ -94,9 +82,7 @@
     type: elliptic
     category: ssd
     period: 1.8808476
-    period-units: year
     semi-major-axis: 1.52371034
-    semi-major-axis-units: AU
     eccentricity: 0.09339410
     inclination: 1.84969142
     long-of-pericenter: -23.94362959
@@ -108,9 +94,7 @@
     type: elliptic
     category: ssd
     period: 0.61519726
-    period-units: year
     semi-major-axis: 0.72333566
-    semi-major-axis-units: AU
     eccentricity: 0.00677672
     inclination: 3.39467605
     long-of-pericenter: 131.60246718
@@ -122,9 +106,7 @@
     type: elliptic
     category: ssd
     period: 29.447498
-    period-units: year
     semi-major-axis: 9.53667594
-    semi-major-axis-units: AU
     eccentricity: 0.05386179
     inclination: 2.48599187
     long-of-pericenter: 92.59887831
@@ -135,10 +117,8 @@
     name: moon
     type: elliptic
     category: ssd
-    period: 27.322
-    period-units: day
-    semi-major-axis: 384400.
-    semi-major-axis-units: km
+    period: [27.322, day]
+    semi-major-axis: [384400., km]
     eccentricity: 0.0554
     inclination: 5.16
     arg-of-periapsis: 318.15
@@ -149,10 +129,8 @@
     name: phobos
     type: elliptic
     category: ssd
-    period: 0.3189
-    period-units: day
-    semi-major-axis: 9376.
-    semi-major-axis-units: km
+    period: [0.3189, day]
+    semi-major-axis: [9376., km]
     eccentricity: 0.0151
     inclination: 1.075
     arg-of-periapsis: 150.057
@@ -167,10 +145,8 @@
     name: deimos
     type: elliptic
     category: ssd
-    period: 1.2624
-    period-units: day
-    semi-major-axis: 23458.
-    semi-major-axis-units: km
+    period: [1.2624, day]
+    semi-major-axis: [23458., km]
     eccentricity: 0.0002
     inclination: 1.788
     arg-of-periapsis: 260.729
@@ -185,10 +161,8 @@
     name: io
     type: elliptic
     category: ssd
-    period: 1.769
-    period-units: day
-    semi-major-axis: 421800.
-    semi-major-axis-units: km
+    period: [1.769, day]
+    semi-major-axis: [421800., km]
     eccentricity: 0.0041
     inclination: 0.036
     arg-of-periapsis: 84.129
@@ -203,10 +177,8 @@
     name: europa
     type: elliptic
     category: ssd
-    period: 3.551
-    period-units: day
-    semi-major-axis: 671100.
-    semi-major-axis-units: km
+    period: [3.551, day]
+    semi-major-axis: [671100., km]
     eccentricity: 0.0094
     inclination: 0.466
     arg-of-periapsis: 88.970
@@ -221,10 +193,8 @@
     name: ganymede
     type: elliptic
     category: ssd
-    period: 7.155
-    period-units: day
-    semi-major-axis: 1070400.
-    semi-major-axis-units: km
+    period: [7.155, day]
+    semi-major-axis: [1070400., km]
     eccentricity: 0.0013
     inclination: 0.177
     arg-of-periapsis: 192.417
@@ -239,10 +209,8 @@
     name: callisto
     type: elliptic
     category: ssd
-    period: 16.69
-    period-units: day
-    semi-major-axis: 1882700.
-    semi-major-axis-units: km
+    period: [16.69, day]
+    semi-major-axis: [1882700., km]
     eccentricity: 0.0074
     inclination: 0.192
     arg-of-periapsis: 52.643
@@ -257,10 +225,8 @@
     name: amalthea
     type: elliptic
     category: ssd
-    period: 0.498
-    period-units: day
-    semi-major-axis: 181400.
-    semi-major-axis-units: km
+    period: [0.498, day]
+    semi-major-axis: [181400., km]
     eccentricity: 0.0032
     inclination: 0.380
     arg-of-periapsis: 155.873
@@ -275,10 +241,8 @@
     name: thebe
     type: elliptic
     category: ssd
-    period: 0.675
-    period-units: day
-    semi-major-axis: 221900.
-    semi-major-axis-units: km
+    period: [0.675, day]
+    semi-major-axis: [221900., km]
     eccentricity: 0.0176
     inclination: 1.080
     arg-of-periapsis: 234.269
@@ -293,10 +257,8 @@
     name: adrastea
     type: elliptic
     category: ssd
-    period: 0.298
-    period-units: day
-    semi-major-axis: 129000.
-    semi-major-axis-units: km
+    period: [0.298, day]
+    semi-major-axis: [129000., km]
     eccentricity: 0.0018
     inclination: 0.054
     arg-of-periapsis: 328.047
@@ -311,10 +273,8 @@
     name: metis
     type: elliptic
     category: ssd
-    period: 0.295
-    period-units: day
-    semi-major-axis: 128000.
-    semi-major-axis-units: km
+    period: [0.295, day]
+    semi-major-axis: [128000., km]
     eccentricity: 0.0012
     inclination: 0.019
     arg-of-periapsis: 297.177
@@ -329,10 +289,8 @@
     name: himalia
     type: elliptic
     category: ssd
-    period: 250.56
-    period-units: day
-    semi-major-axis: 11460000.
-    semi-major-axis-units: km
+    period: [250.56, day]
+    semi-major-axis: [11460000., km]
     eccentricity: 0.1586
     inclination: 28.612
     arg-of-periapsis: 331.234
@@ -344,10 +302,8 @@
     name: elara
     type: elliptic
     category: ssd
-    period: 259.64
-    period-units: day
-    semi-major-axis: 11740000.
-    semi-major-axis-units: km
+    period: [259.64, day]
+    semi-major-axis: [11740000., km]
     eccentricity: 0.2108
     inclination: 27.945
     arg-of-periapsis: 142.001
@@ -359,10 +315,8 @@
     name: pasiphae
     type: elliptic
     category: ssd
-    period: 743.61
-    period-units: day
-    semi-major-axis: 23629000.
-    semi-major-axis-units: km
+    period: [743.61, day]
+    semi-major-axis: [23629000., km]
     eccentricity: 0.4062
     inclination: 151.413
     arg-of-periapsis: 169.226
@@ -374,10 +328,8 @@
     name: sinope
     type: elliptic
     category: ssd
-    period: 758.89
-    period-units: day
-    semi-major-axis: 23942000.
-    semi-major-axis-units: km
+    period: [758.89, day]
+    semi-major-axis: [23942000., km]
     eccentricity: 0.2552
     inclination: 158.189
     arg-of-periapsis: 354.541
@@ -389,10 +341,8 @@
     name: lysithea
     type: elliptic
     category: ssd
-    period: 259.20
-    period-units: day
-    semi-major-axis: 11717000.
-    semi-major-axis-units: km
+    period: [259.20, day]
+    semi-major-axis: [11717000., km]
     eccentricity: 0.1161
     inclination: 27.663
     arg-of-periapsis: 49.670
@@ -404,10 +354,8 @@
     name: carme
     type: elliptic
     category: ssd
-    period: 734.17
-    period-units: day
-    semi-major-axis: 23401000.
-    semi-major-axis-units: km
+    period: [734.17, day]
+    semi-major-axis: [23401000., km]
     eccentricity: 0.2546
     inclination: 164.994
     arg-of-periapsis: 26.416
@@ -419,10 +367,8 @@
     name: ananke
     type: elliptic
     category: ssd
-    period: 629.80
-    period-units: day
-    semi-major-axis: 21254000.
-    semi-major-axis-units: km
+    period: [629.80, day]
+    semi-major-axis: [21254000., km]
     eccentricity: 0.2332
     inclination: 148.693
     arg-of-periapsis: 95.772
@@ -434,10 +380,8 @@
     name: leda
     type: elliptic
     category: ssd
-    period: 240.93
-    period-units: day
-    semi-major-axis: 11164000.
-    semi-major-axis-units: km
+    period: [240.93, day]
+    semi-major-axis: [11164000., km]
     eccentricity: 0.1624
     inclination: 27.882
     arg-of-periapsis: 269.393
@@ -449,10 +393,8 @@
     name: callirrhoe
     type: elliptic
     category: ssd
-    period: 758.82
-    period-units: day
-    semi-major-axis: 24099000.
-    semi-major-axis-units: km
+    period: [758.82, day]
+    semi-major-axis: [24099000., km]
     eccentricity: 0.2796
     inclination: 147.080
     arg-of-periapsis: 23.909
@@ -464,10 +406,8 @@
     name: themisto
     type: elliptic
     category: ssd
-    period: 130.02
-    period-units: day
-    semi-major-axis: 7504000.
-    semi-major-axis-units: km
+    period: [130.02, day]
+    semi-major-axis: [7504000., km]
     eccentricity: 0.2435
     inclination: 42.977
     arg-of-periapsis: 217.147
@@ -479,10 +419,8 @@
     name: megaclite
     type: elliptic
     category: ssd
-    period: 752.88
-    period-units: day
-    semi-major-axis: 23814000.
-    semi-major-axis-units: km
+    period: [752.88, day]
+    semi-major-axis: [23814000., km]
     eccentricity: 0.4156
     inclination: 152.781
     arg-of-periapsis: 288.882
@@ -494,10 +432,8 @@
     name: taygete
     type: elliptic
     category: ssd
-    period: 732.42
-    period-units: day
-    semi-major-axis: 23363000.
-    semi-major-axis-units: km
+    period: [732.42, day]
+    semi-major-axis: [23363000., km]
     eccentricity: 0.2523
     inclination: 165.253
     arg-of-periapsis: 231.540
@@ -509,10 +445,8 @@
     name: chaldene
     type: elliptic
     category: ssd
-    period: 723.73
-    period-units: day
-    semi-major-axis: 23181000.
-    semi-major-axis-units: km
+    period: [723.73, day]
+    semi-major-axis: [23181000., km]
     eccentricity: 0.2503
     inclination: 165.155
     arg-of-periapsis: 243.878
@@ -524,10 +458,8 @@
     name: harpalyke
     type: elliptic
     category: ssd
-    period: 623.32
-    period-units: day
-    semi-major-axis: 21106000.
-    semi-major-axis-units: km
+    period: [623.32, day]
+    semi-major-axis: [21106000., km]
     eccentricity: 0.2296
     inclination: 148.759
     arg-of-periapsis: 134.505
@@ -539,10 +471,8 @@
     name: kalyke
     type: elliptic
     category: ssd
-    period: 742.04
-    period-units: day
-    semi-major-axis: 23565000.
-    semi-major-axis-units: km
+    period: [742.04, day]
+    semi-major-axis: [23565000., km]
     eccentricity: 0.2466
     inclination: 165.121
     arg-of-periapsis: 218.934
@@ -554,10 +484,8 @@
     name: iocaste
     type: elliptic
     category: ssd
-    period: 631.60
-    period-units: day
-    semi-major-axis: 21272000.
-    semi-major-axis-units: km
+    period: [631.60, day]
+    semi-major-axis: [21272000., km]
     eccentricity: 0.2152
     inclination: 149.411
     arg-of-periapsis: 64.727
@@ -569,10 +497,8 @@
     name: erinome
     type: elliptic
     category: ssd
-    period: 728.49
-    period-units: day
-    semi-major-axis: 23286000.
-    semi-major-axis-units: km
+    period: [728.49, day]
+    semi-major-axis: [23286000., km]
     eccentricity: 0.2655
     inclination: 164.914
     arg-of-periapsis: 10.274
@@ -584,10 +510,8 @@
     name: isonoe
     type: elliptic
     category: ssd
-    period: 726.26
-    period-units: day
-    semi-major-axis: 23231000.
-    semi-major-axis-units: km
+    period: [726.26, day]
+    semi-major-axis: [23231000., km]
     eccentricity: 0.2471
     inclination: 165.250
     arg-of-periapsis: 116.879
@@ -599,10 +523,8 @@
     name: praxidike
     type: elliptic
     category: ssd
-    period: 625.39
-    period-units: day
-    semi-major-axis: 21148000.
-    semi-major-axis-units: km
+    period: [625.39, day]
+    semi-major-axis: [21148000., km]
     eccentricity: 0.2274
     inclination: 148.885
     arg-of-periapsis: 190.862
@@ -614,10 +536,8 @@
     name: autonoe
     type: elliptic
     category: ssd
-    period: 761.01
-    period-units: day
-    semi-major-axis: 24037000.
-    semi-major-axis-units: km
+    period: [761.01, day]
+    semi-major-axis: [24037000., km]
     eccentricity: 0.3152
     inclination: 152.364
     arg-of-periapsis: 54.793
@@ -629,10 +549,8 @@
     name: thyone
     type: elliptic
     category: ssd
-    period: 627.19
-    period-units: day
-    semi-major-axis: 21197000.
-    semi-major-axis-units: km
+    period: [627.19, day]
+    semi-major-axis: [21197000., km]
     eccentricity: 0.2307
     inclination: 148.595
     arg-of-periapsis: 97.023
@@ -644,10 +562,8 @@
     name: hermippe
     type: elliptic
     category: ssd
-    period: 633.91
-    period-units: day
-    semi-major-axis: 21297000.
-    semi-major-axis-units: km
+    period: [633.91, day]
+    semi-major-axis: [21297000., km]
     eccentricity: 0.2095
     inclination: 150.740
     arg-of-periapsis: 300.836
@@ -659,10 +575,8 @@
     name: aitne
     type: elliptic
     category: ssd
-    period: 730.12
-    period-units: day
-    semi-major-axis: 23317000.
-    semi-major-axis-units: km
+    period: [730.12, day]
+    semi-major-axis: [23317000., km]
     eccentricity: 0.2627
     inclination: 165.048
     arg-of-periapsis: 99.401
@@ -674,10 +588,8 @@
     name: eurydome
     type: elliptic
     category: ssd
-    period: 717.31
-    period-units: day
-    semi-major-axis: 23146000.
-    semi-major-axis-units: km
+    period: [717.31, day]
+    semi-major-axis: [23146000., km]
     eccentricity: 0.2755
     inclination: 150.271
     arg-of-periapsis: 223.631
@@ -689,10 +601,8 @@
     name: euanthe
     type: elliptic
     category: ssd
-    period: 620.45
-    period-units: day
-    semi-major-axis: 21039000.
-    semi-major-axis-units: km
+    period: [620.45, day]
+    semi-major-axis: [21039000., km]
     eccentricity: 0.2320
     inclination: 148.915
     arg-of-periapsis: 320.635
@@ -704,10 +614,8 @@
     name: euporie
     type: elliptic
     category: ssd
-    period: 550.69
-    period-units: day
-    semi-major-axis: 19336000.
-    semi-major-axis-units: km
+    period: [550.69, day]
+    semi-major-axis: [19336000., km]
     eccentricity: 0.1438
     inclination: 145.740
     arg-of-periapsis: 89.904
@@ -719,10 +627,8 @@
     name: orthosie
     type: elliptic
     category: ssd
-    period: 622.58
-    period-units: day
-    semi-major-axis: 21158000.
-    semi-major-axis-units: km
+    period: [622.58, day]
+    semi-major-axis: [21158000., km]
     eccentricity: 0.2807
     inclination: 146.004
     arg-of-periapsis: 216.805
@@ -734,10 +640,8 @@
     name: sponde
     type: elliptic
     category: ssd
-    period: 748.32
-    period-units: day
-    semi-major-axis: 23790000.
-    semi-major-axis-units: km
+    period: [748.32, day]
+    semi-major-axis: [23790000., km]
     eccentricity: 0.3112
     inclination: 150.997
     arg-of-periapsis: 61.885
@@ -749,10 +653,8 @@
     name: kale
     type: elliptic
     category: ssd
-    period: 729.61
-    period-units: day
-    semi-major-axis: 23306000.
-    semi-major-axis-units: km
+    period: [729.61, day]
+    semi-major-axis: [23306000., km]
     eccentricity: 0.2597
     inclination: 164.944
     arg-of-periapsis: 44.233
@@ -764,10 +666,8 @@
     name: pasithee
     type: elliptic
     category: ssd
-    period: 719.47
-    period-units: day
-    semi-major-axis: 23091000.
-    semi-major-axis-units: km
+    period: [719.47, day]
+    semi-major-axis: [23091000., km]
     eccentricity: 0.2682
     inclination: 165.117
     arg-of-periapsis: 231.920
@@ -779,10 +679,8 @@
     name: hegemone
     type: elliptic
     category: ssd
-    period: 739.82
-    period-units: day
-    semi-major-axis: 23575000.
-    semi-major-axis-units: km
+    period: [739.82, day]
+    semi-major-axis: [23575000., km]
     eccentricity: 0.3445
     inclination: 154.164
     arg-of-periapsis: 197.144
@@ -794,10 +692,8 @@
     name: mneme
     type: elliptic
     category: ssd
-    period: 620.05
-    period-units: day
-    semi-major-axis: 21033000.
-    semi-major-axis-units: km
+    period: [620.05, day]
+    semi-major-axis: [21033000., km]
     eccentricity: 0.2258
     inclination: 148.585
     arg-of-periapsis: 40.542
@@ -809,10 +705,8 @@
     name: aoede
     type: elliptic
     category: ssd
-    period: 761.41
-    period-units: day
-    semi-major-axis: 23974000.
-    semi-major-axis-units: km
+    period: [761.41, day]
+    semi-major-axis: [23974000., km]
     eccentricity: 0.4325
     inclination: 158.272
     arg-of-periapsis: 59.739
@@ -824,10 +718,8 @@
     name: thelxinoe
     type: elliptic
     category: ssd
-    period: 628.03
-    period-units: day
-    semi-major-axis: 21160000.
-    semi-major-axis-units: km
+    period: [628.03, day]
+    semi-major-axis: [21160000., km]
     eccentricity: 0.2201
     inclination: 151.390
     arg-of-periapsis: 313.183
@@ -839,10 +731,8 @@
     name: arche
     type: elliptic
     category: ssd
-    period: 731.90
-    period-units: day
-    semi-major-axis: 23352000.
-    semi-major-axis-units: km
+    period: [731.90, day]
+    semi-major-axis: [23352000., km]
     eccentricity: 0.2495
     inclination: 165.015
     arg-of-periapsis: 171.632
@@ -854,10 +744,8 @@
     name: kallichore
     type: elliptic
     category: ssd
-    period: 728.23
-    period-units: day
-    semi-major-axis: 23276000.
-    semi-major-axis-units: km
+    period: [728.23, day]
+    semi-major-axis: [23276000., km]
     eccentricity: 0.2509
     inclination: 165.102
     arg-of-periapsis: 9.836
@@ -869,10 +757,8 @@
     name: helike
     type: elliptic
     category: ssd
-    period: 626.33
-    period-units: day
-    semi-major-axis: 21065000.
-    semi-major-axis-units: km
+    period: [626.33, day]
+    semi-major-axis: [21065000., km]
     eccentricity: 0.1498
     inclination: 154.842
     arg-of-periapsis: 299.482
@@ -884,10 +770,8 @@
     name: carpo
     type: elliptic
     category: ssd
-    period: 456.28
-    period-units: day
-    semi-major-axis: 17056000.
-    semi-major-axis-units: km
+    period: [456.28, day]
+    semi-major-axis: [17056000., km]
     eccentricity: 0.4317
     inclination: 51.624
     arg-of-periapsis: 90.372
@@ -899,10 +783,8 @@
     name: eukelade
     type: elliptic
     category: ssd
-    period: 730.33
-    period-units: day
-    semi-major-axis: 23323000.
-    semi-major-axis-units: km
+    period: [730.33, day]
+    semi-major-axis: [23323000., km]
     eccentricity: 0.2619
     inclination: 165.265
     arg-of-periapsis: 309.685
@@ -914,10 +796,8 @@
     name: cyllene
     type: elliptic
     category: ssd
-    period: 751.98
-    period-units: day
-    semi-major-axis: 23800000.
-    semi-major-axis-units: km
+    period: [751.98, day]
+    semi-major-axis: [23800000., km]
     eccentricity: 0.4155
     inclination: 150.336
     arg-of-periapsis: 187.429
@@ -929,10 +809,8 @@
     name: kore
     type: elliptic
     category: ssd
-    period: 776.84
-    period-units: day
-    semi-major-axis: 24482000.
-    semi-major-axis-units: km
+    period: [776.84, day]
+    semi-major-axis: [24482000., km]
     eccentricity: 0.3313
     inclination: 145.173
     arg-of-periapsis: 138.071
@@ -944,10 +822,8 @@
     name: herse
     type: elliptic
     category: ssd
-    period: 734.52
-    period-units: day
-    semi-major-axis: 23408000.
-    semi-major-axis-units: km
+    period: [734.52, day]
+    semi-major-axis: [23408000., km]
     eccentricity: 0.2541
     inclination: 164.964
     arg-of-periapsis: 330.295
@@ -959,10 +835,8 @@
     name: s/2000j11
     type: elliptic
     category: ssd
-    period: 278.21
-    period-units: day
-    semi-major-axis: 12297000.
-    semi-major-axis-units: km
+    period: [278.21, day]
+    semi-major-axis: [12297000., km]
     eccentricity: 0.2320
     inclination: 28.631
     arg-of-periapsis: 173.544
@@ -974,10 +848,8 @@
     name: s/2003j2
     type: elliptic
     category: ssd
-    period: 980.53
-    period-units: day
-    semi-major-axis: 28347000.
-    semi-major-axis-units: km
+    period: [980.53, day]
+    semi-major-axis: [28347000., km]
     eccentricity: 0.4100
     inclination: 157.291
     arg-of-periapsis: 165.201
@@ -989,10 +861,8 @@
     name: s/2003j3
     type: elliptic
     category: ssd
-    period: 583.87
-    period-units: day
-    semi-major-axis: 20221000.
-    semi-major-axis-units: km
+    period: [583.87, day]
+    semi-major-axis: [20221000., km]
     eccentricity: 0.1969
     inclination: 147.547
     arg-of-periapsis: 66.338
@@ -1004,10 +874,8 @@
     name: s/2003j4
     type: elliptic
     category: ssd
-    period: 755.25
-    period-units: day
-    semi-major-axis: 23929000.
-    semi-major-axis-units: km
+    period: [755.25, day]
+    semi-major-axis: [23929000., km]
     eccentricity: 0.3624
     inclination: 149.589
     arg-of-periapsis: 197.401
@@ -1019,10 +887,8 @@
     name: s/2003j5
     type: elliptic
     category: ssd
-    period: 738.75
-    period-units: day
-    semi-major-axis: 23495000.
-    semi-major-axis-units: km
+    period: [738.75, day]
+    semi-major-axis: [23495000., km]
     eccentricity: 0.2476
     inclination: 165.248
     arg-of-periapsis: 90.066
@@ -1034,10 +900,8 @@
     name: s/2003j9
     type: elliptic
     category: ssd
-    period: 733.32
-    period-units: day
-    semi-major-axis: 23385000.
-    semi-major-axis-units: km
+    period: [733.32, day]
+    semi-major-axis: [23385000., km]
     eccentricity: 0.2632
     inclination: 165.047
     arg-of-periapsis: 292.662
@@ -1049,10 +913,8 @@
     name: s/2003j10
     type: elliptic
     category: ssd
-    period: 716.25
-    period-units: day
-    semi-major-axis: 23042000.
-    semi-major-axis-units: km
+    period: [716.25, day]
+    semi-major-axis: [23042000., km]
     eccentricity: 0.4299
     inclination: 165.073
     arg-of-periapsis: 170.833
@@ -1064,10 +926,8 @@
     name: s/2003j12
     type: elliptic
     category: ssd
-    period: 489.67
-    period-units: day
-    semi-major-axis: 17830000.
-    semi-major-axis-units: km
+    period: [489.67, day]
+    semi-major-axis: [17830000., km]
     eccentricity: 0.4904
     inclination: 151.003
     arg-of-periapsis: 13.288
@@ -1079,10 +939,8 @@
     name: s/2003j15
     type: elliptic
     category: ssd
-    period: 689.78
-    period-units: day
-    semi-major-axis: 22627000.
-    semi-major-axis-units: km
+    period: [689.78, day]
+    semi-major-axis: [22627000., km]
     eccentricity: 0.1899
     inclination: 146.492
     arg-of-periapsis: 18.405
@@ -1094,10 +952,8 @@
     name: s/2003j16
     type: elliptic
     category: ssd
-    period: 622.88
-    period-units: day
-    semi-major-axis: 21097000.
-    semi-major-axis-units: km
+    period: [622.88, day]
+    semi-major-axis: [21097000., km]
     eccentricity: 0.2281
     inclination: 148.683
     arg-of-periapsis: 57.681
@@ -1109,10 +965,8 @@
     name: s/2003j18
     type: elliptic
     category: ssd
-    period: 598.13
-    period-units: day
-    semi-major-axis: 20508000.
-    semi-major-axis-units: km
+    period: [598.13, day]
+    semi-major-axis: [20508000., km]
     eccentricity: 0.0895
     inclination: 146.077
     arg-of-periapsis: 130.894
@@ -1124,10 +978,8 @@
     name: s/2003j19
     type: elliptic
     category: ssd
-    period: 740.41
-    period-units: day
-    semi-major-axis: 23533000.
-    semi-major-axis-units: km
+    period: [740.41, day]
+    semi-major-axis: [23533000., km]
     eccentricity: 0.2552
     inclination: 165.116
     arg-of-periapsis: 176.668
@@ -1139,10 +991,8 @@
     name: s/2003j23
     type: elliptic
     category: ssd
-    period: 732.46
-    period-units: day
-    semi-major-axis: 23567000.
-    semi-major-axis-units: km
+    period: [732.46, day]
+    semi-major-axis: [23567000., km]
     eccentricity: 0.2746
     inclination: 146.424
     arg-of-periapsis: 255.114
@@ -1154,10 +1004,8 @@
     name: s/2010j1
     type: elliptic
     category: ssd
-    period: 736.50
-    period-units: day
-    semi-major-axis: 23449000.
-    semi-major-axis-units: km
+    period: [736.50, day]
+    semi-major-axis: [23449000., km]
     eccentricity: 0.2491
     inclination: 165.100
     arg-of-periapsis: 189.230
@@ -1169,10 +1017,8 @@
     name: s/2010j2
     type: elliptic
     category: ssd
-    period: 618.84
-    period-units: day
-    semi-major-axis: 21004000.
-    semi-major-axis-units: km
+    period: [618.84, day]
+    semi-major-axis: [21004000., km]
     eccentricity: 0.2267
     inclination: 148.673
     arg-of-periapsis: 18.252
@@ -1184,10 +1030,8 @@
     name: s/2011j1
     type: elliptic
     category: ssd
-    period: 736.35
-    period-units: day
-    semi-major-axis: 23446000.
-    semi-major-axis-units: km
+    period: [736.35, day]
+    semi-major-axis: [23446000., km]
     eccentricity: 0.2534
     inclination: 165.318
     arg-of-periapsis: 31.514
@@ -1199,10 +1043,8 @@
     name: s/2011j2
     type: elliptic
     category: ssd
-    period: 718.37
-    period-units: day
-    semi-major-axis: 23124000.
-    semi-major-axis-units: km
+    period: [718.37, day]
+    semi-major-axis: [23124000., km]
     eccentricity: 0.3493
     inclination: 153.597
     arg-of-periapsis: 270.154
@@ -1214,10 +1056,8 @@
     name: mimas
     type: elliptic
     category: ssd
-    period: 0.942
-    period-units: day
-    semi-major-axis: 185539.
-    semi-major-axis-units: km
+    period: [0.942, day]
+    semi-major-axis: [185539., km]
     eccentricity: 0.0196
     inclination: 1.574
     arg-of-periapsis: 332.499
@@ -1231,10 +1071,8 @@
     name: enceladus
     type: elliptic
     category: ssd
-    period: 1.370
-    period-units: day
-    semi-major-axis: 238042.
-    semi-major-axis-units: km
+    period: [1.370, day]
+    semi-major-axis: [238042., km]
     eccentricity: 0.0000
     inclination: 0.003
     arg-of-periapsis: 0.076
@@ -1248,10 +1086,8 @@
     name: tethys
     type: elliptic
     category: ssd
-    period: 1.888
-    period-units: day
-    semi-major-axis: 294672.
-    semi-major-axis-units: km
+    period: [1.888, day]
+    semi-major-axis: [294672., km]
     eccentricity: 0.0001
     inclination: 1.091
     arg-of-periapsis: 45.202
@@ -1265,10 +1101,8 @@
     name: dione
     type: elliptic
     category: ssd
-    period: 2.737
-    period-units: day
-    semi-major-axis: 377415.
-    semi-major-axis-units: km
+    period: [2.737, day]
+    semi-major-axis: [377415., km]
     eccentricity: 0.0022
     inclination: 0.028
     arg-of-periapsis: 284.315
@@ -1282,10 +1116,8 @@
     name: rhea
     type: elliptic
     category: ssd
-    period: 4.518
-    period-units: day
-    semi-major-axis: 527068.
-    semi-major-axis-units: km
+    period: [4.518, day]
+    semi-major-axis: [527068., km]
     eccentricity: 0.0002
     inclination: 0.333
     arg-of-periapsis: 241.619
@@ -1299,10 +1131,8 @@
     name: titan
     type: elliptic
     category: ssd
-    period: 15.95
-    period-units: day
-    semi-major-axis: 1221865.
-    semi-major-axis-units: km
+    period: [15.95, day]
+    semi-major-axis: [1221865., km]
     eccentricity: 0.0288
     inclination: 0.306
     arg-of-periapsis: 180.532
@@ -1316,10 +1146,8 @@
     name: hyperion
     type: elliptic
     category: ssd
-    period: 21.28
-    period-units: day
-    semi-major-axis: 1500933.
-    semi-major-axis-units: km
+    period: [21.28, day]
+    semi-major-axis: [1500933., km]
     eccentricity: 0.0232
     inclination: 0.615
     arg-of-periapsis: 303.178
@@ -1333,10 +1161,8 @@
     name: iapetus
     type: elliptic
     category: ssd
-    period: 79.33
-    period-units: day
-    semi-major-axis: 3560854.
-    semi-major-axis-units: km
+    period: [79.33, day]
+    semi-major-axis: [3560854., km]
     eccentricity: 0.0293
     inclination: 8.298
     arg-of-periapsis: 271.606
@@ -1350,10 +1176,8 @@
     name: phoebe
     type: elliptic
     category: ssd
-    period: 548.02
-    period-units: day
-    semi-major-axis: 12947918.
-    semi-major-axis-units: km
+    period: [548.02, day]
+    semi-major-axis: [12947918., km]
     eccentricity: 0.1634
     inclination: 175.243
     arg-of-periapsis: 342.500
@@ -1367,10 +1191,8 @@
     name: janus
     type: elliptic
     category: ssd
-    period: 0.695
-    period-units: day
-    semi-major-axis: 151450.
-    semi-major-axis-units: km
+    period: [0.695, day]
+    semi-major-axis: [151450., km]
     eccentricity: 0.0098
     inclination: 0.165
     arg-of-periapsis: 16.012
@@ -1384,10 +1206,8 @@
     name: epimetheus
     type: elliptic
     category: ssd
-    period: 0.695
-    period-units: day
-    semi-major-axis: 151450.
-    semi-major-axis-units: km
+    period: [0.695, day]
+    semi-major-axis: [151450., km]
     eccentricity: 0.0161
     inclination: 0.353
     arg-of-periapsis: 88.975
@@ -1401,10 +1221,8 @@
     name: helene
     type: elliptic
     category: ssd
-    period: 2.737
-    period-units: day
-    semi-major-axis: 377444.
-    semi-major-axis-units: km
+    period: [2.737, day]
+    semi-major-axis: [377444., km]
     eccentricity: 0.0000
     inclination: 0.213
     arg-of-periapsis: 33.134
@@ -1418,10 +1236,8 @@
     name: telesto
     type: elliptic
     category: ssd
-    period: 1.888
-    period-units: day
-    semi-major-axis: 294720.
-    semi-major-axis-units: km
+    period: [1.888, day]
+    semi-major-axis: [294720., km]
     eccentricity: 0.0002
     inclination: 1.180
     arg-of-periapsis: 119.135
@@ -1435,10 +1251,8 @@
     name: calypso
     type: elliptic
     category: ssd
-    period: 1.888
-    period-units: day
-    semi-major-axis: 294721.
-    semi-major-axis-units: km
+    period: [1.888, day]
+    semi-major-axis: [294721., km]
     eccentricity: 0.0005
     inclination: 1.500
     arg-of-periapsis: 17.470
@@ -1452,10 +1266,8 @@
     name: atlas
     type: elliptic
     category: ssd
-    period: 0.602
-    period-units: day
-    semi-major-axis: 137774.
-    semi-major-axis-units: km
+    period: [0.602, day]
+    semi-major-axis: [137774., km]
     eccentricity: 0.0011
     inclination: 0.003
     arg-of-periapsis: 210.851
@@ -1469,10 +1281,8 @@
     name: prometheus
     type: elliptic
     category: ssd
-    period: 0.613
-    period-units: day
-    semi-major-axis: 139429.
-    semi-major-axis-units: km
+    period: [0.613, day]
+    semi-major-axis: [139429., km]
     eccentricity: 0.0022
     inclination: 0.007
     arg-of-periapsis: 37.514
@@ -1486,10 +1296,8 @@
     name: pandora
     type: elliptic
     category: ssd
-    period: 0.629
-    period-units: day
-    semi-major-axis: 141810.
-    semi-major-axis-units: km
+    period: [0.629, day]
+    semi-major-axis: [141810., km]
     eccentricity: 0.0042
     inclination: 0.050
     arg-of-periapsis: 66.248
@@ -1503,10 +1311,8 @@
     name: pan
     type: elliptic
     category: ssd
-    period: 0.575
-    period-units: day
-    semi-major-axis: 133585.
-    semi-major-axis-units: km
+    period: [0.575, day]
+    semi-major-axis: [133585., km]
     eccentricity: 0.0000
     inclination: 0.000
     arg-of-periapsis: 103.331
@@ -1520,10 +1326,8 @@
     name: methone
     type: elliptic
     category: ssd
-    period: 1.010
-    period-units: day
-    semi-major-axis: 194402.
-    semi-major-axis-units: km
+    period: [1.010, day]
+    semi-major-axis: [194402., km]
     eccentricity: 0.0000
     inclination: 0.013
     arg-of-periapsis: 134.636
@@ -1537,10 +1341,8 @@
     name: pallene
     type: elliptic
     category: ssd
-    period: 1.154
-    period-units: day
-    semi-major-axis: 212282.
-    semi-major-axis-units: km
+    period: [1.154, day]
+    semi-major-axis: [212282., km]
     eccentricity: 0.0040
     inclination: 0.001
     arg-of-periapsis: 16.074
@@ -1554,10 +1356,8 @@
     name: polydeuces
     type: elliptic
     category: ssd
-    period: 2.737
-    period-units: day
-    semi-major-axis: 377222.
-    semi-major-axis-units: km
+    period: [2.737, day]
+    semi-major-axis: [377222., km]
     eccentricity: 0.0191
     inclination: 0.175
     arg-of-periapsis: 311.847
@@ -1571,10 +1371,8 @@
     name: daphnis
     type: elliptic
     category: ssd
-    period: 0.594
-    period-units: day
-    semi-major-axis: 136504.
-    semi-major-axis-units: km
+    period: [0.594, day]
+    semi-major-axis: [136504., km]
     eccentricity: 0.0000
     inclination: 0.003
     arg-of-periapsis: 266.931
@@ -1588,10 +1386,8 @@
     name: anthe
     type: elliptic
     category: ssd
-    period: 1.036
-    period-units: day
-    semi-major-axis: 196888.
-    semi-major-axis-units: km
+    period: [1.036, day]
+    semi-major-axis: [196888., km]
     eccentricity: 0.0011
     inclination: 0.015
     arg-of-periapsis: 138.902
@@ -1605,10 +1401,8 @@
     name: aegaeon
     type: elliptic
     category: ssd
-    period: 0.808
-    period-units: day
-    semi-major-axis: 167425.
-    semi-major-axis-units: km
+    period: [0.808, day]
+    semi-major-axis: [167425., km]
     eccentricity: 0.0002
     inclination: 0.001
     arg-of-periapsis: 152.905
@@ -1622,10 +1416,8 @@
     name: ymir
     type: elliptic
     category: ssd
-    period: 1315.13
-    period-units: day
-    semi-major-axis: 23128000.
-    semi-major-axis-units: km
+    period: [1315.13, day]
+    semi-major-axis: [23128000., km]
     eccentricity: 0.3338
     inclination: 173.497
     arg-of-periapsis: 21.352
@@ -1637,10 +1429,8 @@
     name: paaliaq
     type: elliptic
     category: ssd
-    period: 686.95
-    period-units: day
-    semi-major-axis: 15204000.
-    semi-major-axis-units: km
+    period: [686.95, day]
+    semi-major-axis: [15204000., km]
     eccentricity: 0.3325
     inclination: 46.228
     arg-of-periapsis: 237.522
@@ -1652,10 +1442,8 @@
     name: tarvos
     type: elliptic
     category: ssd
-    period: 926.35
-    period-units: day
-    semi-major-axis: 18243000.
-    semi-major-axis-units: km
+    period: [926.35, day]
+    semi-major-axis: [18243000., km]
     eccentricity: 0.5382
     inclination: 33.725
     arg-of-periapsis: 274.104
@@ -1667,10 +1455,8 @@
     name: ijiraq
     type: elliptic
     category: ssd
-    period: 451.42
-    period-units: day
-    semi-major-axis: 11408000.
-    semi-major-axis-units: km
+    period: [451.42, day]
+    semi-major-axis: [11408000., km]
     eccentricity: 0.2717
     inclination: 47.485
     arg-of-periapsis: 92.899
@@ -1682,10 +1468,8 @@
     name: suttungr
     type: elliptic
     category: ssd
-    period: 1016.68
-    period-units: day
-    semi-major-axis: 19468000.
-    semi-major-axis-units: km
+    period: [1016.68, day]
+    semi-major-axis: [19468000., km]
     eccentricity: 0.1139
     inclination: 175.815
     arg-of-periapsis: 34.281
@@ -1697,10 +1481,8 @@
     name: kiviuq
     type: elliptic
     category: ssd
-    period: 449.22
-    period-units: day
-    semi-major-axis: 11384000.
-    semi-major-axis-units: km
+    period: [449.22, day]
+    semi-major-axis: [11384000., km]
     eccentricity: 0.3325
     inclination: 46.764
     arg-of-periapsis: 90.205
@@ -1712,10 +1494,8 @@
     name: mundilfari
     type: elliptic
     category: ssd
-    period: 952.80
-    period-units: day
-    semi-major-axis: 18653000.
-    semi-major-axis-units: km
+    period: [952.80, day]
+    semi-major-axis: [18653000., km]
     eccentricity: 0.2097
     inclination: 167.439
     arg-of-periapsis: 309.694
@@ -1727,10 +1507,8 @@
     name: albiorix
     type: elliptic
     category: ssd
-    period: 783.46
-    period-units: day
-    semi-major-axis: 16393000.
-    semi-major-axis-units: km
+    period: [783.46, day]
+    semi-major-axis: [16393000., km]
     eccentricity: 0.4797
     inclination: 34.060
     arg-of-periapsis: 55.932
@@ -1742,10 +1520,8 @@
     name: skathi
     type: elliptic
     category: ssd
-    period: 728.10
-    period-units: day
-    semi-major-axis: 15635000.
-    semi-major-axis-units: km
+    period: [728.10, day]
+    semi-major-axis: [15635000., km]
     eccentricity: 0.2718
     inclination: 152.633
     arg-of-periapsis: 203.517
@@ -1757,10 +1533,8 @@
     name: erriapus
     type: elliptic
     category: ssd
-    period: 871.14
-    period-units: day
-    semi-major-axis: 17602000.
-    semi-major-axis-units: km
+    period: [871.14, day]
+    semi-major-axis: [17602000., km]
     eccentricity: 0.4722
     inclination: 34.481
     arg-of-periapsis: 282.522
@@ -1772,10 +1546,8 @@
     name: siarnaq
     type: elliptic
     category: ssd
-    period: 895.51
-    period-units: day
-    semi-major-axis: 18182000.
-    semi-major-axis-units: km
+    period: [895.51, day]
+    semi-major-axis: [18182000., km]
     eccentricity: 0.2802
     inclination: 45.809
     arg-of-periapsis: 65.929
@@ -1787,10 +1559,8 @@
     name: thrymr
     type: elliptic
     category: ssd
-    period: 1092.01
-    period-units: day
-    semi-major-axis: 20418000.
-    semi-major-axis-units: km
+    period: [1092.01, day]
+    semi-major-axis: [20418000., km]
     eccentricity: 0.4659
     inclination: 177.659
     arg-of-periapsis: 125.404
@@ -1802,10 +1572,8 @@
     name: narvi
     type: elliptic
     category: ssd
-    period: 1003.94
-    period-units: day
-    semi-major-axis: 19349000.
-    semi-major-axis-units: km
+    period: [1003.94, day]
+    semi-major-axis: [19349000., km]
     eccentricity: 0.4296
     inclination: 145.731
     arg-of-periapsis: 169.959
@@ -1817,10 +1585,8 @@
     name: aegir
     type: elliptic
     category: ssd
-    period: 1117.83
-    period-units: day
-    semi-major-axis: 20751000.
-    semi-major-axis-units: km
+    period: [1117.83, day]
+    semi-major-axis: [20751000., km]
     eccentricity: 0.2524
     inclination: 166.668
     arg-of-periapsis: 242.651
@@ -1832,10 +1598,8 @@
     name: bebhionn
     type: elliptic
     category: ssd
-    period: 834.86
-    period-units: day
-    semi-major-axis: 17116000.
-    semi-major-axis-units: km
+    period: [834.86, day]
+    semi-major-axis: [17116000., km]
     eccentricity: 0.4682
     inclination: 35.101
     arg-of-periapsis: 358.141
@@ -1847,10 +1611,8 @@
     name: bergelmir
     type: elliptic
     category: ssd
-    period: 1005.76
-    period-units: day
-    semi-major-axis: 19336000.
-    semi-major-axis-units: km
+    period: [1005.76, day]
+    semi-major-axis: [19336000., km]
     eccentricity: 0.1420
     inclination: 158.557
     arg-of-periapsis: 133.400
@@ -1862,10 +1624,8 @@
     name: bestla
     type: elliptic
     category: ssd
-    period: 1088.02
-    period-units: day
-    semi-major-axis: 20209000.
-    semi-major-axis-units: km
+    period: [1088.02, day]
+    semi-major-axis: [20209000., km]
     eccentricity: 0.5145
     inclination: 145.136
     arg-of-periapsis: 81.185
@@ -1877,10 +1637,8 @@
     name: farbauti
     type: elliptic
     category: ssd
-    period: 1086.65
-    period-units: day
-    semi-major-axis: 20390000.
-    semi-major-axis-units: km
+    period: [1086.65, day]
+    semi-major-axis: [20390000., km]
     eccentricity: 0.2414
     inclination: 156.520
     arg-of-periapsis: 342.995
@@ -1892,10 +1650,8 @@
     name: fenrir
     type: elliptic
     category: ssd
-    period: 1260.35
-    period-units: day
-    semi-major-axis: 22454000.
-    semi-major-axis-units: km
+    period: [1260.35, day]
+    semi-major-axis: [22454000., km]
     eccentricity: 0.1347
     inclination: 164.963
     arg-of-periapsis: 120.982
@@ -1907,10 +1663,8 @@
     name: fornjot
     type: elliptic
     category: ssd
-    period: 1494.09
-    period-units: day
-    semi-major-axis: 25146000.
-    semi-major-axis-units: km
+    period: [1494.09, day]
+    semi-major-axis: [25146000., km]
     eccentricity: 0.2077
     inclination: 170.372
     arg-of-periapsis: 324.787
@@ -1922,10 +1676,8 @@
     name: hati
     type: elliptic
     category: ssd
-    period: 1040.18
-    period-units: day
-    semi-major-axis: 19868000.
-    semi-major-axis-units: km
+    period: [1040.18, day]
+    semi-major-axis: [19868000., km]
     eccentricity: 0.3710
     inclination: 165.808
     arg-of-periapsis: 21.286
@@ -1937,10 +1689,8 @@
     name: hyrrokkin
     type: elliptic
     category: ssd
-    period: 931.87
-    period-units: day
-    semi-major-axis: 18440000.
-    semi-major-axis-units: km
+    period: [931.87, day]
+    semi-major-axis: [18440000., km]
     eccentricity: 0.3359
     inclination: 151.536
     arg-of-periapsis: 273.076
@@ -1952,10 +1702,8 @@
     name: kari
     type: elliptic
     category: ssd
-    period: 1231.18
-    period-units: day
-    semi-major-axis: 22093000.
-    semi-major-axis-units: km
+    period: [1231.18, day]
+    semi-major-axis: [22093000., km]
     eccentricity: 0.4756
     inclination: 156.067
     arg-of-periapsis: 163.935
@@ -1967,10 +1715,8 @@
     name: loge
     type: elliptic
     category: ssd
-    period: 1311.37
-    period-units: day
-    semi-major-axis: 23059000.
-    semi-major-axis-units: km
+    period: [1311.37, day]
+    semi-major-axis: [23059000., km]
     eccentricity: 0.1862
     inclination: 167.689
     arg-of-periapsis: 32.821
@@ -1982,10 +1728,8 @@
     name: skoll
     type: elliptic
     category: ssd
-    period: 878.24
-    period-units: day
-    semi-major-axis: 17668000.
-    semi-major-axis-units: km
+    period: [878.24, day]
+    semi-major-axis: [17668000., km]
     eccentricity: 0.4636
     inclination: 161.010
     arg-of-periapsis: 193.115
@@ -1997,10 +1741,8 @@
     name: surtur
     type: elliptic
     category: ssd
-    period: 1297.12
-    period-units: day
-    semi-major-axis: 22941000.
-    semi-major-axis-units: km
+    period: [1297.12, day]
+    semi-major-axis: [22941000., km]
     eccentricity: 0.4459
     inclination: 169.688
     arg-of-periapsis: 303.662
@@ -2012,10 +1754,8 @@
     name: jarnsaxa
     type: elliptic
     category: ssd
-    period: 1006.94
-    period-units: day
-    semi-major-axis: 19354000.
-    semi-major-axis-units: km
+    period: [1006.94, day]
+    semi-major-axis: [19354000., km]
     eccentricity: 0.2178
     inclination: 163.649
     arg-of-periapsis: 237.422
@@ -2027,10 +1767,8 @@
     name: greip
     type: elliptic
     category: ssd
-    period: 937.14
-    period-units: day
-    semi-major-axis: 18457000.
-    semi-major-axis-units: km
+    period: [937.14, day]
+    semi-major-axis: [18457000., km]
     eccentricity: 0.3146
     inclination: 174.800
     arg-of-periapsis: 152.160
@@ -2042,10 +1780,8 @@
     name: tarqeq
     type: elliptic
     category: ssd
-    period: 885.15
-    period-units: day
-    semi-major-axis: 17962000.
-    semi-major-axis-units: km
+    period: [885.15, day]
+    semi-major-axis: [17962000., km]
     eccentricity: 0.1675
     inclination: 46.291
     arg-of-periapsis: 34.767
@@ -2057,10 +1793,8 @@
     name: s/2004s7
     type: elliptic
     category: ssd
-    period: 1140.21
-    period-units: day
-    semi-major-axis: 21000000.
-    semi-major-axis-units: km
+    period: [1140.21, day]
+    semi-major-axis: [21000000., km]
     eccentricity: 0.5290
     inclination: 165.693
     arg-of-periapsis: 84.036
@@ -2072,10 +1806,8 @@
     name: s/2004s12
     type: elliptic
     category: ssd
-    period: 1046.11
-    period-units: day
-    semi-major-axis: 19886000.
-    semi-major-axis-units: km
+    period: [1046.11, day]
+    semi-major-axis: [19886000., km]
     eccentricity: 0.3268
     inclination: 165.261
     arg-of-periapsis: 87.128
@@ -2087,10 +1819,8 @@
     name: s/2004s13
     type: elliptic
     category: ssd
-    period: 933.60
-    period-units: day
-    semi-major-axis: 18406000.
-    semi-major-axis-units: km
+    period: [933.60, day]
+    semi-major-axis: [18406000., km]
     eccentricity: 0.2591
     inclination: 168.798
     arg-of-periapsis: 346.186
@@ -2102,10 +1832,8 @@
     name: s/2004s17
     type: elliptic
     category: ssd
-    period: 1014.61
-    period-units: day
-    semi-major-axis: 19448000.
-    semi-major-axis-units: km
+    period: [1014.61, day]
+    semi-major-axis: [19448000., km]
     eccentricity: 0.1795
     inclination: 168.239
     arg-of-periapsis: 180.792
@@ -2117,10 +1845,8 @@
     name: s/2006s1
     type: elliptic
     category: ssd
-    period: 962.23
-    period-units: day
-    semi-major-axis: 18780000.
-    semi-major-axis-units: km
+    period: [962.23, day]
+    semi-major-axis: [18780000., km]
     eccentricity: 0.1412
     inclination: 156.180
     arg-of-periapsis: 154.950
@@ -2132,10 +1858,8 @@
     name: s/2006s3
     type: elliptic
     category: ssd
-    period: 1255.15
-    period-units: day
-    semi-major-axis: 22428000.
-    semi-major-axis-units: km
+    period: [1255.15, day]
+    semi-major-axis: [22428000., km]
     eccentricity: 0.3792
     inclination: 158.631
     arg-of-periapsis: 188.728
@@ -2147,10 +1871,8 @@
     name: s/2007s2
     type: elliptic
     category: ssd
-    period: 808.15
-    period-units: day
-    semi-major-axis: 16718000.
-    semi-major-axis-units: km
+    period: [808.15, day]
+    semi-major-axis: [16718000., km]
     eccentricity: 0.1791
     inclination: 174.057
     arg-of-periapsis: 57.720
@@ -2162,10 +1884,8 @@
     name: s/2007s3
     type: elliptic
     category: ssd
-    period: 977.78
-    period-units: day
-    semi-major-axis: 18938000.
-    semi-major-axis-units: km
+    period: [977.78, day]
+    semi-major-axis: [18938000., km]
     eccentricity: 0.1853
     inclination: 177.595
     arg-of-periapsis: 111.854
@@ -2177,10 +1897,8 @@
     name: ariel
     type: elliptic
     category: ssd
-    period: 2.520
-    period-units: day
-    semi-major-axis: 190900.
-    semi-major-axis-units: km
+    period: [2.520, day]
+    semi-major-axis: [190900., km]
     eccentricity: 0.0012
     inclination: 0.041
     arg-of-periapsis: 115.349
@@ -2192,10 +1910,8 @@
     name: umbriel
     type: elliptic
     category: ssd
-    period: 4.144
-    period-units: day
-    semi-major-axis: 266000.
-    semi-major-axis-units: km
+    period: [4.144, day]
+    semi-major-axis: [266000., km]
     eccentricity: 0.0039
     inclination: 0.128
     arg-of-periapsis: 84.709
@@ -2207,10 +1923,8 @@
     name: titania
     type: elliptic
     category: ssd
-    period: 8.706
-    period-units: day
-    semi-major-axis: 436300.
-    semi-major-axis-units: km
+    period: [8.706, day]
+    semi-major-axis: [436300., km]
     eccentricity: 0.0011
     inclination: 0.079
     arg-of-periapsis: 284.400
@@ -2222,10 +1936,8 @@
     name: oberon
     type: elliptic
     category: ssd
-    period: 13.46
-    period-units: day
-    semi-major-axis: 583500.
-    semi-major-axis-units: km
+    period: [13.46, day]
+    semi-major-axis: [583500., km]
     eccentricity: 0.0014
     inclination: 0.068
     arg-of-periapsis: 104.400
@@ -2237,10 +1949,8 @@
     name: miranda
     type: elliptic
     category: ssd
-    period: 1.413
-    period-units: day
-    semi-major-axis: 129900.
-    semi-major-axis-units: km
+    period: [1.413, day]
+    semi-major-axis: [129900., km]
     eccentricity: 0.0013
     inclination: 4.338
     arg-of-periapsis: 68.312
@@ -2252,10 +1962,8 @@
     name: cordelia
     type: elliptic
     category: ssd
-    period: 0.335
-    period-units: day
-    semi-major-axis: 49800.
-    semi-major-axis-units: km
+    period: [0.335, day]
+    semi-major-axis: [49800., km]
     eccentricity: 0.0003
     inclination: 0.085
     arg-of-periapsis: 136.827
@@ -2267,10 +1975,8 @@
     name: ophelia
     type: elliptic
     category: ssd
-    period: 0.376
-    period-units: day
-    semi-major-axis: 53800.
-    semi-major-axis-units: km
+    period: [0.376, day]
+    semi-major-axis: [53800., km]
     eccentricity: 0.0099
     inclination: 0.104
     arg-of-periapsis: 17.761
@@ -2282,10 +1988,8 @@
     name: bianca
     type: elliptic
     category: ssd
-    period: 0.435
-    period-units: day
-    semi-major-axis: 59200.
-    semi-major-axis-units: km
+    period: [0.435, day]
+    semi-major-axis: [59200., km]
     eccentricity: 0.0009
     inclination: 0.193
     arg-of-periapsis: 8.293
@@ -2297,10 +2001,8 @@
     name: cressida
     type: elliptic
     category: ssd
-    period: 0.464
-    period-units: day
-    semi-major-axis: 61800.
-    semi-major-axis-units: km
+    period: [0.464, day]
+    semi-major-axis: [61800., km]
     eccentricity: 0.0004
     inclination: 0.006
     arg-of-periapsis: 44.236
@@ -2312,10 +2014,8 @@
     name: desdemona
     type: elliptic
     category: ssd
-    period: 0.474
-    period-units: day
-    semi-major-axis: 62700.
-    semi-major-axis-units: km
+    period: [0.474, day]
+    semi-major-axis: [62700., km]
     eccentricity: 0.0001
     inclination: 0.113
     arg-of-periapsis: 183.285
@@ -2327,10 +2027,8 @@
     name: juliet
     type: elliptic
     category: ssd
-    period: 0.493
-    period-units: day
-    semi-major-axis: 64400.
-    semi-major-axis-units: km
+    period: [0.493, day]
+    semi-major-axis: [64400., km]
     eccentricity: 0.0007
     inclination: 0.065
     arg-of-periapsis: 223.819
@@ -2342,10 +2040,8 @@
     name: portia
     type: elliptic
     category: ssd
-    period: 0.513
-    period-units: day
-    semi-major-axis: 66100.
-    semi-major-axis-units: km
+    period: [0.513, day]
+    semi-major-axis: [66100., km]
     eccentricity: 0.0001
     inclination: 0.059
     arg-of-periapsis: 222.433
@@ -2357,10 +2053,8 @@
     name: rosalind
     type: elliptic
     category: ssd
-    period: 0.558
-    period-units: day
-    semi-major-axis: 69900.
-    semi-major-axis-units: km
+    period: [0.558, day]
+    semi-major-axis: [69900., km]
     eccentricity: 0.0001
     inclination: 0.279
     arg-of-periapsis: 140.477
@@ -2372,10 +2066,8 @@
     name: belinda
     type: elliptic
     category: ssd
-    period: 0.624
-    period-units: day
-    semi-major-axis: 75300.
-    semi-major-axis-units: km
+    period: [0.624, day]
+    semi-major-axis: [75300., km]
     eccentricity: 0.0001
     inclination: 0.031
     arg-of-periapsis: 42.406
@@ -2387,10 +2079,8 @@
     name: puck
     type: elliptic
     category: ssd
-    period: 0.762
-    period-units: day
-    semi-major-axis: 86000.
-    semi-major-axis-units: km
+    period: [0.762, day]
+    semi-major-axis: [86000., km]
     eccentricity: 0.0001
     inclination: 0.319
     arg-of-periapsis: 177.094
@@ -2402,10 +2092,8 @@
     name: perdita
     type: elliptic
     category: ssd
-    period: 0.638
-    period-units: day
-    semi-major-axis: 76417.
-    semi-major-axis-units: km
+    period: [0.638, day]
+    semi-major-axis: [76417., km]
     eccentricity: 0.0116
     inclination: 0.470
     arg-of-periapsis: 253.925
@@ -2417,10 +2105,8 @@
     name: mab
     type: elliptic
     category: ssd
-    period: 0.923
-    period-units: day
-    semi-major-axis: 97736.
-    semi-major-axis-units: km
+    period: [0.923, day]
+    semi-major-axis: [97736., km]
     eccentricity: 0.0025
     inclination: 0.134
     arg-of-periapsis: 249.565
@@ -2432,10 +2118,8 @@
     name: cupid
     type: elliptic
     category: ssd
-    period: 0.613
-    period-units: day
-    semi-major-axis: 74392.
-    semi-major-axis-units: km
+    period: [0.613, day]
+    semi-major-axis: [74392., km]
     eccentricity: 0.0013
     inclination: 0.099
     arg-of-periapsis: 247.608
@@ -2447,10 +2131,8 @@
     name: caliban
     type: elliptic
     category: ssd
-    period: 579.73
-    period-units: day
-    semi-major-axis: 7231100.
-    semi-major-axis-units: km
+    period: [579.73, day]
+    semi-major-axis: [7231100., km]
     eccentricity: 0.1812
     inclination: 141.529
     arg-of-periapsis: 354.339
@@ -2461,10 +2143,8 @@
     name: sycorax
     type: elliptic
     category: ssd
-    period: 1288.38
-    period-units: day
-    semi-major-axis: 12179400.
-    semi-major-axis-units: km
+    period: [1288.38, day]
+    semi-major-axis: [12179400., km]
     eccentricity: 0.5219
     inclination: 159.420
     arg-of-periapsis: 20.103
@@ -2475,10 +2155,8 @@
     name: prospero
     type: elliptic
     category: ssd
-    period: 1978.37
-    period-units: day
-    semi-major-axis: 16276800.
-    semi-major-axis-units: km
+    period: [1978.37, day]
+    semi-major-axis: [16276800., km]
     eccentricity: 0.4445
     inclination: 151.830
     arg-of-periapsis: 174.152
@@ -2489,10 +2167,8 @@
     name: setebos
     type: elliptic
     category: ssd
-    period: 2225.08
-    period-units: day
-    semi-major-axis: 17420400.
-    semi-major-axis-units: km
+    period: [2225.08, day]
+    semi-major-axis: [17420400., km]
     eccentricity: 0.5908
     inclination: 158.235
     arg-of-periapsis: 359.953
@@ -2503,10 +2179,8 @@
     name: stephano
     type: elliptic
     category: ssd
-    period: 677.47
-    period-units: day
-    semi-major-axis: 8007400.
-    semi-major-axis-units: km
+    period: [677.47, day]
+    semi-major-axis: [8007400., km]
     eccentricity: 0.2248
     inclination: 143.819
     arg-of-periapsis: 14.956
@@ -2517,10 +2191,8 @@
     name: trinculo
     type: elliptic
     category: ssd
-    period: 749.40
-    period-units: day
-    semi-major-axis: 8505200.
-    semi-major-axis-units: km
+    period: [749.40, day]
+    semi-major-axis: [8505200., km]
     eccentricity: 0.2194
     inclination: 166.971
     arg-of-periapsis: 158.688
@@ -2531,10 +2203,8 @@
     name: francisco
     type: elliptic
     category: ssd
-    period: 267.09
-    period-units: day
-    semi-major-axis: 4282900.
-    semi-major-axis-units: km
+    period: [267.09, day]
+    semi-major-axis: [4282900., km]
     eccentricity: 0.1324
     inclination: 147.250
     arg-of-periapsis: 140.644
@@ -2545,10 +2215,8 @@
     name: margaret
     type: elliptic
     category: ssd
-    period: 1661.00
-    period-units: day
-    semi-major-axis: 14146700.
-    semi-major-axis-units: km
+    period: [1661.00, day]
+    semi-major-axis: [14146700., km]
     eccentricity: 0.6772
     inclination: 57.367
     arg-of-periapsis: 90.017
@@ -2559,10 +2227,8 @@
     name: ferdinand
     type: elliptic
     category: ssd
-    period: 2790.03
-    period-units: day
-    semi-major-axis: 20430000.
-    semi-major-axis-units: km
+    period: [2790.03, day]
+    semi-major-axis: [20430000., km]
     eccentricity: 0.3993
     inclination: 169.793
     arg-of-periapsis: 156.298
@@ -2573,10 +2239,8 @@
     name: triton
     type: elliptic
     category: ssd
-    period: 5.877
-    period-units: day
-    semi-major-axis: 354759.
-    semi-major-axis-units: km
+    period: [5.877, day]
+    semi-major-axis: [354759., km]
     eccentricity: 0.0000
     inclination: 156.865
     arg-of-periapsis: 66.142
@@ -2590,10 +2254,8 @@
     name: nereid
     type: elliptic
     category: ssd
-    period: 360.13
-    period-units: day
-    semi-major-axis: 5513818.
-    semi-major-axis-units: km
+    period: [360.13, day]
+    semi-major-axis: [5513818., km]
     eccentricity: 0.7507
     inclination: 7.090
     arg-of-periapsis: 281.117
@@ -2607,10 +2269,8 @@
     name: naiad
     type: elliptic
     category: ssd
-    period: 0.294
-    period-units: day
-    semi-major-axis: 48227.
-    semi-major-axis-units: km
+    period: [0.294, day]
+    semi-major-axis: [48227., km]
     eccentricity: 0.0003
     inclination: 4.691
     arg-of-periapsis: 2.045
@@ -2624,10 +2284,8 @@
     name: thalassa
     type: elliptic
     category: ssd
-    period: 0.311
-    period-units: day
-    semi-major-axis: 50074.
-    semi-major-axis-units: km
+    period: [0.311, day]
+    semi-major-axis: [50074., km]
     eccentricity: 0.0002
     inclination: 0.135
     arg-of-periapsis: 237.065
@@ -2641,10 +2299,8 @@
     name: despina
     type: elliptic
     category: ssd
-    period: 0.335
-    period-units: day
-    semi-major-axis: 52526.
-    semi-major-axis-units: km
+    period: [0.335, day]
+    semi-major-axis: [52526., km]
     eccentricity: 0.0002
     inclination: 0.068
     arg-of-periapsis: 176.857
@@ -2658,10 +2314,8 @@
     name: galatea
     type: elliptic
     category: ssd
-    period: 0.429
-    period-units: day
-    semi-major-axis: 61953.
-    semi-major-axis-units: km
+    period: [0.429, day]
+    semi-major-axis: [61953., km]
     eccentricity: 0.0001
     inclination: 0.034
     arg-of-periapsis: 343.011
@@ -2675,10 +2329,8 @@
     name: larissa
     type: elliptic
     category: ssd
-    period: 0.555
-    period-units: day
-    semi-major-axis: 73548.
-    semi-major-axis-units: km
+    period: [0.555, day]
+    semi-major-axis: [73548., km]
     eccentricity: 0.0014
     inclination: 0.205
     arg-of-periapsis: 249.891
@@ -2692,10 +2344,8 @@
     name: proteus
     type: elliptic
     category: ssd
-    period: 1.122
-    period-units: day
-    semi-major-axis: 117646.
-    semi-major-axis-units: km
+    period: [1.122, day]
+    semi-major-axis: [117646., km]
     eccentricity: 0.0005
     inclination: 0.075
     arg-of-periapsis: 67.968
@@ -2709,10 +2359,8 @@
     name: s/2004n1
     type: elliptic
     category: ssd
-    period: 0.950
-    period-units: day
-    semi-major-axis: 105284.
-    semi-major-axis-units: km
+    period: [0.950, day]
+    semi-major-axis: [105284., km]
     eccentricity: 0.0000
     inclination: 0.000
     arg-of-periapsis: 0.000
@@ -2726,10 +2374,8 @@
     name: halimede
     type: elliptic
     category: ssd
-    period: 1879.33
-    period-units: day
-    semi-major-axis: 16681000.
-    semi-major-axis-units: km
+    period: [1879.33, day]
+    semi-major-axis: [16681000., km]
     eccentricity: 0.2909
     inclination: 112.898
     arg-of-periapsis: 162.119
@@ -2741,10 +2387,8 @@
     name: psamathe
     type: elliptic
     category: ssd
-    period: 9128.74
-    period-units: day
-    semi-major-axis: 46705000.
-    semi-major-axis-units: km
+    period: [9128.74, day]
+    semi-major-axis: [46705000., km]
     eccentricity: 0.4617
     inclination: 137.679
     arg-of-periapsis: 144.158
@@ -2756,10 +2400,8 @@
     name: sao
     type: elliptic
     category: ssd
-    period: 2919.16
-    period-units: day
-    semi-major-axis: 22619000.
-    semi-major-axis-units: km
+    period: [2919.16, day]
+    semi-major-axis: [22619000., km]
     eccentricity: 0.2827
     inclination: 49.907
     arg-of-periapsis: 65.047
@@ -2771,10 +2413,8 @@
     name: laomedeia
     type: elliptic
     category: ssd
-    period: 3175.62
-    period-units: day
-    semi-major-axis: 23613000.
-    semi-major-axis-units: km
+    period: [3175.62, day]
+    semi-major-axis: [23613000., km]
     eccentricity: 0.4339
     inclination: 34.049
     arg-of-periapsis: 140.107
@@ -2786,10 +2426,8 @@
     name: neso
     type: elliptic
     category: ssd
-    period: 9880.63
-    period-units: day
-    semi-major-axis: 50258000.
-    semi-major-axis-units: km
+    period: [9880.63, day]
+    semi-major-axis: [50258000., km]
     eccentricity: 0.4243
     inclination: 131.265
     arg-of-periapsis: 86.441
@@ -2801,10 +2439,8 @@
     name: charon
     type: elliptic
     category: ssd
-    period: 6.387
-    period-units: day
-    semi-major-axis: 19591.
-    semi-major-axis-units: km
+    period: [6.387, day]
+    semi-major-axis: [19591., km]
     eccentricity: 0.0002
     inclination: 0.080
     arg-of-periapsis: 146.106
@@ -2815,10 +2451,8 @@
     name: nix
     type: elliptic
     category: ssd
-    period: 24.85
-    period-units: day
-    semi-major-axis: 48671.
-    semi-major-axis-units: km
+    period: [24.85, day]
+    semi-major-axis: [48671., km]
     eccentricity: 0.0000
     inclination: 0.000
     arg-of-periapsis: 324.463
@@ -2829,10 +2463,8 @@
     name: hydra
     type: elliptic
     category: ssd
-    period: 38.20
-    period-units: day
-    semi-major-axis: 64698.
-    semi-major-axis-units: km
+    period: [38.20, day]
+    semi-major-axis: [64698., km]
     eccentricity: 0.0056
     inclination: 0.304
     arg-of-periapsis: 153.307
@@ -2843,10 +2475,8 @@
     name: kerberos
     type: elliptic
     category: ssd
-    period: 32.17
-    period-units: day
-    semi-major-axis: 57729.
-    semi-major-axis-units: km
+    period: [32.17, day]
+    semi-major-axis: [57729., km]
     eccentricity: 0.0000
     inclination: 0.426
     arg-of-periapsis: 160.629
@@ -2857,10 +2487,8 @@
     name: styx
     type: elliptic
     category: ssd
-    period: 20.16
-    period-units: day
-    semi-major-axis: 42393.
-    semi-major-axis-units: km
+    period: [20.16, day]
+    semi-major-axis: [42393., km]
     eccentricity: 0.0006
     inclination: 0.080
     arg-of-periapsis: 330.244
@@ -2872,9 +2500,7 @@
     type: elliptic
     category: ssd
     period: 4.60813224164
-    period-units: year
     semi-major-axis: 2.7691652
-    semi-major-axis-units: AU
     eccentricity: 0.07600903
     inclination: 10.59407
     arg-of-periapsis: 73.59769
@@ -2887,9 +2513,7 @@
     type: elliptic
     category: ssd
     period: 4.61637367497
-    period-units: year
     semi-major-axis: 2.7724659
-    semi-major-axis-units: AU
     eccentricity: 0.23033682
     inclination: 34.83623
     arg-of-periapsis: 310.04886
@@ -2902,9 +2526,7 @@
     type: elliptic
     category: ssd
     period: 4.36074794803
-    period-units: year
     semi-major-axis: 2.6691495
-    semi-major-axis-units: AU
     eccentricity: 0.25694232
     inclination: 12.98892
     arg-of-periapsis: 248.13863
@@ -2917,9 +2539,7 @@
     type: elliptic
     category: ssd
     period: 3.62878228172
-    period-units: year
     semi-major-axis: 2.3614179
-    semi-major-axis-units: AU
     eccentricity: 0.08872146
     inclination: 7.14177
     arg-of-periapsis: 150.72854
@@ -2932,9 +2552,7 @@
     type: elliptic
     category: ssd
     period: 4.13026045942
-    period-units: year
     semi-major-axis: 2.5742489
-    semi-major-axis-units: AU
     eccentricity: 0.19109452
     inclination: 5.36699
     arg-of-periapsis: 358.68761
@@ -2947,9 +2565,7 @@
     type: elliptic
     category: ssd
     period: 3.7766977596
-    period-units: year
     semi-major-axis: 2.4251600
-    semi-major-axis-units: AU
     eccentricity: 0.20300711
     inclination: 14.73790
     arg-of-periapsis: 239.80749
@@ -2962,9 +2578,7 @@
     type: elliptic
     category: ssd
     period: 3.68404884053
-    period-units: year
     semi-major-axis: 2.3853338
-    semi-major-axis-units: AU
     eccentricity: 0.23120579
     inclination: 5.52365
     arg-of-periapsis: 145.26511
@@ -2977,9 +2591,7 @@
     type: elliptic
     category: ssd
     period: 3.26706552484
-    period-units: year
     semi-major-axis: 2.2017642
-    semi-major-axis-units: AU
     eccentricity: 0.15649925
     inclination: 5.88695
     arg-of-periapsis: 285.28746
@@ -2992,9 +2604,7 @@
     type: elliptic
     category: ssd
     period: 3.68475012411
-    period-units: year
     semi-major-axis: 2.3856365
-    semi-major-axis-units: AU
     eccentricity: 0.12311427
     inclination: 5.57682
     arg-of-periapsis: 6.41737
@@ -3007,9 +2617,7 @@
     type: elliptic
     category: ssd
     period: 5.56820685596
-    period-units: year
     semi-major-axis: 3.1415392
-    semi-major-axis-units: AU
     eccentricity: 0.11246066
     inclination: 3.83156
     arg-of-periapsis: 312.31521
@@ -3022,9 +2630,7 @@
     type: elliptic
     category: ssd
     period: 306.490511211
-    period-units: year
     semi-major-axis: 45.4579938
-    semi-major-axis-units: AU
     eccentricity: 0.09864161
     inclination: 12.05678
     arg-of-periapsis: 58.54598
@@ -3037,9 +2643,7 @@
     type: elliptic
     category: ssd
     period: 279.822154712
-    period-units: year
     semi-major-axis: 42.7812668
-    semi-major-axis-units: AU
     eccentricity: 0.05412639
     inclination: 17.21968
     arg-of-periapsis: 262.87508
@@ -3052,9 +2656,7 @@
     type: elliptic
     category: ssd
     period: 251.001846172
-    period-units: year
     semi-major-axis: 39.7908778
-    semi-major-axis-units: AU
     eccentricity: 0.24348130
     inclination: 19.57759
     arg-of-periapsis: 298.21653
@@ -3067,9 +2669,7 @@
     type: elliptic
     category: ssd
     period: 251.418167809
-    period-units: year
     semi-major-axis: 39.8348648
-    semi-major-axis-units: AU
     eccentricity: 0.28344283
     inclination: 15.47017
     arg-of-periapsis: 68.27372
@@ -3082,9 +2682,7 @@
     type: elliptic
     category: ssd
     period: 288.780150653
-    period-units: year
     semi-major-axis: 43.6895061
-    semi-major-axis-units: AU
     eccentricity: 0.03955774
     inclination: 7.98814
     arg-of-periapsis: 146.46198
@@ -3097,9 +2695,7 @@
     type: elliptic
     category: ssd
     period: 10504.8059975
-    period-units: year
     semi-major-axis: 479.6497991
-    semi-major-axis-units: AU
     eccentricity: 0.84122781
     inclination: 11.92992
     arg-of-periapsis: 311.53156
@@ -3112,9 +2708,7 @@
     type: elliptic
     category: ssd
     period: 246.05403135
-    period-units: year
     semi-major-axis: 39.2662324
-    semi-major-axis-units: AU
     eccentricity: 0.22415470
     inclination: 20.59308
     arg-of-periapsis: 72.15974
@@ -3127,9 +2721,7 @@
     type: elliptic
     category: ssd
     period: 1.19546094776
-    period-units: year
     semi-major-axis: 1.1263910
-    semi-major-axis-units: AU
     eccentricity: 0.20374511
     inclination: 6.03494
     arg-of-periapsis: 66.22307
@@ -3142,9 +2734,7 @@
     type: elliptic
     category: ssd
     period: 272.74282681
-    period-units: year
     semi-major-axis: 42.0566298
-    semi-major-axis-units: AU
     eccentricity: 0.10846155
     inclination: 23.92153
     arg-of-periapsis: 310.97607
@@ -3157,9 +2747,7 @@
     type: elliptic
     category: ssd
     period: 247.736916416
-    period-units: year
     semi-major-axis: 39.4450697
-    semi-major-axis-units: AU
     eccentricity: 0.25024871
     inclination: 17.08900
     arg-of-periapsis: 112.59714
@@ -3172,9 +2760,7 @@
     type: elliptic
     category: ssd
     period: 284.801688977
-    period-units: year
     semi-major-axis: 43.2873118
-    semi-major-axis-units: AU
     eccentricity: 0.19204638
     inclination: 28.21115
     arg-of-periapsis: 238.55725
@@ -3187,9 +2773,7 @@
     type: elliptic
     category: ssd
     period: 557.543631334
-    period-units: year
     semi-major-axis: 67.7409811
-    semi-major-axis-units: AU
     eccentricity: 0.43883886
     inclination: 44.14446
     arg-of-periapsis: 151.68711
@@ -3202,9 +2786,7 @@
     type: elliptic
     category: ssd
     period: 307.534765731
-    period-units: year
     semi-major-axis: 45.5611896
-    semi-major-axis-units: AU
     eccentricity: 0.15802877
     inclination: 28.98030
     arg-of-periapsis: 295.09193
@@ -3217,9 +2799,7 @@
     type: elliptic
     category: ssd
     period: 313.168170637
-    period-units: year
     semi-major-axis: 46.1158962
-    semi-major-axis-units: AU
     eccentricity: 0.14152656
     inclination: 21.50410
     arg-of-periapsis: 180.06032
@@ -3232,9 +2812,7 @@
     type: elliptic
     category: ssd
     period: 553.045054852
-    period-units: year
     semi-major-axis: 67.3761077
-    semi-major-axis-units: AU
     eccentricity: 0.50288664
     inclination: 30.73928
     arg-of-periapsis: 207.54640
@@ -3247,9 +2825,7 @@
     type: elliptic
     category: ssd
     period: 620.120707803
-    period-units: year
     semi-major-axis: 72.7193071
-    semi-major-axis-units: AU
     eccentricity: 0.48428017
     inclination: 23.37792
     arg-of-periapsis: 346.87489
@@ -3262,9 +2838,7 @@
     type: elliptic
     category: ssd
     period: 272.288143419
-    period-units: year
     semi-major-axis: 42.0098757
-    semi-major-axis-units: AU
     eccentricity: 0.13896846
     inclination: 17.67266
     arg-of-periapsis: 213.30146
@@ -3277,9 +2851,7 @@
     type: elliptic
     category: ssd
     period: 592.681277152
-    period-units: year
     semi-major-axis: 70.5580194
-    semi-major-axis-units: AU
     eccentricity: 0.53904118
     inclination: 29.46101
     arg-of-periapsis: 284.36092
@@ -3292,9 +2864,7 @@
     type: elliptic
     category: ssd
     period: 298.151091392
-    period-units: year
     semi-major-axis: 44.6296189
-    semi-major-axis-units: AU
     eccentricity: 0.05046617
     inclination: 2.44996
     arg-of-periapsis: 181.14814
@@ -3307,9 +2877,7 @@
     type: elliptic
     category: ssd
     period: 75.3147569464
-    period-units: year
     semi-major-axis: 17.834145081
-    semi-major-axis-units: AU
     eccentricity: 0.96714291
     inclination: 162.26269
     arg-of-periapsis: 111.33249
@@ -3322,9 +2890,7 @@
     type: elliptic
     category: ssd
     period: 5.57925228403
-    period-units: year
     semi-major-axis: 3.14569232436
-    semi-major-axis-units: AU
     eccentricity: 0.50963079
     inclination: 10.47383
     arg-of-periapsis: 179.20318
@@ -3337,9 +2903,7 @@
     type: elliptic
     category: ssd
     period: 6.44921799999
-    period-units: year
     semi-major-axis: 3.46473705652
-    semi-major-axis-units: AU
     eccentricity: 0.64058474
     inclination: 7.04370
     arg-of-periapsis: 12.69446
@@ -3352,9 +2916,7 @@
     type: elliptic
     category: ssd
     period: 6.41330745368
-    period-units: year
     semi-major-axis: 3.45186352118
-    semi-major-axis-units: AU
     eccentricity: 0.53707073
     inclination: 3.23725
     arg-of-periapsis: 41.75623
@@ -3367,9 +2929,7 @@
     type: elliptic
     category: ssd
     period: 6.46338496201
-    period-units: year
     semi-major-axis: 3.46980918
-    semi-major-axis-units: AU
     eccentricity: 0.69488838
     inclination: 13.61927
     arg-of-periapsis: 181.20999

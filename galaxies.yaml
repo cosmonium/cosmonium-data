@@ -4,11 +4,9 @@
     radius: 8611
     orbit:
         fixed:
-            ra: 0.8772
-            ra-units: hour
+            ra: [0.8772, Hour]
             de: -72.8003
-            distance: 1.957e+05
-            distance-units: Ly
+            distance: [1.957e+05, Ly]
     rotation:
         fixed:
             axis: [-0.7930, -0.5858, -0.1671]
@@ -20,11 +18,9 @@
     radius: 1.59e+04
     orbit:
         fixed:
-            ra: 5.3928
-            ra-units: hour
+            ra: [5.3928, Hour]
             de: -69.7561
-            distance: 1.631e+05
-            distance-units: Ly
+            distance: [1.631e+05, Ly]
     rotation:
         fixed:
             axis: [0.1659, 0.0206, -0.9859]

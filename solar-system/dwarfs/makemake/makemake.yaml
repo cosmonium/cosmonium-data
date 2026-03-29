@@ -17,8 +17,7 @@ system:
                   diffuse-color: [0.3, 0.3, 0.3, 1]
           rotation:
               type: uniform
-              period: 7.771
-              period-units: Hour
+              period: [7.771, Hour]
       - moon:
           name: [S/2015 (136472) 1, Makemake I]
           diameter: 175
@@ -31,8 +30,6 @@ system:
                 lighting-model: oren-nayar
           orbit:
               type: elliptic
-              semi-major-axis: 21000
-              semi-major-axis-units: Km
-              period: 12.4
-              period-units: Day
+              semi-major-axis: [21000, Km]
+              period: [12.4, Day]
           rotation: unknown-synchronous

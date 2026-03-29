@@ -11,9 +11,7 @@
     orbit:
         type: elliptic
         mean-motion: 0.6802
-        mean-motion-units: deg/day
         semi-major-axis: -1.2798
-        semi-major-axis-units: AU
         eccentricity: 1.19951
         inclination: 122.69
         ascending-node: 24.599
@@ -35,9 +33,7 @@
     orbit:
         type: elliptic
         mean-motion: 1.25266702
-        mean-motion-units: deg/day
         pericenter-distance: 2.006
-        pericenter-distance-units: AU
         eccentricity: 3.3535
         inclination: 44.058
         ascending-node: 308.142

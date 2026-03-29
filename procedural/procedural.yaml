@@ -21,8 +21,7 @@
             period: 0.3
         rotation:
             type: uniform
-            period: 96
-            period-units: Hour
+            period: [96, Hour]
         surfaces:
         - heightmap: moon
           shape: patched-sphere
@@ -38,8 +37,7 @@
             period: 1
         rotation:
             type: uniform
-            period: 23
-            period-units: Hour
+            period: [23, Hour]
         atmosphere: oneil
         surfaces:
         - heightmap:
@@ -195,8 +193,7 @@
             period: 11
         rotation:
             type: uniform
-            period: 10
-            period-units: Hour
+            period: [10, Hour]
             inclination: -20
         surfaces:
           - shape: sqrt-sphere

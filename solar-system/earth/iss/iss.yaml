@@ -8,12 +8,10 @@ spacecraft:
         auto-scale: True
     orbit:
         type: elliptic
-        semi-major-axis: 6788
-        semi-major-axis-units: Km
+        semi-major-axis: [6788, Km]
         eccentricity: 0.0001380
         epoch: 2458590.049479
-        period: 1.545866464
-        period-units: Hour
+        period: [1.545866464, Hour]
         inclination: 51.6394
         ascending-node: 307.6103
         arg-of-periapsis: 201.3746

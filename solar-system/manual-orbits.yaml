@@ -23,10 +23,8 @@
     name: pluto
     type: elliptic
     category: manual
-    period: 6.387
-    period-units: day
-    semi-major-axis: 2060.
-    semi-major-axis-units: km
+    period: [6.387, day]
+    semi-major-axis: [2060., km]
     eccentricity: 0.0002
     inclination: 0.080
     arg-of-periapsis: 326.106
@@ -37,10 +35,8 @@
     name: charon
     type: elliptic
     category: manual
-    period: 6.387
-    period-units: day
-    semi-major-axis: 17428.
-    semi-major-axis-units: km
+    period: [6.387, day]
+    semi-major-axis: [17428., km]
     eccentricity: 0.0002
     inclination: 0.080
     arg-of-periapsis: 146.106
@@ -51,10 +47,8 @@
     name: dysnomia
     type: elliptic
     category: manual
-    period: 15.774
-    period-units: day
-    semi-major-axis: 37350.
-    semi-major-axis-units: km
+    period: [15.774, day]
+    semi-major-axis: [37350., km]
     eccentricity: 0
     inclination: 0
     arg-of-periapsis: 0
@@ -65,10 +59,8 @@
     name: namaka
     type: elliptic
     category: manual
-    period: 18.3
-    period-units: day
-    semi-major-axis: 25660.
-    semi-major-axis-units: km
+    period: [18.3, day]
+    semi-major-axis: [25660., km]
     eccentricity: 0.25
     inclination: 113.013
     arg-of-periapsis: 0
@@ -79,10 +71,8 @@
     name: hiiaka
     type: elliptic
     category: manual
-    period: 49.4
-    period-units: day
-    semi-major-axis: 49880
-    semi-major-axis-units: km
+    period: [49.4, day]
+    semi-major-axis: [49880, km]
     eccentricity: 0.05
     inclination: 126.356
     arg-of-periapsis: 0
@@ -93,10 +83,8 @@
     name: s2007or101
     type: elliptic
     category: manual
-    period: 6
-    period-units: day
-    semi-major-axis: 15000
-    semi-major-axis-units: km
+    period: [6, day]
+    semi-major-axis: [15000, km]
     eccentricity: 0.31
     inclination: 0
     arg-of-periapsis: 0
@@ -107,10 +95,8 @@
     name: weywot
     type: elliptic
     category: manual
-    period: 12.438
-    period-units: day
-    semi-major-axis: 14500
-    semi-major-axis-units: km
+    period: [12.438, day]
+    semi-major-axis: [14500, km]
     eccentricity: 0.14
     inclination: 0.14
     arg-of-periapsis: 0
@@ -121,10 +107,8 @@
     name: vanth
     type: elliptic
     category: manual
-    period: 9.5406
-    period-units: day
-    semi-major-axis: 9030
-    semi-major-axis-units: km
+    period: [9.5406, day]
+    semi-major-axis: [9030, km]
     eccentricity: 0.007
     inclination: 21
     arg-of-periapsis: 0
@@ -135,10 +119,8 @@
     name: actaea
     type: elliptic
     category: manual
-    period: 5.49380
-    period-units: day
-    semi-major-axis: 5619
-    semi-major-axis-units: km
+    period: [5.49380, day]
+    semi-major-axis: [5619, km]
     eccentricity: 0.0084
     inclination: 0
     arg-of-periapsis: 0
@@ -149,10 +131,8 @@
     name: varda
     type: elliptic
     category: manual
-    period: 5.75058
-    period-units: day
-    semi-major-axis: 384.72
-    semi-major-axis-units: km
+    period: [5.75058, day]
+    semi-major-axis: [384.72, km]
     eccentricity: 0.0215
     inclination: 101.0
     arg-of-periapsis: 0
@@ -163,10 +143,8 @@
     name: ilmare
     type: elliptic
     category: manual
-    period: 5.75058
-    period-units: day
-    semi-major-axis: 4424.28
-    semi-major-axis-units: km
+    period: [5.75058, day]
+    semi-major-axis: [4424.28, km]
     eccentricity: 0.0215
     inclination: 101.0
     arg-of-periapsis: 180
@@ -177,10 +155,8 @@
     name: g!o'e!hu
     type: elliptic
     category: manual
-    period: 11.31473
-    period-units: day
-    semi-major-axis: 6035
-    semi-major-axis-units: km
+    period: [11.31473, day]
+    semi-major-axis: [6035, km]
     eccentricity: 0.0236
     inclination: 43.75
     arg-of-periapsis: 180
@@ -191,10 +167,8 @@
     name: s2012(38618)1
     type: elliptic
     category: manual
-    period: 3.2
-    period-units: day
-    semi-major-axis: 1740
-    semi-major-axis-units: km
+    period: [3.2, day]
+    semi-major-axis: [1740, km]
     eccentricity: 0
     inclination: 0
     arg-of-periapsis: 0

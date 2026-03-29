@@ -11,9 +11,7 @@
     type: elliptic
     category: celestia
     period: 1.0
-    period-units: year
     semi-major-axis: 1.0
-    semi-major-axis-units: AU
     eccentricity: 0.0167
     inclination: 0.0001
     ascending-node: 348.739
@@ -25,9 +23,7 @@
     type: elliptic
     category: celestia
     period: 247.998
-    period-units: year
     semi-major-axis: 39.54
-    semi-major-axis-units: AU
     eccentricity: 0.24905
     inclination: 17.1405
     arg-of-periapsis: 113.834
