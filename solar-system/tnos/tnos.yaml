@@ -284,8 +284,9 @@
     rotation:
         type: uniform
         period: [15.918, hour]
-- attributions:
-    stern:
+- type: attributions
+  attributions:
+    - id: stern
       name: Stern at al.
       copyright: "Stern at al., Initial results from the New Horizons exploration of 2014 MU69, a small Kuiper Belt object, Science Vol. 364, Issue 6441"
       license: Public domain

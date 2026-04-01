@@ -92,23 +92,24 @@
     orbit: 103p
     rotation: chaotic
 
-- attributions:
-    farnham-tempel:
+- type: attributions
+  attributions:
+      - id: farnham-tempel
         name: Farnham, T.L. and Thomas, P.C.
         copyright: Farnham, T.L. and Thomas, P.C, PLATE SHAPE MODEL OF COMET 9P/TEMPEL 1 V2.0, DIF-C-HRIV/ITS/MRI-5-TEMPEL1-SHAPE-MODEL-V2.0, NASA Planetary Data System, 2013.
         license: Public Domain
         url: http://pdssbn.astro.umd.edu/holdings/dif-c-hriv_its_mri-5-tempel1-shape-v2.0/dataset.html
-    farnham-wild:
+      - id: farnham-wild
         name: Farnham, T.L., T. Duxbury and J.-Y. Li.
         copyright: Farnham, T.L., T. Duxbury and J.-Y. Li, SHAPE MODELS OF COMET WILD 2, SDU-C-NAVCAM-5-WILD2-SHAPE-MODEL-V2.1, NASA Planetary Data System, 2005.
         license: Public Domain
         url: http://pdssbn.astro.umd.edu/holdings/dif-c-hriv_its_mri-5-tempel1-shape-v2.0/dataset.html
-    farnham-hartley:
+      - id: farnham-hartley
         name: Farnham, T.L. and Thomas, P.C.
         copyright: Farnham, T.L. and Thomas, P.C., PLATE SHAPE MODEL OF COMET 103P/HARTLEY 2 V1.0, DIF-C-HRIV/MRI-5-HARTLEY2-SHAPE-V1.0, NASA Planetary Data System, 2013.
         license: Public Domain
         url: http://pdssbn.astro.umd.edu/holdings/dif-c-hriv_mri-5-hartley2-shape-v1.0/dataset.html
-    spc:
+      - id: spc
         name: R. Gaskell, L. Jorda, C. Capanna, S. Hviid and P. Gutierrez
         copyright: R. Gaskell, L. Jorda, C. Capanna, S. Hviid and P. Gutierrez, SPC SHAP5 CARTESIAN PLATE MODEL FOR COMET 67P/C-G 1M PLATES, RO-C-MULTI-5-67P-SHAPE-V2.0:CG_SPC_SHAP5_001M_CART, NASA Planetary Data System and ESA Planetary Science Archive, 2017.
         license: Public Domain

@@ -177,37 +177,38 @@
         type: uniform
         period: [4.2975, Hour]
 
-- attributions:
-    dawn-hamo:
+- type: attributions
+  attributions:
+      - id: dawn-hamo
         name: Dawn FC2 Vesta Encounter HAMO Digital Terrain Model (DTM) SPG
         license: Public Domain
         url: https://sbn.psi.edu/archive/dawn/fc/DWNVSPG_2/
-    hanus:
+      - id: hanus
         name: Hanuš et al.
         copyright: Hanuš et al., Volumes and bulk densities of forty asteroids from ADAM shape modeling. Astronomy & Astrophysics 601, id.A114, 2017.
         license: Public Domain
         url: https://arxiv.org/abs/1702.01996
-    viikinkoski:
+      - id: viikinkoski
         name: Viikinkoski et al.
         copyright: Viikinkoski et al., VLT/SPHERE- and ALMA-based shape reconstruction of asteroid (3) Juno. Astronomy & Astrophysics, Volume 581, id.L3, 2015.
         license: Public Domain
         url: http://www.aanda.org/articles/aa/abs/2015/09/aa26626-15/aa26626-15.html
-    marsset:
+      - id: marsset
         name: Marsset et al.
         copyright: "Marsset et al., 3D shape of asteroid (6) Hebe from VLT/SPHERE imaging: Implications for the origin of ordinary H chondrites"
         license: Public Domain
         url: http://adsabs.harvard.edu/abs/2017A%26A...604A..64M
-    hanus2019:
+      - id: hanus2019
         name: Hanuš et al.
         copyright: Hanuš et al., The shape of (7) Iris as evidence of an ancient large impact? Astronomy & Astrophysics 624, A121 (2019)
         license: Public Domain
         url: https://www.aanda.org/articles/aa/abs/2019/04/aa34541-18/aa34541-18.html
-    vernazza:
+      - id: vernazza
         name: P. Vernazza et al.
         copyright: P. Vernazza et al., The impact crater at the origin of the Julia family detected with VLT/SPHERE? Astronomy & Astrophysics 618, A154 (2018)
         license: Public Domain
         url: https://www.aanda.org/articles/aa/abs/2018/10/aa33477-18/aa33477-18.html
-    osiris2019:
+      - id: osiris2019
         name: OSIRIS-REx
         license: Public Domain
         url: https://www.asteroidmission.org/updated-bennu-shape-model-3d-files/
